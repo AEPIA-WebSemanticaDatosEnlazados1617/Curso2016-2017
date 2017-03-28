@@ -1,17 +1,16 @@
 Web semántica
 ============
 # Introducción
-
-------------------
 En esta memoria se recogen los pasos seguidos para transformar un conjunto de datos recogidos en CSV a datos enlazos. Además, se recogerá también el proceso a seguir para crear una aplicación que haga uso de estos datos enlazados. 
 
 Concretamente, se utilizará un conjunto de datos que contiene las canciones del top 100 de la lista Billboard desde el año 1960 hasta el año 2010. Una vez procesados los datos y transformados a datos enlazados, se expondrán en forma de servicio web y se creará un cliente que los explote. 
 
 Como guía, se utilizará el material proporcionado en el curso, así como el libro **Practical RDF**. Para estructurar esta memoria se usará el índice propuesto en el enunciado de la práctica. Para la creación del servicio web se usarán los frameworks **materializeCSS** y **JQuery**, mientras que para la creación de los servicios web, **CherryPy**.
 
+------------------
+
 # Proceso de transformación
 
-------------------
 ## Selección de la fuente de datos
 El primer paso ha sido seleccionar una fuente que cubrirera los **datos necesarios**, que son el título de la canción, el nombre del artista y la fecha de entrada en la lista Billboard. Se ha encontrado un dataset que se ajusta perfectamente a los requisitos cubriendo los datos del top 100 de Billboard desde 1960 a 2010 , y que además, aportaba información sobre los cambios en los acordes, timbres, etc. de cada canción.
 
@@ -49,6 +48,10 @@ A continuación, se presenta una tabla resumen con los datos que vamos a utiliza
 ## Proceso de transformación
 ## Enlazado
 ## Publicación
+
+
+------------------
+
 
 # Aplicación y explotación
 
