@@ -36,12 +36,12 @@ A continuación, se presenta una tabla resumen con los datos que vamos a utiliza
 
 | Nombre                | Valores       | Significado   |
 | -------------         |:-------------:| :-----:        |
-| Título                | String        | título de la canción         |
-| Artista               | String        | nombre del artista         |
-| Año de entrada        | Integer de cuatro cifras  | Año en que la canción ha entrado en lista por primera vez         |
-| Década                | Integer de cuatro cifras  | Década en que la canción ha entrado en lista por primera vez         |
-| Cambios de timbre     | Integer      | Registro de cambios en el timbre de la melodía. Corresponde con el total de cambios acumulados de las columnas `timb_*`  |
-| Cambios de acorde     | Integer  | Registro de cambios de acordes en la melodía. Corresponde con el total de cambios acumulados de las columnas `harm_*` |
+| Título                | String máx 99 chars   | título de la canción       |
+| Artista               | String máx 87 chars   | nombre del artista         |
+| Fecha de entrada        | String con formato YYYY-mm-dd  | Fecha en que la canción ha entrado en lista por primera vez y que cubre todo el rango de fechas desde 1960 hasta 2010         |
+| Década                | Integer de cuatro cifras [1960, 2000]  | Década en que la canción ha entrado en lista por primera vez         |
+| Cambios de timbre     | Integer de 4 cifras     | Registro de cambios en el timbre de la melodía. Corresponde con el total de cambios acumulados de las columnas `timb_*`    |
+| Cambios de acorde     | Integer de 4 cifras     | Registro de cambios de acordes en la melodía. Corresponde con el total de cambios acumulados de las columnas `harm_*` |
 
 En cuanto a la **licencia** de los datos, podemos ver en la página en la que se encuntra el dataset, que este está bajo la licencia [CreativeCommons 4.0](https://creativecommons.org/licenses/by/4.0/). ¿Cómo afecta esta licencia al proyecto? Esta licencia permite compartir en cualquier medio o formato los datos y también permite su transformación y uso para cualquier fin, incluso el comercial. La únicas condiciones que impone esta licencia son:
 - Referenciar a la fuente de datos original.
