@@ -16,7 +16,7 @@ El primer paso ha sido seleccionar una fuente que cubrirera los **datos necesari
 
 La propia página de Billboard proporciona un histórico de todas sus listas desde 1958 hasta la actualidad, pero no proporciona ningún API ni modo de explotación. Por lo tanto, aunque sería posible completar el dataset anterior con más canciones, esto supondría un costo temporal notable, por lo que no se considera necesario en este caso. 
 
-El [dataset](https://figshare.com/articles/Main_Dataset_for_Evolution_of_Popular_Music_USA_1960_2010_/1309953) puede encontrarse de forma sencilla en figshare.com.
+El [dataset](https://figshare.com/articles/Main_Dataset_for_Evolution_of_Popular_Music_USA_1960_2010_/1309953) puede encontrarse de forma sencilla en figshare.com. Ha sido compartido por Matthias Mauch, el 06/04/2015.
 
 ## Análisis de los datos
 Como se comentaba anteriormente, los datos que planeamos usar son: 
@@ -28,7 +28,7 @@ Aunque no figuraba entre los datos que se planeaba incluir en un principio, se h
 
 Se seguirá un proceso similar al anterior pero con los cambios de acorde. Esta información aparece reflejada en 175 columnas en el dataset, por lo que resumirla en una columna, puede ser una buena idea. 
 
-Por último, se utilizará también la información del campo `decade` que aporta el dataset. Este campo clasifica las canciones en grupos de 10 años en función de su fecha de entrada en lista. 
+Por último, se utilizará también la información del campo *decade* que aporta el dataset. Este campo clasifica las canciones en grupos de 10 años en función de su fecha de entrada en lista. 
 
 Además de toda esta información, el data set ofrece otras clasificaciones de las canciones como en lustros, años, eras, etc.  que no vamos a tener en cuenta. Además para cada canción aporta sus pesos harmónicos y tímbricos, pero tampoco serán usados, pues se necesita tener un conocimiento avanzado de la temática para poder interpretarlos. 
 
@@ -42,6 +42,12 @@ A continuación, se presenta una tabla resumen con los datos que vamos a utiliza
 | Década                | Integer de cuatro cifras  | Década en que la canción ha entrado en lista por primera vez         |
 | Cambios de timbre     | Integer      | Registro de cambios en el timbre de la melodía. Corresponde con el total de cambios acumulados de las columnas `timb_*`  |
 | Cambios de acorde     | Integer  | Registro de cambios de acordes en la melodía. Corresponde con el total de cambios acumulados de las columnas `harm_*` |
+
+En cuanto a la **licencia** de los datos, podemos ver en la página en la que se encuntra el dataset, que este está bajo la licencia [CreativeCommons 4.0](https://creativecommons.org/licenses/by/4.0/). ¿Cómo afecta esta licencia al proyecto? Esta licencia permite compartir en cualquier medio o formato los datos y también permite su transformación y uso para cualquier fin, incluso el comercial. La únicas condiciones que impone esta licencia son:
+- Referenciar a la fuente de datos original.
+- Indicar si se han hecho modificaciones en los datos o no. 
+
+A la hora de publicar los datos que se generarán para esta práctica, se utilizará la licencia de software libre [gpl3](https://www.gnu.org/licenses/gpl-3.0.en.html). Esto se debe a que no hay ningún fin lucrativo ni comercial detrás, y se desea facilitar el uso de los mismos por cualquiera que lo desee, pero es interesante que se mantenga así. Al publicar algo bajo esta licencia se permite el uso, modificación y redistribución, pero siempre y cuando se haga bajo la misma licencia.
 
 ## Estrategia de nombrado
 ## Desarrollo del vocabulario
