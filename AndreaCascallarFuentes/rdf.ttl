@@ -13,358 +13,973 @@
 
 <http://museosmadrid.com/museo/MADRID> a <http://dbpedia.org/ontology/PopulatedPlace> ;
 	rdfs:label "MADRID" ;
-	owl:sameAs <http://dbpedia.org/resource/Madrid> .
+	owl:sameAs <http://dbpedia.org/resource/Madrid> ;
+	ontologia:tieneMuseo "Arte Público (Museo al Aire Libre de la Castellana)" .
+
+<http://museosmadrid.com/museo/Arte+P%C3%BAblico+%28Museo+al+Aire+Libre+de+la+Castellana%29> a owl:Place ;
+	rdfs:label "Arte Público (Museo al Aire Libre de la Castellana)" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Arte_Publico_de_Madrid> .
 
 <http://museosmadrid.com/museo/4949641> a schema:CivicStructure ;
 	ontologia:tieneHorario "Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas.  Enero y Febrero: domingos y festivos de 12 a 15 horas y de 16 a 18 horas.  Horario orientativo, consultad disponibilidad en la web del Museo." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 226 968" ;
+	ontologia:tieneTelefono "915 226 968" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=990950e86d4ca110VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE ARENAL 8" ;
 	ontologia:tieneNombre "Casa - Museo del Ratoncito Pérez" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Casa - Museo del Ratoncito Pérez" .
+
+<http://museosmadrid.com/museo/Casa+-+Museo+del+Ratoncito+P%C3%A9rez> a owl:Place ;
+	rdfs:label "Casa - Museo del Ratoncito Pérez" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Ratoncito_Perez> .
+
 <http://museosmadrid.com/museo/4847190> a schema:CivicStructure ;
 	ontologia:tieneHorario "Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo.  De martes a domingo de 10 a 18 horas.  Cerrado los lunes, días 1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre.  Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 299 216" ;
+	ontologia:tieneTelefono "914 299 216" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4eff8c46145e8110VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE CERVANTES 11" ;
-	ontologia:tieneNombre "Casa Museo Lope de Vega" .
+	ontologia:tieneNombre "Casa Museo Lope de Vega" ;
+	ontologia:tieneFax "914 292 601" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Casa Museo Lope de Vega" .
+
+<http://museosmadrid.com/museo/Casa+Museo+Lope+de+Vega> a owl:Place ;
+	rdfs:label "Casa Museo Lope de Vega" ;
+	owl:sameAs <http://dbpedia.org/resource/House-Museum_of_Lope_de_Vega> .
 
 <http://museosmadrid.com/museo/5682031> a schema:CivicStructure ;
 	ontologia:tieneHorario "Abierto fines de semana y festivos (incluso los lunes festivos)  De 1 de abril a 30 de junio y de 15 de septiembre a 30 de septiembre: sábados, domingos y festivos de 10 a 21 horas.  De 1 de julio a 15 de septiembre: sábados, domingos y festivos de 10 a 20 horas.  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas.  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """913 667 415                                                                         
+	ontologia:tieneTelefono """913 667 415                                                                         
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe43c4be8e688210VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE ANTONIO SANCHA 1" ;
 	ontologia:tieneNombre "Castillo de la Alameda" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Castillo de la Alameda" .
+
+<http://museosmadrid.com/museo/Castillo+de+la+Alameda> a owl:Place ;
+	rdfs:label "Castillo de la Alameda" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Castillo_de_la_Alameda> .
+
 <http://museosmadrid.com/museo/2064> a schema:CivicStructure ;
 	ontologia:tieneHorario "Mañanas     De lunes a jueves, de 9 a 15 h (Servicio de libros y otros materiales hasta las 14:30 horas)    Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h)     Tardes   Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 302 828 / 913 302 009" ;
+	ontologia:tieneTelefono "913 302 828 / 913 302 009" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0443d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE ALFONSO XII 28" ;
 	ontologia:tieneNombre "Casón del Buen Retiro" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Casón del Buen Retiro" .
+
+<http://museosmadrid.com/museo/Cas%C3%B3n+del+Buen+Retiro> a owl:Place ;
+	rdfs:label "Casón del Buen Retiro" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Casón_del_Buen_Retiro> .
+
 <http://museosmadrid.com/museo/103331> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """902 430 322                                                                 
+	ontologia:tieneTelefono """902 430 322                                                                 
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "RONDA VALENCIA 2" ;
 	ontologia:tieneNombre "Centro Social y Cultural La Casa Encendida" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Centro Social y Cultural La Casa Encendida" .
+
+<http://museosmadrid.com/museo/Centro+Social+y+Cultural+La+Casa+Encendida> a owl:Place ;
+	rdfs:label "Centro Social y Cultural La Casa Encendida" ;
+	owl:sameAs <http://es.dbpedia.org/resource/La_Casa_Encendida> .
+
 <http://museosmadrid.com/museo/6469186> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Los sábados que se celebren Visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 420 722" ;
+	ontologia:tieneTelefono "915 420 722" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=75950204770e7310VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "GLORIETA SAN ANTONIO DE LA FLORIDA 5" ;
 	ontologia:tieneNombre "Ermita de San Antonio de la Florida (Museo)" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Ermita de San Antonio de la Florida (Museo)" .
+
+<http://museosmadrid.com/museo/Ermita+de+San+Antonio+de+la+Florida+%28Museo%29> a owl:Place ;
+	rdfs:label "Ermita de San Antonio de la Florida (Museo)" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Ermita_de_San_Antonio_de_la_Florida> .
+
+<http://museosmadrid.com/museo/58353> a schema:CivicStructure ;
+	ontologia:tieneHorario "De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y días 25 de diciembre, 1 y 6 de enero." ;
+	ontologia:tieneTelefono "915 808 700 (información general)" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87748ed67151c010VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE FUENCARRAL 3" ;
+	ontologia:tieneNombre "Espacio Fundación Telefónica" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Espacio Fundación Telefónica" .
+
+<http://museosmadrid.com/museo/Espacio+Fundaci%C3%B3n+Telef%C3%B3nica> a owl:Place ;
+	rdfs:label "Espacio Fundación Telefónica" .
+
+<http://museosmadrid.com/museo/6017808> a schema:CivicStructure ;
+	ontologia:tieneHorario "De martes a sábados de 10 a 19 horas. Lunes, domingos y festivos cerrado.  Visitas para grupos de hasta 25 personas dentro de los horarios de apertura. Pueden ser con guía propio o con guía de la Fundación, y la duración de la misma es de una hora. Previa reserva telefónica o vía correo electrónico." ;
+	ontologia:tieneTelefono "913 579 116" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c1260101310f210VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/FundacionesCulturales" ;
+	ontologia:tieneDireccion "CALLE FUENTE DEL REY 11" ;
+	ontologia:tieneNombre "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey" ;
+	ontologia:tieneFax "913 575 989" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey" .
+
+<http://museosmadrid.com/museo/Fundaci%C3%B3n+AMYC+%28Arte+Moderno+y+Contempor%C3%A1neo%29.+Casa+-+Museo+Fuente+del+Rey> a owl:Place ;
+	rdfs:label "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey" .
+
 <http://museosmadrid.com/museo/3348> a schema:CivicStructure ;
 	ontologia:tieneHorario "Sólo con visita guiada  .     De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """914 548 700                                                             
+	ontologia:tieneTelefono """914 548 700                                                             
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12e113db5b71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "PLAZA DESCALZAS 3" ;
 	ontologia:tieneNombre "Monasterio de las Descalzas Reales" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Monasterio de las Descalzas Reales" .
+
+<http://museosmadrid.com/museo/Monasterio+de+las+Descalzas+Reales> a owl:Place ;
+	rdfs:label "Monasterio de las Descalzas Reales" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Monasterio_de_las_Descalzas_Reales> .
+
+<http://museosmadrid.com/museo/5873478> a schema:CivicStructure ;
+	ontologia:tieneHorario "De martes a sábado de 11 a 20 horas  Domingos de 10 a 14 horas   Lunes cerrado    Durante 2017 el Museo ABC permanecerá cerrado los días:   1 y 6 de enero  24 y 31 de diciembre." ;
+	ontologia:tieneTelefono "917 588 379" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0103fee6537c210VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE AMANIEL 29" ;
+	ontologia:tieneNombre "Museo ABC" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo ABC" .
+
+<http://museosmadrid.com/museo/Museo+ABC> a owl:Place ;
+	rdfs:label "Museo ABC" .
+
+<http://museosmadrid.com/museo/2067> a schema:CivicStructure ;
+	ontologia:tieneHorario "Grupos con cita previa : de lunes a viernes de 9,30 a 13,30 horas.   Particulares  (visitas guiadas): domingos a las 11,30 horas.   Cerrado : julio, agosto y septiembre." ;
+	ontologia:tieneTelefono "914 152 412" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ab8ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE ARTURO SORIA 101" ;
+	ontologia:tieneNombre "Museo Africano Mundo Negro" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Africano Mundo Negro" .
+
+<http://museosmadrid.com/museo/Museo+Africano+Mundo+Negro> a owl:Place ;
+	rdfs:label "Museo Africano Mundo Negro" .
+
 <http://museosmadrid.com/museo/2050> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábados de 9:30 a 20 horas  Domingos y festivos de 9:30 a 15 horas    Cerrado    Todos los lunes del año.  1 y 6 de enero, 1de mayo y 24, 25 y 31 de diciembre.    Horario de cierre de las taquillas:  15 minutos antes del cierre del Museo.   Días festivos 2017. Horario 9.30 a 15 horas:   13 y 14 de abril; 2 de mayo;15 de agosto; 12 de octubre; 1 de noviembre; 9 de noviembre; 6 de diciembre; 8 de diciembre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """915 777 912                                                                     
+	ontologia:tieneTelefono """915 777 912                                                                     
                                                                                      
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fd8ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE SERRANO 13" ;
-	ontologia:tieneNombre "Museo Arqueológico Nacional" .
+	ontologia:tieneNombre "Museo Arqueológico Nacional" ;
+	ontologia:tieneFax "914 326 840" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Arqueológico Nacional" .
+
+<http://museosmadrid.com/museo/Museo+Arqueol%C3%B3gico+Nacional> a owl:Place ;
+	rdfs:label "Museo Arqueológico Nacional" ;
+	owl:sameAs <http://dbpedia.org/resource/National_Archaeological_Museum> .
+
+<http://museosmadrid.com/museo/2072> a schema:CivicStructure ;
+	ontologia:tieneHorario "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas  Cerrado los lunes, y los días 1 y 6 de enero; 19 de marzo; 1 de mayo; 24, 25 y 31 de diciembre" ;
+	ontologia:tieneTelefono """915 666 544                                 
+""" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12f8ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE DOCTOR ESQUERDO 36" ;
+	ontologia:tieneNombre "Museo Casa de la Moneda" ;
+	ontologia:tieneFax "915 666 809" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Casa de la Moneda" .
+
+<http://museosmadrid.com/museo/Museo+Casa+de+la+Moneda> a owl:Place ;
+	rdfs:label "Museo Casa de la Moneda" .
 
 <http://museosmadrid.com/museo/4112> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábado de 9:30 a 15 horas.  Jueves de 17 a 20 horas, excepto festivos.  Domingos y festivos de 10 a 15 horas.  Cerrado:  Todos los lunes.  1 y 6 de enero.  1 de mayo.  24, 25 y 31 de diciembre.  Por fiesta local." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 473 646 / 47" ;
+	ontologia:tieneTelefono "915 473 646 / 47" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4efb0c40971c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE VENTURA RODRIGUEZ 17" ;
-	ontologia:tieneNombre "Museo Cerralbo" .
+	ontologia:tieneNombre "Museo Cerralbo" ;
+	ontologia:tieneFax "915 591 171" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Cerralbo" .
+
+<http://museosmadrid.com/museo/Museo+Cerralbo> a owl:Place ;
+	rdfs:label "Museo Cerralbo" ;
+	owl:sameAs <http://dbpedia.org/resource/Museum_Cerralbo> .
+
+<http://museosmadrid.com/museo/10091450> a schema:CivicStructure ;
+	ontologia:tieneHorario "Visitas (con cita previa)   Apertura estacional durante seis meses al año: todos los sábados de abril, mayo, junio, julio, septiembre y octubre), a las 10, a las 11:30 y a las 13 horas.  Por ser un centro de trabajo únicamente pueden realizarse de forma organizada, previamente concertadas y limitadas a un máximo de 40 personas por turno.  Duración: 60 minutos aproximadamente.  Compra de entradas y reserva de horarios a través de la web:  http://tienda.emtmadrid.es  (a partir del 1 de marzo de 2017)" ;
+	ontologia:tieneTelefono "914 068 810" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d56ad05b2a255510VgnVCM2000001f4a900aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/AyuntamientoMadrid/OrganismosEmpresasMunicipales" ;
+	ontologia:tieneDireccion "CALLE MAURICIO LEGENDRE 40" ;
+	ontologia:tieneNombre "Museo EMT" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo EMT" .
+
+<http://museosmadrid.com/museo/Museo+EMT> a owl:Place ;
+	rdfs:label "Museo EMT" .
+
+<http://museosmadrid.com/museo/10237457> a schema:CivicStructure ;
+	ontologia:tieneHorario "Visitas: lunes, miércoles y viernes de 10 a 13 horas." ;
+	ontologia:tieneTelefono "914 417 921" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb22820a52799510VgnVCM1000001d4a900aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE ALENZA 1" ;
+	ontologia:tieneNombre "Museo Félix Cañada" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Félix Cañada" .
+
+<http://museosmadrid.com/museo/Museo+F%C3%A9lix+Ca%C3%B1ada> a owl:Place ;
+	rdfs:label "Museo Félix Cañada" .
 
 <http://museosmadrid.com/museo/2074> a schema:CivicStructure ;
 	ontologia:tieneHorario "De lunes a domingo y festivos de 9 a 14 horas  Cerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre  Visitas guiadas para grupos de lunes a viernes, previa petición cita" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 495 759" ;
+	ontologia:tieneTelefono "913 495 759" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff0bef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE RIOS ROSAS 23" ;
-	ontologia:tieneNombre "Museo Geominero" .
+	ontologia:tieneNombre "Museo Geominero" ;
+	ontologia:tieneFax "913 495 828" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Geominero" .
+
+<http://museosmadrid.com/museo/Museo+Geominero> a owl:Place ;
+	rdfs:label "Museo Geominero" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Geominero> .
+
+<http://museosmadrid.com/museo/2075> a schema:CivicStructure ;
+	ontologia:tieneHorario "Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual:  el segundo fin de semana (viernes, sábado y domingo) de marzo (el museo permanecerá abierto todo el día)" ;
+	ontologia:tieneTelefono "913 367 017" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=822bef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE RIOS ROSAS 21" ;
+	ontologia:tieneNombre "Museo Histórico Minero Don Felipe de Borbón y Grecia" ;
+	ontologia:tieneFax "913 367 068" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Histórico Minero Don Felipe de Borbón y Grecia" .
+
+<http://museosmadrid.com/museo/Museo+Hist%C3%B3rico+Minero+Don+Felipe+de+Borb%C3%B3n+y+Grecia> a owl:Place ;
+	rdfs:label "Museo Histórico Minero Don Felipe de Borbón y Grecia" .
+
+<http://museosmadrid.com/museo/18176> a schema:CivicStructure ;
+	ontologia:tieneHorario "De martes a sábados: de 11 a 20 horas    Domingos y festivos: de 10 a 14 horas    Cerrado:  Todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre.    Horario especial de Navidad: el 24 y el 31 de diciembre, de 10 a 14 horas" ;
+	ontologia:tieneTelefono "914 201 242" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2886444a2951c010VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE ZORRILLA 3" ;
+	ontologia:tieneNombre "Museo ICO" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo ICO" .
+
+<http://museosmadrid.com/museo/Museo+ICO> a owl:Place ;
+	rdfs:label "Museo ICO" .
+
+<http://museosmadrid.com/museo/6019032> a schema:CivicStructure ;
+	ontologia:tieneHorario "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas  Los días de Navidad y Año Nuevo cerrado al público" ;
+	ontologia:tieneTelefono "902 444 403 / 917 796 399  (Información)" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=435950262d50f210VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "PLAZA ISABEL II 1" ;
+	ontologia:tieneNombre "Museo Los Caños del Peral. Estación de Metro Ópera" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Los Caños del Peral. Estación de Metro Ópera" .
+
+<http://museosmadrid.com/museo/Museo+Los+Ca%C3%B1os+del+Peral.+Estaci%C3%B3n+de+Metro+%C3%93pera> a owl:Place ;
+	rdfs:label "Museo Los Caños del Peral. Estación de Metro Ópera" .
 
 <http://museosmadrid.com/museo/2053> a schema:CivicStructure ;
 	ontologia:tieneHorario "Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes.  Grupos y visitas guiadas consultar." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 616 084" ;
+	ontologia:tieneTelefono "915 616 084" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d1aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE SERRANO 122" ;
-	ontologia:tieneNombre "Museo Lázaro Galdiano" .
+	ontologia:tieneNombre "Museo Lázaro Galdiano" ;
+	ontologia:tieneFax "915 617 793" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Lázaro Galdiano" .
+
+<http://museosmadrid.com/museo/Museo+L%C3%A1zaro+Galdiano> a owl:Place ;
+	rdfs:label "Museo Lázaro Galdiano" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Categoría:Museo_Lázaro_Galdiano> .
 
 <http://museosmadrid.com/museo/5349304> a schema:CivicStructure ;
 	ontologia:tieneHorario "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas.  Martes cerrado (incluso festivos).  Cerrado 1 y 6 enero, 1 de mayo y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """917 741 000                                                                                         
+	ontologia:tieneTelefono """917 741 000                                                                                         
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69d8275bad5a1210VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE SANTA ISABEL 52" ;
 	ontologia:tieneNombre "Museo Nacional Centro de Arte Reina Sofía (MNCARS)" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Nacional Centro de Arte Reina Sofía (MNCARS)" .
+
+<http://museosmadrid.com/museo/Museo+Nacional+Centro+de+Arte+Reina+Sof%C3%ADa+%28MNCARS%29> a owl:Place ;
+	rdfs:label "Museo Nacional Centro de Arte Reina Sofía (MNCARS)" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_Centro_de_Arte_Reina_Sofia> .
+
 <http://museosmadrid.com/museo/2057> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábado de 9:30 a 20 horas.  Domingos y festivos: de 10 a 15 horas.  Cerrado todos los lunes del año y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 306 418 /915 395 995" ;
+	ontologia:tieneTelefono "915 306 418 /915 395 995" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=456079262ef5d010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE ALFONSO XII 68" ;
-	ontologia:tieneNombre "Museo Nacional de Antropología" .
+	ontologia:tieneNombre "Museo Nacional de Antropología" ;
+	ontologia:tieneFax "914 677 098" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Nacional de Antropología" .
+
+<http://museosmadrid.com/museo/Museo+Nacional+de+Antropolog%C3%ADa> a owl:Place ;
+	rdfs:label "Museo Nacional de Antropología" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_de_Antropología> .
 
 <http://museosmadrid.com/museo/2055> a schema:CivicStructure ;
 	ontologia:tieneHorario "Del 8 de septiembre al 30 de junio:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.  Jueves tarde de 17 a 20 horas.    Del 5 de julio al 4 de septiembre:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.    Cerrado:  todos los lunes del año, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 326 499 / 915 326 845 Reserva actividades infantiles: 910 505 755 Biblioteca: 910 505 768 Atención a investigadores: 910 505 763" ;
+	ontologia:tieneTelefono "915 326 499 / 915 326 845 Reserva actividades infantiles: 910 505 755 Biblioteca: 910 505 768 Atención a investigadores: 910 505 763" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=287079262ef5d010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE MONTALBAN 12" ;
-	ontologia:tieneNombre "Museo Nacional de Artes Decorativas" .
+	ontologia:tieneNombre "Museo Nacional de Artes Decorativas" ;
+	ontologia:tieneFax "915 232 086" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Nacional de Artes Decorativas" .
+
+<http://museosmadrid.com/museo/Museo+Nacional+de+Artes+Decorativas> a owl:Place ;
+	rdfs:label "Museo Nacional de Artes Decorativas" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_de_Artes_Decorativas> .
 
 <http://museosmadrid.com/museo/2056> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a viernes de 10 a 17 horas.  Sábados, domingos y festivos de 10 a 20 horas.  Sábados y domingos de agosto de 10 a 15 horas.        Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 111 328 (centralita)" ;
+	ontologia:tieneTelefono "914 111 328 (centralita)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8edbef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE JOSE GUTIERREZ ABASCAL 2" ;
-	ontologia:tieneNombre "Museo Nacional de Ciencias Naturales" .
+	ontologia:tieneNombre "Museo Nacional de Ciencias Naturales" ;
+	ontologia:tieneFax "915 645 078" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Nacional de Ciencias Naturales" .
+
+<http://museosmadrid.com/museo/Museo+Nacional+de+Ciencias+Naturales> a owl:Place ;
+	rdfs:label "Museo Nacional de Ciencias Naturales" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_de_Ciencias_Naturales> .
 
 <http://museosmadrid.com/museo/2076> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a domingo de 10 a 19 horas  Cerrado los lunes y los festivos 1 y 6 de enero y 24, 25 y 31 de diciembre  Agosto, martes a domingo de 10 a 15 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 238 516 / 609 467 117 (martes y viernes de 9 a 14 horas) " ;
+	ontologia:tieneTelefono "915 238 516 / 609 467 117 (martes y viernes de 9 a 14 horas) " ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a30cef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "PASEO PRADO 5" ;
-	ontologia:tieneNombre "Museo Naval" .
+	ontologia:tieneNombre "Museo Naval" ;
+	ontologia:tieneFax "913 795 056" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Naval" .
+
+<http://museosmadrid.com/museo/Museo+Naval> a owl:Place ;
+	rdfs:label "Museo Naval" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Naval> .
 
 <http://museosmadrid.com/museo/2085> a schema:CivicStructure ;
 	ontologia:tieneHorario "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas  Biblioteca: de lunes a viernes de 9 a 14 y de 16 a 18 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "917 400 668 / 917 400 664 (biblioteca)" ;
+	ontologia:tieneTelefono "917 400 668 / 917 400 664 (biblioteca)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c82cef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE TAPIA DE CASARIEGO 6" ;
 	ontologia:tieneNombre "Museo Postal y Telegráfico" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Postal y Telegráfico" .
+
+<http://museosmadrid.com/museo/Museo+Postal+y+Telegr%C3%A1fico> a owl:Place ;
+	rdfs:label "Museo Postal y Telegráfico" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Postal_y_Telegráfico> .
+
 <http://museosmadrid.com/museo/4997114> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábado: de 9:30 a 20 horas   Domingos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y dos festivos locales." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 101 584" ;
+	ontologia:tieneTelefono "913 101 584" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6dd05e93aad9c110VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "PASEO GENERAL MARTINEZ CAMPOS 37" ;
 	ontologia:tieneNombre "Museo Sorolla" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Sorolla" .
+
+<http://museosmadrid.com/museo/Museo+Sorolla> a owl:Place ;
+	rdfs:label "Museo Sorolla" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Categoría:Museo_Sorolla> .
+
+<http://museosmadrid.com/museo/2077> a schema:CivicStructure ;
+	ontologia:tieneHorario "Todos los días del año incluidos sábados, domingos y festivos de 10 a 18 horas, ininterrumpidamente, salvo los días de Festejo y en Feria de San Isidro y Otoño de 10 a 16 horas, ininterrumpidamente." ;
+	ontologia:tieneTelefono """912 761 287                 
+""" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=958cef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE ALCALA 237" ;
+	ontologia:tieneNombre "Museo Taurino de la Plaza de las Ventas" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Taurino de la Plaza de las Ventas" .
+
+<http://museosmadrid.com/museo/Museo+Taurino+de+la+Plaza+de+las+Ventas> a owl:Place ;
+	rdfs:label "Museo Taurino de la Plaza de las Ventas" .
+
 <http://museosmadrid.com/museo/2099> a schema:CivicStructure ;
 	ontologia:tieneHorario "Colecciones permanentes:   lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.    Exposiciones temporales : consultar horario específico en Museo.  Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre.   Avisos y aperturas extraordinarias:  los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """917 911 370                                                                                                                                                                                                                        
+	ontologia:tieneTelefono """917 911 370                                                                                                                                                                                                                        
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b8079262ef5d010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "PASEO PRADO 8" ;
 	ontologia:tieneNombre "Museo Thyssen-Bornemisza" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Thyssen-Bornemisza" .
+
+<http://museosmadrid.com/museo/Museo+Thyssen-Bornemisza> a owl:Place ;
+	rdfs:label "Museo Thyssen-Bornemisza" ;
+	owl:sameAs <http://dbpedia.org/resource/Category:Collections_of_the_Thyssen-Bornemisza_Museum> .
+
+<http://museosmadrid.com/museo/2101> a schema:CivicStructure ;
+	ontologia:tieneHorario "Martes a viernes de 10 a 14 horas y de 17 a 20 horas.  Sábados de 10 a 14 horas.  Lunes, domingos y festivos cerrado.   Las visitas de grupos se realizan previa reserva, de 8 a 14:00 horas, en el teléfono de información: 915 894 219" ;
+	ontologia:tieneTelefono "915 894 219" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=baacef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE LA CORUÑA 18" ;
+	ontologia:tieneNombre "Museo Tiflológico" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo Tiflológico" .
+
+<http://museosmadrid.com/museo/Museo+Tiflol%C3%B3gico> a owl:Place ;
+	rdfs:label "Museo Tiflológico" .
+
 <http://museosmadrid.com/museo/2068> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a domingo de 10 a 14 horas.  Cerrado los días 1 y 6 de enero, el mes de agosto, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24, 25 y 31 de diciembre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 091 690 (centralita)" ;
+	ontologia:tieneTelefono "915 091 690 (centralita)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=90aaef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "AUTOVIA A-5 10.7" ;
-	ontologia:tieneNombre "Museo de Aeronáutica y Astronáutica" .
+	ontologia:tieneNombre "Museo de Aeronáutica y Astronáutica" ;
+	ontologia:tieneFax "917 106 847" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Aeronáutica y Astronáutica" .
+
+<http://museosmadrid.com/museo/Museo+de+Aeron%C3%A1utica+y+Astron%C3%A1utica> a owl:Place ;
+	rdfs:label "Museo de Aeronáutica y Astronáutica" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_Aeronáutica_y_Astronáutica> .
 
 <http://museosmadrid.com/museo/2091> a schema:CivicStructure ;
 	ontologia:tieneHorario "Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas    Cerrado:  todos los lunes del año, días 1 y 6 de enero, 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 439 437 / 915 492 641" ;
+	ontologia:tieneTelefono "915 439 437 / 915 492 641" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c929ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "AVENIDA REYES CATOLICOS 6" ;
-	ontologia:tieneNombre "Museo de América" .
+	ontologia:tieneNombre "Museo de América" ;
+	ontologia:tieneFax "915 446 742" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de América" .
+
+<http://museosmadrid.com/museo/Museo+de+Am%C3%A9rica> a owl:Place ;
+	rdfs:label "Museo de América" ;
+	owl:sameAs <http://dbpedia.org/resource/Museum_of_the_Americas_(Madrid)> .
 
 <http://museosmadrid.com/museo/83922> a schema:CivicStructure ;
 	ontologia:tieneHorario "Martes a Sábado: de 10 a 14 y de 17:30 a 21 horas  Domingos y festivos: de 10.30 a 14 horas   Cerrado :  Lunes (incluso festivos)  1 y 6 de enero, 1 de mayo y 25 de diciembre.     Las salas se desalojan 15 minutos antes del cierre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 885 928  /  915 885 861" ;
+	ontologia:tieneTelefono "915 885 928  /  915 885 861" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=84a55c2cdc41c010VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE CONDE DUQUE 9" ;
 	ontologia:tieneNombre "Museo de Arte Contemporáneo de Madrid" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Arte Contemporáneo de Madrid" .
+
+<http://museosmadrid.com/museo/Museo+de+Arte+Contempor%C3%A1neo+de+Madrid> a owl:Place ;
+	rdfs:label "Museo de Arte Contemporáneo de Madrid" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_Arte_Contemporáneo_de_Madrid> .
+
+<http://museosmadrid.com/museo/2069> a schema:CivicStructure ;
+	ontologia:tieneHorario "Permanece abierto al público de lunes a viernes con horario de 10 a 20 horas. Sábados de 10 a 14 horas.  Cerrado domingos, festivos y mes de agosto" ;
+	ontologia:tieneTelefono "914 976 500" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c39ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE CARLOS ARNICHES 3" ;
+	ontologia:tieneNombre "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala" ;
+	ontologia:tieneFax "914 976 510" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala" .
+
+<http://museosmadrid.com/museo/Museo+de+Artes+y+Tradiciones+Populares.+Centro+Cultural+La+Corrala> a owl:Place ;
+	rdfs:label "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala" .
+
+<http://museosmadrid.com/museo/2092> a schema:CivicStructure ;
+	ontologia:tieneHorario "Visita con cita previa" ;
+	ontologia:tieneTelefono "913 944 615" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee49ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "PLAZA CIENCIAS 3" ;
+	ontologia:tieneNombre "Museo de Astronomía y Geodesia" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Astronomía y Geodesia" .
+
+<http://museosmadrid.com/museo/Museo+de+Astronom%C3%ADa+y+Geodesia> a owl:Place ;
+	rdfs:label "Museo de Astronomía y Geodesia" .
+
+<http://museosmadrid.com/museo/5727435> a schema:CivicStructure ;
+	ontologia:tieneHorario "Abierto todos los días de 09'30 a 14 horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.   Visitas Guiadas   Se pueden concertar en el teléfono: 914 786 572 (Museo)  Más información: 915 889 907 - 915 888 240" ;
+	ontologia:tieneTelefono """91 478 65 72 (Museo),                                                                                                                                           
+                                                                                                                                               
+""" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9f0966a8bba49210VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE BOADA 4" ;
+	ontologia:tieneNombre "Museo de Bomberos" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Bomberos" .
+
+<http://museosmadrid.com/museo/Museo+de+Bomberos> a owl:Place ;
+	rdfs:label "Museo de Bomberos" .
+
+<http://museosmadrid.com/museo/2090> a schema:CivicStructure ;
+	ontologia:tieneHorario "Abierto con el mismo horario que la exposición temporal. En ausencia de exposiciones temporales, consultar en la taquilla del museo, telefónicamente o en la web." ;
+	ontologia:tieneTelefono "915 240 864" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7169ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE ALCALA 13" ;
+	ontologia:tieneNombre "Museo de Calcografía Nacional" ;
+	ontologia:tieneFax "915 240 977" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Calcografía Nacional" .
+
+<http://museosmadrid.com/museo/Museo+de+Calcograf%C3%ADa+Nacional> a owl:Place ;
+	rdfs:label "Museo de Calcografía Nacional" .
+
 <http://museosmadrid.com/museo/2084> a schema:CivicStructure ;
 	ontologia:tieneHorario "De lunes a viernes de 10 a 14:30 y de 16:30 a 20:30 horas.  Sábados, domingos y festivos de 10 a 20:30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 199 330" ;
+	ontologia:tieneTelefono "913 199 330" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9689ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "PASEO RECOLETOS 41" ;
 	ontologia:tieneNombre "Museo de Cera" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Cera" .
+
+<http://museosmadrid.com/museo/Museo+de+Cera> a owl:Place ;
+	rdfs:label "Museo de Cera" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_cera> .
+
 <http://museosmadrid.com/museo/2054> a schema:CivicStructure ;
 	ontologia:tieneHorario "Salas de exposición permanente y de Cartografía y maquetas : de martes a domingo de 10:00 a 20 horas.  Cerrado : todos los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "917 011 863" ;
+	ontologia:tieneTelefono "917 011 863" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE FUENCARRAL 78" ;
 	ontologia:tieneNombre "Museo de Historia de Madrid" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Historia de Madrid" .
+
+<http://museosmadrid.com/museo/Museo+de+Historia+de+Madrid> a owl:Place ;
+	rdfs:label "Museo de Historia de Madrid" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_Historia_de_Madrid> .
+
+<http://museosmadrid.com/museo/2095> a schema:CivicStructure ;
+	ontologia:tieneHorario "Jueves de 10:30 a 14:30 horas, (conviene concertar previamente la visita).  Visitas guiadas por el personal del museo para grupos." ;
+	ontologia:tieneTelefono "914 974 132 / 914 974 800" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=255aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CARRETERA COLMENAR VIEJO 19000" ;
+	ontologia:tieneNombre "Museo de Mineralogía" ;
+	ontologia:tieneFax "914 974 900" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Mineralogía" .
+
+<http://museosmadrid.com/museo/Museo+de+Mineralog%C3%ADa> a owl:Place ;
+	rdfs:label "Museo de Mineralogía" .
+
 <http://museosmadrid.com/museo/2112> a schema:CivicStructure ;
 	ontologia:tieneHorario "General:  de martes a domingo y festivos de 9:30 a 20 horas   1 de julio a 15 de septiembre:  martes a viernes de 10 a 14 horas y de 15 a 19 horas; sábados, domingos y festivos de 10 a 19 horas.   Cerrado:  todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 667 415" ;
+	ontologia:tieneTelefono "913 667 415" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7b7aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "PLAZA SAN ANDRES 1" ;
 	ontologia:tieneNombre "Museo de San Isidro. Los orígenes de Madrid" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de San Isidro. Los orígenes de Madrid" .
+
+<http://museosmadrid.com/museo/Museo+de+San+Isidro.+Los+or%C3%ADgenes+de+Madrid> a owl:Place ;
+	rdfs:label "Museo de San Isidro. Los orígenes de Madrid" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_San_Isidro> .
+
+<http://museosmadrid.com/museo/85301> a schema:CivicStructure ;
+	ontologia:tieneHorario "Sólo visitas de grupo con cita previa: de lunes a viernes, de 10 a 14 horas.  Cita previa por teléfono: 918 222 414  o a través del correo electrónico:  museodesanidad@isciii.es" ;
+	ontologia:tieneTelefono "918 222 414  (Cita previa)" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3e755c2cdc41c010VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "AVENIDA MONFORTE DE LEMOS 5" ;
+	ontologia:tieneNombre "Museo de Sanidad e Higiene Pública" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de Sanidad e Higiene Pública" .
+
+<http://museosmadrid.com/museo/Museo+de+Sanidad+e+Higiene+P%C3%BAblica> a owl:Place ;
+	rdfs:label "Museo de Sanidad e Higiene Pública" .
+
+<http://museosmadrid.com/museo/4591873> a schema:CivicStructure ;
+	ontologia:tieneHorario "De martes a sábados: de 10 a 20 horas.   Domingos: de 10 a 14 horas.  Últimos pases 30 minutos antes del cierre  Día 5 de enero abierto de 10 a 18 horas.  Días 2 y 7 de enero; 20 de marzo; 13 y 14 de abril; 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 8, 24 y 31 de diciembre: de 10 a 14 horas.  Días 1 y 6 de enero; 1 de mayo y 25 de diciembre: cerrado." ;
+	ontologia:tieneTelefono "915 168 967 / 915 807 759 de lunes a viernes de 9 a 14 horas." ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05920d3b4c503110VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "PASEO RECOLETOS 20" ;
+	ontologia:tieneNombre "Museo de la Biblioteca Nacional de España" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de la Biblioteca Nacional de España" .
+
+<http://museosmadrid.com/museo/Museo+de+la+Biblioteca+Nacional+de+Espa%C3%B1a> a owl:Place ;
+	rdfs:label "Museo de la Biblioteca Nacional de España" .
+
 <http://museosmadrid.com/museo/4566286> a schema:CivicStructure ;
 	ontologia:tieneHorario "De lunes a sábado de 10 a 14:30 horas  Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 592 874" ;
+	ontologia:tieneTelefono "915 592 874" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82cb8d0e78d22110VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE BAILEN 10" ;
 	ontologia:tieneNombre "Museo de la Catedral de la Almudena" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de la Catedral de la Almudena" .
+
+<http://museosmadrid.com/museo/Museo+de+la+Catedral+de+la+Almudena> a owl:Place ;
+	rdfs:label "Museo de la Catedral de la Almudena" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Catedral_de_la_Almudena_(Madrid)> .
+
+<http://museosmadrid.com/museo/2073> a schema:CivicStructure ;
+	ontologia:tieneHorario "De lunes a viernes de 9 a 14 horas (periodo lectivo)." ;
+	ontologia:tieneTelefono "913 941 797" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58f9ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "PLAZA RAMON Y CAJAL 0" ;
+	ontologia:tieneNombre "Museo de la Farmacia Hispana" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de la Farmacia Hispana" .
+
+<http://museosmadrid.com/museo/Museo+de+la+Farmacia+Hispana> a owl:Place ;
+	rdfs:label "Museo de la Farmacia Hispana" .
+
+<http://museosmadrid.com/museo/2107> a schema:CivicStructure ;
+	ontologia:tieneHorario "Horario:  de lunes a viernes de 9 a 14 horas.    Individuales y grupos reducidos (cinco personas o menos):  sin previa petición de reserva - no guiadas.   Grupos grandes (más de cinco personas):  previa petición de reserva - guiadas." ;
+	ontologia:tieneTelefono "915 146 000, extensiones 48495 (Oficina Museo), 48477 (Salas Museo), " ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=003aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE GUZMAN EL BUENO 110" ;
+	ontologia:tieneNombre "Museo de la Guardia Civil" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de la Guardia Civil" .
+
+<http://museosmadrid.com/museo/Museo+de+la+Guardia+Civil> a owl:Place ;
+	rdfs:label "Museo de la Guardia Civil" .
+
 <http://museosmadrid.com/museo/2114> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a domingos y festivos de 10 a 15 horas  Lunes cerrado   En periodos vacacionales puede sufrir cambios: llamar al 915 240 864   Cerrado:    1 y 6 de enero  1 y 30 de mayo  9 de noviembre  24, 25 y 31 de diciembre.    Exposiciones temporales : consultar telefónicamente" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """915 240 864 (Centralita)                                                    
+	ontologia:tieneTelefono """915 240 864 (Centralita)                                                    
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=924aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE ALCALA 13" ;
-	ontologia:tieneNombre "Museo de la Real Academia de Bellas Artes de San Fernando" .
+	ontologia:tieneNombre "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	ontologia:tieneFax "915 241 034" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo de la Real Academia de Bellas Artes de San Fernando" .
+
+<http://museosmadrid.com/museo/Museo+de+la+Real+Academia+de+Bellas+Artes+de+San+Fernando> a owl:Place ;
+	rdfs:label "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	owl:sameAs <http://dbpedia.org/resource/Real_Academia_de_Bellas_Artes_de_San_Fernando> .
+
+<http://museosmadrid.com/museo/187029> a schema:CivicStructure ;
+	ontologia:tieneHorario "Horarios del Museo   De lunes a domingo, de 11 a 19 horas (incluido fetivos).  Cerrado los días 24 y 31 de diciembre a partir de las 14 horas y todo el día del 25 de diciembre y el 1 y 6 de enero.     Horarios de las visitas guiadas   De lunes a domingo a las 12, 13, 16:30 y 17:30 horas  No se celebran los días 24, 25 y 31 de diciembre 1 y 6 de enero." ;
+	ontologia:tieneTelefono "913 650 931 / 913 666 568" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e41ad2bec675e010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "PASEO VIRGEN DEL PUERTO 67" ;
+	ontologia:tieneNombre "Museo del Atlético de Madrid" ;
+	ontologia:tieneFax "913 652 455" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Atlético de Madrid" .
+
+<http://museosmadrid.com/museo/Museo+del+Atl%C3%A9tico+de+Madrid> a owl:Place ;
+	rdfs:label "Museo del Atlético de Madrid" .
 
 <http://museosmadrid.com/museo/2066> a schema:CivicStructure ;
 	ontologia:tieneHorario "Del 1 de enero al 31 de mayo y del 1 de octubre al 31 de diciembre:    Lunes a jueves, de 9.30 a 15 horas.  Viernes, sábado, domingo y festivos de 10 a 20 h (el segundo viernes de mes permanecerá abierto hasta las 18 horas)    Del 1 de junio al 30 de septiembre   Lunes a domingo, de 10.00 a 15 horas.   Cerrado: 25 de diciembre, 1 y 6 de enero." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """902 228 822                                                                                                 
+	ontologia:tieneTelefono """902 228 822                                                                                                 
 """ ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=091c4291ae91f010VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "PASEO DELICIAS 61" ;
 	ontologia:tieneNombre "Museo del Ferrocarril de Madrid" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Ferrocarril de Madrid" .
+
+<http://museosmadrid.com/museo/Museo+del+Ferrocarril+de+Madrid> a owl:Place ;
+	rdfs:label "Museo del Ferrocarril de Madrid" ;
+	owl:sameAs <http://dbpedia.org/resource/Railway_Museum_(Madrid)> .
+
 <http://museosmadrid.com/museo/2058> a schema:CivicStructure ;
 	ontologia:tieneHorario "De lunes a sábado de 10 a 20 horas  Domingos y festivos de 10 a 19 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre  Horario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembre  Acceso al museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre)  Horario gratuito, de lunes a sábado de 18 a 20 horas y domingos y festivos de 17 a 19 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 302 800" ;
+	ontologia:tieneTelefono "913 302 800" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=060079262ef5d010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE RUIZ DE ALARCON 23" ;
 	ontologia:tieneNombre "Museo del Prado" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Prado" .
+
+<http://museosmadrid.com/museo/Museo+del+Prado> a owl:Place ;
+	rdfs:label "Museo del Prado" ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_del_Prado> .
+
 <http://museosmadrid.com/museo/2086> a schema:CivicStructure ;
 	ontologia:tieneHorario "Jueves a las 17:30 y viernes a las 11:45 horas (excepto festivos).  Las visitas se efectúan con cita previa   Inscripción telefónica: 915 321 007  Inscripción por correo electrónico:  marta@grassy.es    La visita puede ser individual o en grupos de máximo 10 personas." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 321 007" ;
+	ontologia:tieneTelefono "915 321 007" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=daeaef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE GRAN VIA 1" ;
 	ontologia:tieneNombre "Museo del Reloj Grassy" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Reloj Grassy" .
+
+<http://museosmadrid.com/museo/Museo+del+Reloj+Grassy> a owl:Place ;
+	rdfs:label "Museo del Reloj Grassy" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Edificio_Grassy> .
+
+<http://museosmadrid.com/museo/7685664> a schema:CivicStructure ;
+	ontologia:tieneHorario "Martes a viernes: 13, 17 y 20 horas  Sábados: 16:30, 17:30, 18:45, 20 horas  Lunes y domingos cerrado   Reservas online:  http://www.therobotmuseum.eu/reservar-online/   Reserva Presencial: The Robot Museum tiene  disponibles el 50% de las entradas  para adquirirlas de forma presencial" ;
+	ontologia:tieneTelefono "914 478 808" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e0b7b8dc8f719410VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE ALBERTO AGUILERA 1" ;
+	ontologia:tieneNombre "Museo del Robot" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Robot" .
+
+<http://museosmadrid.com/museo/Museo+del+Robot> a owl:Place ;
+	rdfs:label "Museo del Robot" .
+
 <http://museosmadrid.com/museo/2059> a schema:CivicStructure ;
 	ontologia:tieneHorario "Horario de invierno  (de noviembre a abril)  De martes a sábado: de 9:30 a 18:30. Domingos y festivos: de 10 a 15 horas   Horario de verano  (de mayo a octubre)  De martes a sábado: de 9:30 a 20:30. Domingos y festivos: de 10 a 15 horas   Cerrado:  Todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 481 045 / 914 480 163" ;
+	ontologia:tieneTelefono "914 481 045 / 914 480 163" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=706cef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE SAN MATEO 13" ;
-	ontologia:tieneNombre "Museo del Romanticismo" .
+	ontologia:tieneNombre "Museo del Romanticismo" ;
+	ontologia:tieneFax "914 456 940" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Romanticismo" .
+
+<http://museosmadrid.com/museo/Museo+del+Romanticismo> a owl:Place ;
+	rdfs:label "Museo del Romanticismo" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_del_Romanticismo> .
+
+<http://museosmadrid.com/museo/6337393> a schema:CivicStructure ;
+	ontologia:tieneHorario "De lunes a Viernes previa petición de hora." ;
+	ontologia:tieneTelefono """916 025 221 (para reservas)                                      
+""" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=479b95f8c72d5310VgnVCM2000000c205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
+	ontologia:tieneDireccion "CALLE BARBARA DE BRAGANZA 14" ;
+	ontologia:tieneNombre "Museo del Seguro. Fundación Mapfre" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Seguro. Fundación Mapfre" .
+
+<http://museosmadrid.com/museo/Museo+del+Seguro.+Fundaci%C3%B3n+Mapfre> a owl:Place ;
+	rdfs:label "Museo del Seguro. Fundación Mapfre" .
 
 <http://museosmadrid.com/museo/2115> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario de 9: 30 a 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 504 700 " ;
+	ontologia:tieneTelefono "915 504 700 " ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=053c4291ae91f010VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "AVENIDA JUAN DE HERRERA 2" ;
-	ontologia:tieneNombre "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)" .
+	ontologia:tieneNombre "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)" ;
+	ontologia:tieneFax "915 446 970" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)" .
+
+<http://museosmadrid.com/museo/Museo+del+Traje.+Centro+de+Investigaci%C3%B3n+del+Patrimonio+Etnol%C3%B3gico+%28CIPE%29> a owl:Place ;
+	rdfs:label "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_del_Traje> .
 
 <http://museosmadrid.com/museo/2062> a schema:CivicStructure ;
 	ontologia:tieneHorario "Horario    De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.   Día 29 de marzo de 2017 cerrado a las 15 horas; Centro visitantes: abierto horario habitual     Día 30 de marzo de 2017 cerrado a las 15 horas;  Centro visitantes: abierto horario habitual" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 548 700 (Información general)" ;
+	ontologia:tieneTelefono "914 548 700 (Información general)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=47ddef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE BAILEN 0" ;
 	ontologia:tieneNombre "Palacio Real" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Palacio Real" .
+
+<http://museosmadrid.com/museo/Palacio+Real> a owl:Place ;
+	rdfs:label "Palacio Real" ;
+	owl:sameAs <http://www.wikidata.org/entity/Q171517> .
+
 <http://museosmadrid.com/museo/2063> a schema:CivicStructure ;
 	ontologia:tieneHorario "Las visitas:  viernes a las 10, 11 y 12 horas . Cada turno estará formado por un máximo de 15 personas." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "915 475 302 y 915 481 550" ;
+	ontologia:tieneTelefono "915 475 302 y 915 481 550" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=22bdef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE PRINCESA 20" ;
-	ontologia:tieneNombre "Palacio de Liria" .
+	ontologia:tieneNombre "Palacio de Liria" ;
+	ontologia:tieneFax "915 410 377" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Palacio de Liria" .
+
+<http://museosmadrid.com/museo/Palacio+de+Liria> a owl:Place ;
+	rdfs:label "Palacio de Liria" ;
+	owl:sameAs <http://dbpedia.org/resource/Liria_Palace> .
 
 <http://museosmadrid.com/museo/2079> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado  Cerrado todos los lunes del año" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 548 700 (Información general)" ;
+	ontologia:tieneTelefono "914 548 700 (Información general)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=361cef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE JULIAN GAYARRE 3" ;
 	ontologia:tieneNombre "Panteón de Hombres Ilustres" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Panteón de Hombres Ilustres" .
+
+<http://museosmadrid.com/museo/Pante%C3%B3n+de+Hombres+Ilustres> a owl:Place ;
+	rdfs:label "Panteón de Hombres Ilustres" ;
+	owl:sameAs <http://dbpedia.org/resource/Pantheon_of_Illustrious_Men> .
+
+<http://museosmadrid.com/museo/3362> a schema:CivicStructure ;
+	ontologia:tieneTelefono "913 691 239" ;
+	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40e0b069a541f010VgnVCM1000000b205a0aRCRD" ;
+	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	ontologia:tieneDireccion "CALLE ATOCHA 6" ;
+	ontologia:tieneNombre "Parroquia Santa Cruz" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Parroquia Santa Cruz" .
+
+<http://museosmadrid.com/museo/Parroquia+Santa+Cruz> a owl:Place ;
+	rdfs:label "Parroquia Santa Cruz" .
+
 <http://museosmadrid.com/museo/2213> a schema:CivicStructure ;
 	ontologia:tieneHorario "EN LA ACTUALIDAD, CERRADO PARA PROCEDER A SU RENOVACIÓN TECNOLÓGICA." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> """914 673 461 (reserva grupos)                                                                                                                                                                                                                                                                                                                                                                                                                                               
+	ontologia:tieneTelefono """914 673 461 (reserva grupos)                                                                                                                                                                                                                                                                                                                                                                                                                                               
 914 673 898 (contestador automático de información)""" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9c5b069a541f010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Planetarios" ;
 	ontologia:tieneDireccion "AVENIDA PLANETARIO 16" ;
 	ontologia:tieneNombre "Planetario de Madrid" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Planetario de Madrid" .
+
+<http://museosmadrid.com/museo/Planetario+de+Madrid> a owl:Place ;
+	rdfs:label "Planetario de Madrid" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Planetario_de_Madrid> .
+
 <http://museosmadrid.com/museo/3359> a schema:CivicStructure ;
 	ontologia:tieneHorario "Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).  Julio, agosto y septiembre: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 653 800 " ;
+	ontologia:tieneTelefono "913 653 800 " ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef8d0713fb71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE SAN BUENAVENTURA 1" ;
 	ontologia:tieneNombre "Real Basílica San Francisco el Grande" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Real Basílica San Francisco el Grande" .
+
+<http://museosmadrid.com/museo/Real+Bas%C3%ADlica+San+Francisco+el+Grande> a owl:Place ;
+	rdfs:label "Real Basílica San Francisco el Grande" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Real_Basílica_de_San_Francisco_el_Grande_(Madrid)> .
+
 <http://museosmadrid.com/museo/2087> a schema:CivicStructure ;
 	ontologia:tieneHorario "De lunes a viernes de 10 a 14 horas.  Cerrado: sábados, domingos, festivos, Semana Santa y agosto." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 340 550" ;
+	ontologia:tieneTelefono "914 340 550" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53cbff632081c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE FUENTERRABIA 2" ;
-	ontologia:tieneNombre "Real Fábrica de Tapices" .
+	ontologia:tieneNombre "Real Fábrica de Tapices" ;
+	ontologia:tieneFax "915 513 409" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Real Fábrica de Tapices" .
+
+<http://museosmadrid.com/museo/Real+F%C3%A1brica+de+Tapices> a owl:Place ;
+	rdfs:label "Real Fábrica de Tapices" ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Tapestry_Factory> .
 
 <http://museosmadrid.com/museo/4707297> a schema:CivicStructure ;
 	ontologia:tieneHorario "El acceso al templo sólo es posible en horario de culto y por la fachada principal." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 548 700 (Información general)" ;
+	ontologia:tieneTelefono "914 548 700 (Información general)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=545b544a249c6110VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE SANTA ISABEL 48" ;
 	ontologia:tieneNombre "Real Monasterio de Santa Isabel" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Real Monasterio de Santa Isabel" .
+
+<http://museosmadrid.com/museo/Real+Monasterio+de+Santa+Isabel> a owl:Place ;
+	rdfs:label "Real Monasterio de Santa Isabel" ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Monastery_of_Santa_Isabel> .
+
 <http://museosmadrid.com/museo/3349> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado todos los lunes del año" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 548 700 (Información general)" ;
+	ontologia:tieneTelefono "914 548 700 (Información general)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=72ad0713fb71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "PLAZA ENCARNACION 1" ;
 	ontologia:tieneNombre "Real Monasterio de la Encarnación" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Real Monasterio de la Encarnación" .
+
+<http://museosmadrid.com/museo/Real+Monasterio+de+la+Encarnaci%C3%B3n> a owl:Place ;
+	rdfs:label "Real Monasterio de la Encarnación" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Real_Monasterio_de_la_Encarnación> .
+
 <http://museosmadrid.com/museo/2061> a schema:CivicStructure ;
 	ontologia:tieneHorario "Horario    De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas   Día 21 de marzo de 2017 cerrado a las 15 horas;  Día 22 de marzo de 2017 cerrado en jornada completa" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "914 548 700 (Información general)" ;
+	ontologia:tieneTelefono "914 548 700 (Información general)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9f9def4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE MANUEL ALONSO 8" ;
 	ontologia:tieneNombre "Real Sitio de El Pardo" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Real Sitio de El Pardo" .
+
+<http://museosmadrid.com/museo/Real+Sitio+de+El+Pardo> a owl:Place ;
+	rdfs:label "Real Sitio de El Pardo" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Real_Sitio_de_El_Pardo> .
+
 <http://museosmadrid.com/museo/20605> a schema:CivicStructure ;
 	ontologia:tieneHorario "De martes a domingos y festivos: de 10:00 a 20:00 horas   El templo permanece cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.   Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "913 667 415 (Museo de San Isidro / Templo de Debod)" ;
+	ontologia:tieneTelefono "913 667 415 (Museo de San Isidro / Templo de Debod)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13b432df1d51c010VgnVCM2000000c205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	ontologia:tieneDireccion "CALLE FERRAZ 1" ;
 	ontologia:tieneNombre "Templo de Debod" .
 
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Templo de Debod" .
+
+<http://museosmadrid.com/museo/Templo+de+Debod> a owl:Place ;
+	rdfs:label "Templo de Debod" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Templo_de_Debod> .
+
 <http://museosmadrid.com/museo/7071384> a schema:CivicStructure ;
 	ontologia:tieneHorario "Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas" ;
-	<http://museosmadrid.com/museo/http%3A%2F%2Fmuseosmadrid.com%2Fontologia%2FEstablecimiento%23tiene+Telefono> "902 444 403 (Información)" ;
+	ontologia:tieneTelefono "902 444 403 (Información)" ;
 	ontologia:tienePaginaWeb "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05fbb57fd3c70410VgnVCM1000000b205a0aRCRD" ;
 	ontologia:tieneTipo "/contenido/entidadesYorganismos/Museos" ;
 	ontologia:tieneDireccion "CALLE VIA CARPETANA 328" ;
 	ontologia:tieneNombre "Yacimiento paleontológico. Estación de Metro Carpetana" .
+
+<http://museosmadrid.com/museo/MADRID> ontologia:tieneMuseo "Yacimiento paleontológico. Estación de Metro Carpetana" .
+
+<http://museosmadrid.com/museo/Yacimiento+paleontol%C3%B3gico.+Estaci%C3%B3n+de+Metro+Carpetana> a owl:Place ;
+	rdfs:label "Yacimiento paleontológico. Estación de Metro Carpetana" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Carpetana> .

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/7Nze7WkwYaffuG6EbdUG8l#"
+     xml:base="http://webprotege.stanford.edu/project/7Nze7WkwYaffuG6EbdUG8l"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/7Nze7WkwYaffuG6EbdUG8l"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OIqvbIh6qQIVkUcLoO046 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8OIqvbIh6qQIVkUcLoO046">
+        <rdfs:label>ontologia:tieneMuseo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YMBmFm027kO5SNbn0O8q3 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8YMBmFm027kO5SNbn0O8q3">
+        <rdfs:label>ontologia:tieneTelefono</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLteuUcWGT0CalmyRGqzYG -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBLteuUcWGT0CalmyRGqzYG">
+        <rdfs:label>ontologia:tieneTipo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQWPrve16llxTKfzAzYwA8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBQWPrve16llxTKfzAzYwA8">
+        <rdfs:label>ontologia:tieneFax</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCq1FMObvrKIZknaGmBG2X4 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCq1FMObvrKIZknaGmBG2X4">
+        <rdfs:label>ontologia:tieneHorario</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRqyu91zQHhBJre6AUNXTV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDRqyu91zQHhBJre6AUNXTV">
+        <rdfs:label>ontologia:tieneDireccion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbaAeZl4mzW7qDFqT0enKN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDbaAeZl4mzW7qDFqT0enKN">
+        <rdfs:label>ontologia:tienePaginaWeb</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlccTtSdJzHAUJB1XfFPwa -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RlccTtSdJzHAUJB1XfFPwa">
+        <rdfs:label>ontologia:tieneNombre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fPf0fnYiiHZGhqWfg08rK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7fPf0fnYiiHZGhqWfg08rK">
+        <rdfs:label xml:lang="es">Ciudad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8OIqvbIh6qQIVkUcLoO046"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RalxgDhriqZ8cDSrQMLahO"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gjuJ1Bb29FhI3i1bgSepC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7gjuJ1Bb29FhI3i1bgSepC">
+        <rdfs:label>Tipo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R86DPZVie1diLRQVFqTSVa6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R86DPZVie1diLRQVFqTSVa6">
+        <rdfs:label>Nombre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aeXLOHbsu8eIUtwQ48NBy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aeXLOHbsu8eIUtwQ48NBy">
+        <rdfs:label>Telefono</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8llzsXdxdiJxIe43g2qH0L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8llzsXdxdiJxIe43g2qH0L">
+        <rdfs:label>Web</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gEqTTOJUthecbt5eA2c8r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gEqTTOJUthecbt5eA2c8r">
+        <rdfs:label>Direccion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPx0dPilG3CMmrEl8sovH8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPx0dPilG3CMmrEl8sovH8">
+        <rdfs:label>Fax
+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RalxgDhriqZ8cDSrQMLahO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RalxgDhriqZ8cDSrQMLahO">
+        <rdfs:label>Museo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLteuUcWGT0CalmyRGqzYG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7gjuJ1Bb29FhI3i1bgSepC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBQWPrve16llxTKfzAzYwA8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDPx0dPilG3CMmrEl8sovH8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8YMBmFm027kO5SNbn0O8q3"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8aeXLOHbsu8eIUtwQ48NBy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDbaAeZl4mzW7qDFqT0enKN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8llzsXdxdiJxIe43g2qH0L"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RlccTtSdJzHAUJB1XfFPwa"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R86DPZVie1diLRQVFqTSVa6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDRqyu91zQHhBJre6AUNXTV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9gEqTTOJUthecbt5eA2c8r"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCq1FMObvrKIZknaGmBG2X4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RkuhzmvsMYBRz5yLtDeKUC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkuhzmvsMYBRz5yLtDeKUC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkuhzmvsMYBRz5yLtDeKUC">
+        <rdfs:label>Horario
+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVMKx13OxKR38SJFDw1qX8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBVMKx13OxKR38SJFDw1qX8">
+        <rdfs:label>Horario</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

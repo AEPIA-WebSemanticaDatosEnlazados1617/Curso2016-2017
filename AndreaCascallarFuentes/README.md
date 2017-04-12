@@ -78,11 +78,11 @@ En este caso, contamos con un conjunto de datos pequeño que no van a sufrir mod
     - Elegir el dominio de las URIs.
 El dominio es http://museosmadrud.com. 
     - Elegir la ruta de las URIs.
-Para términos ontológicos la ruta es http://museosmadrid.com/ontologia/Establecimiento#.
+Para términos ontológicos la ruta es http://museosmadrid.com/ontologia/.
 Para los elementos, la ruta es http://museosmadrid.com/museo/.
     - Elegir patrones para clases, propiedades e individuos.
-El patrón para los términos ontológicos es http://museosmadrid.com/ontologia/establecimiento#<nombre_elemento>. 
-El patrón para los elementos es http://museosmadrid.com/museo/<id_item>/<nombre_museo>.
+El patrón para los términos ontológicos es http://museosmadrid.com/ontologia/<nombre_elemento>. 
+El patrón para los elementos es http://museosmadrid.com/museo/<id_item>/.
 
 - Desarrollo del vocabulario, indicando el proceso de implementación del vocabulario y como este soporta los datos de origen. No se exige una ontología compleja, sino un vocabulario suficiente para describir los conceptos y propiedades de los datos a transformar.
 A continuación se describen los pasos llevados a cabo para la realización de esta tarea.
@@ -118,14 +118,16 @@ A continuación se describen los pasos llevados a cabo para la realización de e
 
     - Elaborar conceptualización.
     El dominio es cultura.
-    Una dirección está formada por una calle, un número, una planta, una puerta, escaleras, localidad, provincia, un código postal, un barrio y un distrito.
+    Una ciudad tiene museos.
+    Una dirección está formada por una calle y un número.
     Un establecimiento tiene una dirección.
     Un establecimiento tiene un horario.
     Un establecimiento es de un tipo determinado.
-    La ubicación de un establecimiento tiene unas coordenadas.
     Un establecimiento puede tener teléfono.
     Un establecimiento puede tener fax.
     Un establecimiento puede tener página web.
+    
+    La ontología es desarrollada utilizando la herramiento WebProtégé de la Universidad de Stanford (https://webprotege.stanford.edu).
 
 - Proceso de transformación, justificando qué herramientas se han usado para la transformación de los datos y qué pasos se han seguido para su limpieza y adecuación al resultado esperado.
 Los datos que tenemos están en un fichero .CSV, por lo tanto, es posible acceder a ellos utilizando hojas de cálculo. Al abrir este fichero, se puede ver que hay filas al comienzo del mismo vacías que se van a eliminar ya que no aportan información.
@@ -163,3 +165,8 @@ La primera columna que se utiliza es *LOCALIDAD*, cuyo valor es *Madrid*. Utiliz
 # 3. Aplicación y explotación, explicando qué funcionalidades aporta la solución desarrollada y cómo ésta hace uso de los datos y enlaces generados para aportar valor al usuario final. En este punto de deben explicar las queries SPARQL o el código en Jena usado para su implementación.
 # 4. Conclusiones.
 # 5. Bibliografía.
+Temario de la asignatura.
+WebProtégé User Guide.
+Practical resource description framework (rdf).
+
+
