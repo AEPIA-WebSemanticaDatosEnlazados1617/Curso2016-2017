@@ -142,11 +142,12 @@ A continuación vamos a eliminar las columnas  *Latitud* y *Longitud*, ya que co
     
     Por último, vamos a crear los mappings entre la ontología y los datos y a convertir los datos a RDF mediante la opción *Edit RDF Skeleton* de la extensión RDF. Los pasos llevados a cabo se detallan a continuación:
     - Incluir la estrategia de nombrado de recursos.
-        - Se añade un nuevo prefijo *ontology* con la URI asignada para los elementos ontológicos.
+        - Se añade un nuevo prefijo *ontologia* con la URI asignada para los elementos ontológicos.
+        - Se añade un nuevo prefijo *vcard* con la URI *http://www.w3.org/2006/vcard/ns#*.
         - Se asigna como URI base *http://museosmadrid.com/museo/*.
         - Se asigna como tipo de los individuos *schema:CivicStructure*, ya que es el tipo que mejor se adapta a los tipos de establecimientos que existen en el conjunto de datos.
         - Como columna base para definir las URIs se utiliza *PK*.
-        - Lo siguiente es añadir propiedades a los recursos. Las propiedades que se han añadido son *NOMBRE*, *HORARIO*, *TELEFONO*, *CONTENT-URL*, *TIPO* y *DIRECCION*, columna creada a partir de las columnas *CLASE-VIAL*, *NOMBRE-VIA* y *NUM*.
+        - Lo siguiente es añadir propiedades a los recursos. Las propiedades que se han añadido son *PK*, *NOMBRE*, *HORARIO*, *TELEFONO*, *CONTENT-URL*, *TIPO*, *EMAIL* y *DIRECCION*, columna creada a partir de las columnas *CLASE-VIAL*, *NOMBRE-VIA* y *NUM*.
         
 - Enlazado, donde se explique qué enlaces se han generado con fuentes externas y mediante qué herramientas.
 Para realizar el enlazado se utiliza la opción de RDF de OpenRefine. Lo primero que hacemos es definir servicios de reconciliación para usar posteriormente.
@@ -159,11 +160,94 @@ La primera columna que se utiliza es *LOCALIDAD*, cuyo valor es *Madrid*. Utiliz
 
     La siguiente columna que se va a enlazar es *NOMBRE*, ya que nos interesa obtener información de los museos. Para esto, se va a realizar la reconciliación con la DBpedia sin elegir ningún tipo de entidad, ya que diferentes edificios son categorizados de distinta manera.
 
-     
-
-- Publicación. Opcionalmente, si se ha llevado a cabo la  publicación de los datos, se valorará que se explique cómo se ha llevado a cabo.
 # 3. Aplicación y explotación, explicando qué funcionalidades aporta la solución desarrollada y cómo ésta hace uso de los datos y enlaces generados para aportar valor al usuario final. En este punto de deben explicar las queries SPARQL o el código en Jena usado para su implementación.
+Para explotar el enlazado de datos realizado previamente, se ha creado una aplicación, utilizando tecnologías Java, para obtener información de los museos de la ciudad de Madrid.
+
+Al iniciar la aplicación se muestra una descripción sobre la localidad de Madrid y el listado de museos de la ciudad. Para obtener esta descripción se realiza primero una consulta al archivo que contiene la información sobre los museos para obtener la URI. A continuación, se realiza una consulta a la DBpedia para obtener la información que se necesita.
+En esta primera consulta, se buscan todos los elementos que tengan una URI asociada, obteniendo su nombre.
+```
+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+ + "PREFIX owl: <http://www.w3.org/2002/07/owl#>" 
+ + "SELECT ?nombre ?uri "
++ "WHERE {?s rdfs:label ?nombre;" + "owl:sameAs ?uri.}"
+```
+A continuación, se realiza un filtrado, obteniendo la URI que corresponde con Madrid y, utilizando Jena, se busca el abstract del elemento que se corresponde con la URI:
+```
+"SELECT ?info ?uri " 
++ "WHERE {?uri <http://dbpedia.org/ontology/abstract> ?info . "
++ "FILTER(?uri=<" + uri + ">)}"
+```
+En la página principal también se muestra un listado de los museos, de modo que, haciendo clic encima de uno de ellos se podrá obtener más información. Sobre el fichero que contiene la información enlazada, se buscan los elementos del tipo *rdfs:label* que contienen los nombres de la siguiente manera:
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
++ "PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>" 
++ "PREFIX owl: <http://www.w3.org/2002/07/owl#>"
++ "SELECT ?nombre " + "WHERE {?s rdfs:label ?nombre.}"
+```
+Como se ha mencionado anteriormente, haciendo clic en el nombre de un museo, se obtiene más información sobre él. Concretamente:
+- Descripción del museo: información general sobre el mismo. Esta información se obtiene de DBpedia. A partir de la URI del fichero que se ha obtenido al realizar el enlazado de los datos, se busca el campo de tipo *abstract*.
+```
+"SELECT ?info ?uri ?pag"
++ "WHERE {"
++ "OPTIONAL {"
++ "?uri <http://dbpedia.org/ontology/abstract> ?info. "
++ "}"
++ "FILTER(?uri=<" + uri + ">)}"
+```
+- Información de contacto: dirección, teléfono, correo electrónico, página web e información sobre horarios. Esta información se obtiene del fichero RDF mediante la siguiente consulta:
+```
+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
++ "PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>" 
++ "PREFIX owl: <http://www.w3.org/2002/07/owl#>"
++ "SELECT ?pk ?nombre ?direccion ?telefono ?email ?web ?infoHorarios "
++ "WHERE {?s rdfs:label ?nombre;" + "vcard:hasAddress ?direccion;"
++ "vcard:hasTelephone ?telefono;"
++ "vcard:hasURL ?web;"
++ "vcard:hasNote ?infoHorarios;"
++ "vcard:hasUID ?pk."
++ "OPTIONAL {?s vcard:hasEmail ?email ."
++ "}"
++ "FILTER(?nombre = '" + nombreMuseo + "')}"
+```
+El campo *email* se pone como opcional, ya que, para algunos museos esta información no está disponible, por lo tanto, aparecerá en blanco.
+- Listado de obras expuestas en el museo. Esta información se obtiene de la DBpedia. En esta consulta se obtienen los elementos cuya localización sea el museo.
+```
+PREFIX esdbpr: <http://es.dbpedia.org/resource/> "
++ "PREFIX dbpedia-owl: <http://dbpedia.org/ontology/> "
++ "SELECT ?obra "
++ "WHERE{ ?obra  dbpedia-owl:location  esdbpr:" + nombre + " . }"
+```
+Haciendo clic en una obra, se puede obtener el título original de la obra, información general sobre la misma y el nombre de su autor. Para obtener esta información se realizan las siguientes consultas a DBpedia utilizando Jena:
+```
+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
++ "SELECT ?info ?uri ?autor ?titulo "
++ "WHERE {"
++ "?uri <http://dbpedia.org/ontology/abstract> ?info; "
++ "<http://dbpedia.org/ontology/author> ?autor ;"
++ "rdfs:label ?titulo . "
++ "FILTER(?uri=<" + obra + ">)}"
+```
+Con esta primera consulta, a partir de la URI de la obra, se obtiene su descripción (de tipo *http://dbpedia.org/ontology/abstract*), su título original (de tipo *rdfs:label*) y su autor (de tipo *http://dbpedia.org/ontology/author*).
+Con esta consulta, con respecto al autor, se devuelve su URI. Ya que lo que se quiere obtener es su nombre, es necesario realizar otra consulta.
+```
+"SELECT ?nombre ?uri "
++ "WHERE {"
++ "?uri <http://dbpedia.org/ontology/birthName> ?nombre. "
++ "FILTER(?uri=<" + autor.toString() + ">)}"
+```
+Esta consulta devuelve el nombre del autor a partir de la URI devuelta por la anterior consulta.
 # 4. Conclusiones.
+La utilización de datos enlazados en la web es una práctica que está aumentando progresivamente. Tiene numerosas ventajas como facilitar el uso de los datos publicados, haciendo que sean más accesibles y útiles para los usuarios.
+
+En el caso estudiado se puede ver como el enlazado de datos facilita el uso de la información, ya que, cuando un usuario busca información sobre museos de una ciudad es probable que obtener información sobre el tipo de obras que se exponen pueda ser útil para decidir cuál visitar. 
+Normalmente, cuando se busca información sobre un museo, las páginas muestran información de contacto o una descripción general, sin embargo, como se ha mencionado, para un usuario puede ser útil obtener ambos tipos de información. Ofreciendo la posibilidad de consultar esta información desde un único sitio, el acceso a la información se facilita de forma considerable para los usuarios.
+Sin embargo, al realizar pruebas, se pueden encontrar algunos inconvenientes:
+- En primer lugar, algunos de los museos obtenidos del fichero descargado no se han podido enlazar ya que no existe información en DBpedia asociada.
+- Para muchos museos que se han enlazado, no hay suficiente información sobre ellos. Concretamente, para la mayoría de los museos no se puede obtener el listado de obras expuestas.
+
+La utilización de datos enlazados facilita el uso de la información en la Web. En este caso, realizando la búsqueda sobre el Museo del Prado se puede cómo esta práctica nos permite obtener información de forma mucho más rápida.
+
+
 # 5. Bibliografía.
 Temario de la asignatura.
 WebProtégé User Guide.
