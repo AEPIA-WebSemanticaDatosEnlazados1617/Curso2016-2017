@@ -236,6 +236,7 @@ Con esta consulta, con respecto al autor, se devuelve su URI. Ya que lo que se q
 + "FILTER(?uri=<" + autor.toString() + ">)}"
 ```
 Esta consulta devuelve el nombre del autor a partir de la URI devuelta por la anterior consulta.
+
 # 4. Conclusiones.
 La utilización de datos enlazados en la web es una práctica que está aumentando progresivamente. Tiene numerosas ventajas como facilitar el uso de los datos publicados, haciendo que sean más accesibles y útiles para los usuarios.
 
