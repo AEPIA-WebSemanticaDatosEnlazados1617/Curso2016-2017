@@ -1,0 +1,295 @@
+@prefix : <http://webprotege.stanford.edu/project/7Nze7WkwYaffuG6EbdUG8l#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/7Nze7WkwYaffuG6EbdUG8l> .
+
+<http://webprotege.stanford.edu/project/7Nze7WkwYaffuG6EbdUG8l> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://webprotege.stanford.edu/R8OIqvbIh6qQIVkUcLoO046
+
+<http://webprotege.stanford.edu/R8OIqvbIh6qQIVkUcLoO046> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tieneMuseo" .
+
+
+
+###  http://webprotege.stanford.edu/R8YMBmFm027kO5SNbn0O8q3
+
+<http://webprotege.stanford.edu/R8YMBmFm027kO5SNbn0O8q3> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tieneTelefono" .
+
+
+
+###  http://webprotege.stanford.edu/RBLteuUcWGT0CalmyRGqzYG
+
+<http://webprotege.stanford.edu/RBLteuUcWGT0CalmyRGqzYG> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tieneTipo" .
+
+
+
+###  http://webprotege.stanford.edu/RBQWPrve16llxTKfzAzYwA8
+
+<http://webprotege.stanford.edu/RBQWPrve16llxTKfzAzYwA8> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tieneFax" .
+
+
+
+###  http://webprotege.stanford.edu/RCq1FMObvrKIZknaGmBG2X4
+
+<http://webprotege.stanford.edu/RCq1FMObvrKIZknaGmBG2X4> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tieneHorario" .
+
+
+
+###  http://webprotege.stanford.edu/RDRqyu91zQHhBJre6AUNXTV
+
+<http://webprotege.stanford.edu/RDRqyu91zQHhBJre6AUNXTV> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tieneDireccion" .
+
+
+
+###  http://webprotege.stanford.edu/RDbaAeZl4mzW7qDFqT0enKN
+
+<http://webprotege.stanford.edu/RDbaAeZl4mzW7qDFqT0enKN> rdf:type owl:ObjectProperty ;
+                                                         
+                                                         rdfs:label "ontologia:tienePaginaWeb" .
+
+
+
+###  http://webprotege.stanford.edu/RlccTtSdJzHAUJB1XfFPwa
+
+<http://webprotege.stanford.edu/RlccTtSdJzHAUJB1XfFPwa> rdf:type owl:ObjectProperty ;
+                                                        
+                                                        rdfs:label "ontologia:tieneNombre" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#category
+
+<http://www.w3.org/2006/vcard/ns#category> rdf:type owl:ObjectProperty ;
+                                           
+                                           rdfs:label "vcard:category" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#hasAddress
+
+<http://www.w3.org/2006/vcard/ns#hasAddress> rdf:type owl:ObjectProperty ;
+                                             
+                                             rdfs:label "vcard:hasAddress" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#hasEmail
+
+<http://www.w3.org/2006/vcard/ns#hasEmail> rdf:type owl:ObjectProperty ;
+                                           
+                                           rdfs:label "vcard:hasEmail" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#hasName
+
+<http://www.w3.org/2006/vcard/ns#hasName> rdf:type owl:ObjectProperty ;
+                                          
+                                          rdfs:label "vcard:hasName" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#hasNote
+
+<http://www.w3.org/2006/vcard/ns#hasNote> rdf:type owl:ObjectProperty ;
+                                          
+                                          rdfs:label "vcard:hasNote" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#hasTelephone
+
+<http://www.w3.org/2006/vcard/ns#hasTelephone> rdf:type owl:ObjectProperty ;
+                                               
+                                               rdfs:label "vcard:hasTelephone" .
+
+
+
+###  http://www.w3.org/2006/vcard/ns#hasURL
+
+<http://www.w3.org/2006/vcard/ns#hasURL> rdf:type owl:ObjectProperty ;
+                                         
+                                         rdfs:label "vcard:hasURL" .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://webprotege.stanford.edu/R7fPf0fnYiiHZGhqWfg08rK
+
+<http://webprotege.stanford.edu/R7fPf0fnYiiHZGhqWfg08rK> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Ciudad"@es ;
+                                                         
+                                                         rdfs:subClassOf owl:Thing .
+
+
+
+###  http://webprotege.stanford.edu/R7gjuJ1Bb29FhI3i1bgSepC
+
+<http://webprotege.stanford.edu/R7gjuJ1Bb29FhI3i1bgSepC> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Tipo" .
+
+
+
+###  http://webprotege.stanford.edu/R86DPZVie1diLRQVFqTSVa6
+
+<http://webprotege.stanford.edu/R86DPZVie1diLRQVFqTSVa6> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Nombre" .
+
+
+
+###  http://webprotege.stanford.edu/R8aeXLOHbsu8eIUtwQ48NBy
+
+<http://webprotege.stanford.edu/R8aeXLOHbsu8eIUtwQ48NBy> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Telefono" .
+
+
+
+###  http://webprotege.stanford.edu/R8llzsXdxdiJxIe43g2qH0L
+
+<http://webprotege.stanford.edu/R8llzsXdxdiJxIe43g2qH0L> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Web" .
+
+
+
+###  http://webprotege.stanford.edu/R9DYTEf6TU3K6dfB9AOGqNk
+
+<http://webprotege.stanford.edu/R9DYTEf6TU3K6dfB9AOGqNk> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Email" .
+
+
+
+###  http://webprotege.stanford.edu/R9gEqTTOJUthecbt5eA2c8r
+
+<http://webprotege.stanford.edu/R9gEqTTOJUthecbt5eA2c8r> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label "Direccion" .
+
+
+
+###  http://webprotege.stanford.edu/RDPx0dPilG3CMmrEl8sovH8
+
+<http://webprotege.stanford.edu/RDPx0dPilG3CMmrEl8sovH8> rdf:type owl:Class ;
+                                                         
+                                                         rdfs:label """Fax
+""" .
+
+
+
+###  http://webprotege.stanford.edu/RalxgDhriqZ8cDSrQMLahO
+
+<http://webprotege.stanford.edu/RalxgDhriqZ8cDSrQMLahO> rdf:type owl:Class ;
+                                                        
+                                                        rdfs:label "Museo" ;
+                                                        
+                                                        rdfs:subClassOf owl:Thing ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#hasEmail> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R9DYTEf6TU3K6dfB9AOGqNk>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#hasNote> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RkuhzmvsMYBRz5yLtDeKUC>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#hasTelephone> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R8aeXLOHbsu8eIUtwQ48NBy>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#hasURL> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R8llzsXdxdiJxIe43g2qH0L>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#hasAddress> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R9gEqTTOJUthecbt5eA2c8r>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#hasName> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R86DPZVie1diLRQVFqTSVa6>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.w3.org/2006/vcard/ns#category> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R7gjuJ1Bb29FhI3i1bgSepC>
+                                                                        ] .
+
+
+
+###  http://webprotege.stanford.edu/RkuhzmvsMYBRz5yLtDeKUC
+
+<http://webprotege.stanford.edu/RkuhzmvsMYBRz5yLtDeKUC> rdf:type owl:Class ;
+                                                        
+                                                        rdfs:label """Horario
+""" .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://webprotege.stanford.edu/RBVMKx13OxKR38SJFDw1qX8
+
+<http://webprotege.stanford.edu/RBVMKx13OxKR38SJFDw1qX8> rdf:type owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Horario" .
+
+
+
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+<http://webprotege.stanford.edu/R8Eq7A0lkIT6uvlJPr23qrj> rdfs:label """Direccion
+""" .
+
+
+
+
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+
