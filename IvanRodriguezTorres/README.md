@@ -42,7 +42,7 @@ A continuación, se presenta una tabla resumen con los datos que vamos a utiliza
 | Fecha de entrada        | String con formato YYYY-mm-dd  | Fecha en que la canción ha entrado en lista por primera vez y que cubre todo el rango de fechas desde 1960 hasta 2010         |
 | Década                | Integer de cuatro cifras [1960, 2000]  | Década en que la canción ha entrado en lista por primera vez         |
 | Cambios de timbre     | Integer de 4 cifras     | Registro de cambios en el timbre de la melodía. Corresponde con el total de cambios acumulados de las columnas `timb_*`    |
-| Cambios de acorde     | Integer de 4 cifras     | Registro de cambios de acordes en la melodía. Corresponde con el total de cambios acumulados de las columnas `harm_*` | - |
+| Cambios de acorde     | Integer de 4 cifras     | Registro de cambios de acordes en la melodía. Corresponde con el total de cambios acumulados de las columnas `harm_*` |
 
 En cuanto a la **licencia** de los datos, podemos ver en la página en la que se encuntra el dataset, que este está bajo la licencia [CreativeCommons 4.0](https://creativecommons.org/licenses/by/4.0/). ¿Cómo afecta esta licencia al proyecto? Esta licencia permite compartir en cualquier medio o formato los datos y también permite su transformación y uso para cualquier fin, incluso el comercial. La únicas condiciones que impone esta licencia son:
 - Referenciar a la fuente de datos original.
@@ -110,6 +110,9 @@ Se crea un glosario para la ontología que se prentende construir. Para construi
 
 ### Conceptualización
 
+A continuación se presenta un diagrama que pretende ser un modelo inicial de la ontología a desarrollar.
+
+![Este es el diagrama inicial de la ontología](https://raw.githubusercontent.com/ivan0013/Curso2016-2017/master/IvanRodriguezTorres/images/ontoDiagram.png "Este es el diagrama inicial de la ontología")
 ### Búsqueda de ontologías para reutilizar
 
 Para realizar la búsqueda de ontologías se utilizarán los recursos proporcionados en los videos. A continuación, se muestra una lista con los recursos utilizados y los resultados más relevantes:
@@ -131,14 +134,17 @@ A continuación, se presenta una tabla resumen de los puntos anteriores para cad
 
  | Ontología  | Criterio 1       |Criterio 2        |Criterio 3       |Criterio 4       |
 | -------------      | -------------       | --------------       |------------         | -------------      |
-|Music Ontology| artist, song | No | Si ||
+|Music Ontology| artist, song | No | Si |-|
 |BBC Music| - | - | - | - |
 |Artist on Lastfm| - | - | - | - |
-|Digital Media Assets| artist, song | No | Si ||
-|Music by Kivash| artist, song | No | Si ||
+|Digital Media Assets| artist, song | No | Si |-|
+|Music by Kivash| artist, song | No | Si | -|
 
-Music by Kivash Esta bien y seria una buena candidata peor muchas de las URIs que contienen no existen.
-DMA esta bien, al igual que music ontology. Se usara music ontology porque parece que tiene más visibilidad
+Las ontologías *BBC Music* y *Artist on Lastfm* no pudieron ser localizadas con éxito. Por ejemplo, en el caso de *BBC Music* el enlace disponible lleva a una web, que explota los datos de la ontología.  
+
+La ontología *Music by Kivash*, en principio, parecía una buena candidata pero tras analizarla en profundidad pudimos comprobar que muchas de las URIs que referencia ya no existen, y tampoco se ha encontrado documentación que nos indique a dónde se han mudado, por tanto, suponemos que es un proyecto en desuso. Este motivo es suficiente para descartarla.
+
+Las últimas dos candidatas, *Digital Media Assets* y *Music Ontology* son bastante completas ambas y ambas serían válidas para el proyecto. Como ambas cubren nuestro dominio en igual grado se escogerá *Music Ontology* ya que parece la mejor documentada.
 
 ### Implementación de nuestra ontología
 ### Evaluación de los resultados
