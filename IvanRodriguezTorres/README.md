@@ -94,6 +94,9 @@ A continuación, se presentan los requisitos que se consideran necesarios para e
 **RNF03**: Debe estar disponible en inglés.
 **RNF04**: Si se publica, ha de ser con la licencia citada en los apartados anteriores, [CreativeCommons 4.0](https://creativecommons.org/licenses/by/4.0/).
 **RNF05**: Se debe presentar documentación sobre la estructura de la misma.
+**RNF07**: Se debe validar usando una herramienta apropiada.
+**RNF08**: Se debe conseguir que no presente pitfalls importantes en el validador Oops!.
+
 
 ### Extracción de términos
 
@@ -101,11 +104,10 @@ Se crea un glosario para la ontología que se prentende construir. Para construi
 
 - *Artist*: Persona que se dedica a la música,como compositor o como intérprete.
 - *Chord*: Conjunto de tres o más notas diferentes.
-- *Decade*: Período de 10 años.
-- *Musician*: Ver *artista*.
+- *Musician*: Ver *Artist*.
 - *Song*: Composición, por lo general en verso, que se canta o a la que se puede poner música.
 - *Timbre*: Cualidad del sonido de la voz de una persona o de un instrumento musical que permite distinguirlo de otro sonido del mismo tono.
-- *Track*: Ver *Canción*.
+- *Track*: Ver *Song*.
 - *Tone*: Ver *Timbre*.
 
 ### Conceptualización
@@ -147,12 +149,28 @@ La ontología *Music by Kivash*, en principio, parecía una buena candidata pero
 Las últimas dos candidatas, *Digital Media Assets* y *Music Ontology* son bastante completas ambas y ambas serían válidas para el proyecto. Como ambas cubren nuestro dominio en igual grado se escogerá *Music Ontology* ya que parece la mejor documentada.
 
 ### Implementación de nuestra ontología
+
+Se ha realizado la implementación de la ontología siguiendo el diagrama propuesto en la sección [Conceptualización](https://github.com/ivan0013/Curso2016-2017/tree/master/IvanRodriguezTorres#conceptualización), tal y como puede verse en el fichero adjunto *ontologia.owl*.
+
 ### Evaluación de los resultados
-
-
+Para validar que la ontología es correcta, se siguen varios pasos:
+1. Se comprueba que la ontología está bien formada. Para ello, utilizamos la herramienta [Turtle Validator](http://ttl.summerofcode.be/).
+2. Se analizan los pitfalls en Oops!. Han sido necesarias varias iteraciones sobre este paso, ya que, había ciertos errores en las definiciones de dominio y rango de algunas propiedades.
 
 ## Proceso de transformación
+En este paso, el objetivo es transformar los datos a RDF, para ello, usaremos el software OpenRefine.
+
+Ademś, hay que aclarar que han sido necesarias una serie de transformaciones para adaptar el dataset inicial.
+- Varias de las canciones estaban interpretadas por varios artistas, y éstes aparecían todos en el campo artista, relacionados con las palabras "feat", "ft", etc. Para solucionar esto, nos quedamos solo con el primer artista que aparezca.
+
+- Tanto los cambios de acorde como los de timbre aparecen desglosados según su tipo. Es necesario sumarlos para tener el número de cambios total.
+
+- Se eliminan algunas columnas innecesarias, como "year" o "decade".
+
+**Nota:** Durante esta transformación, se pudo observar que la cantidad de cambios de acordes totales para todas las canciones era la misma. Por lo tanto, podríamos estar ante un error. Para no mermar demasiado el dataset, ignoraremos el error.
+
 ## Enlazado
+
 ## Publicación
 
 
