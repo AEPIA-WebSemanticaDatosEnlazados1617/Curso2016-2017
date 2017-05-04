@@ -54,12 +54,12 @@ A la hora de publicar los datos que se generarán para esta práctica, se utiliz
 
 Para nombrar los elementos, es necesario tener en cuenta, que podemos utilizar `/` o `#` para definir la url. Como se comenta en las transparencias de clase, ambos tienen sus ventajas y desventajas. Por ejemplo, al utilizar `#` en este ejemplo: `http://mydata/artist#rollingstones` se estaría recuperando todo el documento `http://mydata/artist`. Si se usara `/` de separador, como en `http://mydata/artist/rollingstones` si se estaría recuperando solamente el documento relativo a los Rolling Stones.
 
-Teniendo en cuenta lo comentado anteriormente, y que se cuenta con un serividor asociado a la IP: _myip_, tendríamos:
-- **Dominio**: `http://_myip_`
-- **Ruta para términos ontológicos**: `http://_myip_/top100/ontology#`
-- **Patrón para términos ontológicos**: `http://_myip_/top100/ontology#<term_name>`
-- **Ruta para individuos**: `http://_myip_/top100/resources`
-- **Patrón para individuos**: `http://_myip_/top100/resources/<resource_type>/<resource_name>`
+Teniendo en cuenta lo comentado anteriormente, y que se cuenta con un serividor asociado al dominio `top100.com`, tendríamos:
+- **Dominio**: `http://top100.com`
+- **Ruta para términos ontológicos**: `http://top100.com/onto/`
+- **Patrón para términos ontológicos**: `http://top100.com/onto/<term_name>`
+- **Ruta para individuos**: `http://top100.com/data#`
+- **Patrón para individuos**: `http://top100.com/data#<resource_name>`
 
 
 ## Desarrollo del vocabulario
@@ -83,18 +83,27 @@ A su vez, esta tarea puede dividirse en dos partes, la especificación de requis
 A continuación, se presentan los requisitos que se consideran necesarios para esta ontología. Cada uno tendrá asociado un identificador, que tendrá la forma RFXX si se corresponde a un requisito funcional, o RNFXX en caso contrario.
 
 **RF01**: Debe ser posible conocer el artista de la canción.
+
 **RF02**: Debe ser posible conocer el año de entrada en lista.
-**RF03**: Debe ser posible conocer la década de entrada en lista.
-**RF04**: Debe ser posible conocer las canciones de un artista en lista.
-**RF05**: Debe ser posible conocer el año de nacimiento del artista.
-**RF06**: Debe ser posible conocer el número de cambios de timbre de cada canción.
-**RF07**: Debe ser posible conocer el número de cambios de acorde.
+
+**RF03**: Debe ser posible conocer las canciones de un artista en lista.
+
+**RF04**: Debe ser posible conocer el número de cambios de timbre de cada canción.
+
+**RF05**: Debe ser posible conocer el número de cambios de acorde.
+
 **RNF01**: Tener al menos 4 elementos.
+
 **RNF02**: Reutilizar recursos de conocimiento existentes.
+
 **RNF03**: Debe estar disponible en inglés.
+
 **RNF04**: Si se publica, ha de ser con la licencia citada en los apartados anteriores, [CreativeCommons 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 **RNF05**: Se debe presentar documentación sobre la estructura de la misma.
+
 **RNF07**: Se debe validar usando una herramienta apropiada.
+
 **RNF08**: Se debe conseguir que no presente pitfalls importantes en el validador Oops!.
 
 
@@ -152,6 +161,14 @@ Las últimas dos candidatas, *Digital Media Assets* y *Music Ontology* son basta
 
 Se ha realizado la implementación de la ontología siguiendo el diagrama propuesto en la sección [Conceptualización](https://github.com/ivan0013/Curso2016-2017/tree/master/IvanRodriguezTorres#conceptualización), tal y como puede verse en el fichero adjunto *ontologia.owl*.
 
+Como se ha mencionado anteriormente, para el diseño de nuestra ontología nos apoyamos en *Music Ontology*, reutilizando sus clases:
+- MusicArtist
+- Track
+
+De forma indirecta, al utilizar *Music Ontology*, también estamos  utilizando [foaf](http://xmlns.com/foaf/spec/), tal y como se puede ver en la especificación de la misma.
+
+Además de eso, también reutilizamos la [ontología time](https://www.w3.org/TR/owl-time/) para la definición de la fecha en la que la canción se ha incorporado a la lista.
+
 ### Evaluación de los resultados
 Para validar que la ontología es correcta, se siguen varios pasos:
 1. Se comprueba que la ontología está bien formada. Para ello, utilizamos la herramienta [Turtle Validator](http://ttl.summerofcode.be/).
@@ -167,12 +184,25 @@ Ademś, hay que aclarar que han sido necesarias una serie de transformaciones pa
 
 - Se eliminan algunas columnas innecesarias, como "year" o "decade".
 
+- El nombre de las canciones es único, por lo que podrá usarse como identificador de cada una. Si se considerase que éste es demasiado largo o inapropiado (debido a que puede contener símbolos), podría crearse una columna adicional con el resumen en md5 de la cadena.
+
 **Nota:** Durante esta transformación, se pudo observar que la cantidad de cambios de acordes totales para todas las canciones era la misma. Por lo tanto, podríamos estar ante un error. Para no mermar demasiado el dataset, ignoraremos el error.
 
 ## Enlazado
+El enlazado de datos es útil para unir nuestros datos con recursos ya existentes. Si tomamos como ejemplo el problema de las diapositivas, se enlaza la ciudad de Leeds con su recurso correspondiente en dbpedia.
+
+En esta práctica se enlazarán los datos correspondientes a los nombres de artistas, así como los datos correspondientes a nombres de canciones. Aquí se encontraron dos problemas fundamentales:
+- Al realizar cualquier reconcilición con OpenRefine contra cualquier servicio añadido, el sistema cae en condición de error y la reconciliación no se produce. Al añadir endpoints de diferentes servicios como: dbpedia, dbtune, musicbrainz, etc. y realizar la reconciliación, OpenRefine lanzaba excepciones relacionadas con la implementación de la comunicación http. Para intentar solventarlo, se han probado diferentes versiones de Java, incluyendo la última versión del OpenJDK y la última versión del JDK mantenido por Oracle.
+
+     Después de varios intentos fallidos, se ha decidido reconciliar los datos contra el endpoint que viene incluido por defecto con el plugin de RDF, wikidata, que es el único que ha funcionado de forma correcta.
+
+- Fruto del problema anterior, en wikidata, no se ha encontrado la clase `Artista` o equivalentes. En cambio tenemos `Humano` y `Banda`. El problema de esto es que ninguno de los dos criterios se adecua pr completo al concepto de artista musical que buscamos, ya que, si reconciliamos contra `Humano` las bandas como pueden ser U2, Red Hot Chilli Peppers, etc. no apareceran. De igual forma, si reconciliamos contra `Banda`, los artistas en solitario no aparecerán. Por tanto, en esta prácticas se ha reconciliado contra ambos y se ha escogido la clase con mayor número de elementos reconciliados. Esta clase es `Humano`, que ha reconciliado en torno al 78% de los elementos, mientras que `Band`, no llegaba al 45%.
 
 ## Publicación
-
+En este caso no se ha llevado a cabo la publicación de los datos, pero podemos hacer un resumen de como sería el proceso. Éste se divide en 3 pasos:
+- Descripción de los datos: Se debe hacer una descripción adecuada de los datos y su estructura. Para ellos existen varias herramientas disponibles. Destacamos Void e D-Cat.
+- Publicación: Exponer los datos al dominio público. Una forma aconsejable de hacerlo es un repositorio público, o un sitio específico como [datahub](http://datahub.io).
+- Validación de acceso: Esta tarea puede realizarse mediante el uso de validadores automáticos como [esta](http://validator.linkeddata.org).
 
 ------------------
 
