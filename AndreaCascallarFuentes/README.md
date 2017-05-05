@@ -33,6 +33,7 @@ Realizando una búsqueda, se encuentran dos conjuntos de datos que satisfacen es
     Las licencias especifican las condiciones legales bajo las que los datos se pueden utilizar.
 En este caso, en la página especificada anteriormente, se ofrece información sobre este conjunto de datos; en particular, se determina la licencia que se les aplica. La licencia que se aplica define que la copia, publicación y distribución de los datos textuales es libre, así como su modificación. Además también se define que su explotación es libre para fines tanto comerciales como no comerciales.
 Para contenido gráfico la licencia especifica otros términos, pero en este caso no aplican ya que no se va a utilizar información de este tipo.
+La licencia que se va a aplicar sobre los datos enlazados es la misma que sobre el conjunto de datos obtenido, ya que son datos públicos y, por lo tanto, publicarlos bajo una licencia que permita su uso favorece la reutilización de los mismos.
     - Analizar la fuente de datos.
     El siguiente paso es analizar la fuente de datos. 
 La página web informa de que este conjunto de datos contiene información sobre los museos de la ciudad de Madrid. Además se puede encontrar otra información como quién es el autor de los datos, cuándo el dataset fue creado, la última vez que este conjunto fue modificado, la licencia bajo la que se publican los datos y el idioma en el que está disponible. Sin embargo, estos datos no ofrecen información útil sobre los campos que forman este dataset. Por lo tanto, para obtener información los mismos, se realiza un análisis manual, observando las columnas que forman el dataset y sus valores.
@@ -236,7 +237,6 @@ Con esta consulta, con respecto al autor, se devuelve su URI. Ya que lo que se q
 + "FILTER(?uri=<" + autor.toString() + ">)}"
 ```
 Esta consulta devuelve el nombre del autor a partir de la URI devuelta por la anterior consulta.
-
 # 4. Conclusiones.
 La utilización de datos enlazados en la web es una práctica que está aumentando progresivamente. Tiene numerosas ventajas como facilitar el uso de los datos publicados, haciendo que sean más accesibles y útiles para los usuarios.
 
@@ -251,7 +251,9 @@ La utilización de datos enlazados facilita el uso de la información en la Web.
 
 # 5. Bibliografía.
 Temario de la asignatura.
+
 WebProtégé User Guide.
+
 Practical resource description framework (rdf).
 
 
