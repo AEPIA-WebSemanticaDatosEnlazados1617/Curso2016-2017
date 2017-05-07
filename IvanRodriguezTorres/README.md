@@ -200,7 +200,7 @@ En esta práctica se enlazarán los datos correspondientes a los nombres de arti
 
 ## Publicación
 En este caso no se ha llevado a cabo la publicación de los datos, pero podemos hacer un resumen de como sería el proceso. Éste se divide en 3 pasos:
-- Descripción de los datos: Se debe hacer una descripción adecuada de los datos y su estructura. Para ellos existen varias herramientas disponibles. Destacamos Void e D-Cat.
+- Descripción de los datos: Se debe hacer una descripción adecuada de los datos y su estructura. Para ellos existen varias herramientas disponibles. Destacamos Void y D-Cat.
 - Publicación: Exponer los datos al dominio público. Una forma aconsejable de hacerlo es un repositorio público, o un sitio específico como [datahub](http://datahub.io).
 - Validación de acceso: Esta tarea puede realizarse mediante el uso de validadores automáticos como [esta](http://validator.linkeddata.org).
 
@@ -208,13 +208,127 @@ En este caso no se ha llevado a cabo la publicación de los datos, pero podemos 
 
 
 # Aplicación y explotación
-Como se
+Como se comentaba en la introducción, se ha utilizado Python para crear una aplicación que permita la explotaciñón de los datos generados. Concretamente se ha utilizado Python 3, junto con las librerías `rdflib` y `easyguy`.
 
+La aplicación tarda unos instantes en iniciarse, pues es el tiempo que necesita para cargar todo el archivo de datos rdf. Una vez cargado algunos procesos pueden demorarse unos segundos, mediante los cuales, la interfaz gráfica tampoco será visible.
+
+Una vez arrancada, la aplicación permite 3 tipos de búsqueda de canciones diferentes:
+- *by song*: En este tipo se nos mostrará una lista con todas las canciones disponibles, y podremos seleccionar cualquiera de la lista para consultar sus detalles.
+- *by artist*: Se nos mostrará una lista con todos los artistas existentes en los datos. Al seleccionar uno, se listarán las canciones que tenga que hayan aparecido en el top 100. Finalmente, al igual que en el caso anterior, podremos seleccionar una canción para ver sus detalles.
+- *by date*: En este caso, podremos introducir dos fechas para definir un período de tiempo. A continuación, se nos mostrarán las canciones pertenecientes a ese período. Por último, al igual que en el caso anterior, podremos seleccionar una canción para ver sus detalles.
+
+
+Para recuperar los datos se ha utilizado el lenguaje de consulta SPARQL, las consultas utilizadas son:
+
+Para recuperar todas las canciones ordenadas alfabéticamente:
+```
+  PREFIX mo:  <http://purl.org/ontology/mo/>
+  PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+  SELECT * WHERE {
+      ?song a mo:Track .
+      ?song rdfs:label ?name .
+  }
+  order by asc(UCASE(str(?name)))
+  ```
+
+
+Para recuperar el nombre de los artistas por orden alfabético:
+```
+PREFIX mo:  <http://purl.org/ontology/mo/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?name WHERE {
+    ?person a mo:MusicArtist .
+    ?person rdfs:label ?name.
+}
+order by asc(UCASE(str(?name)))
+```
+
+Recuperar las canciones pertenecientes a un intervalo de tiempo de forma alfabética:
+```
+PREFIX mo:  <http://purl.org/ontology/mo/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+SELECT * WHERE {
+    ?song a mo:Track .
+    ?song rdfs:label ?name.
+    ?song time:inXSDDate ?date .
+
+    FILTER (strdt(?date, xsd:dateTime) > "1987-09-12T00:00:00"^^xsd:dateTime) .
+    FILTER (strdt(?date, xsd:dateTime) < "1989-09-12T00:00:00"^^xsd:dateTime) .
+}
+order by asc(UCASE(str(?name)))
+```
+
+Recuperar los datos de una canción dado el nombre de la canción:
+```
+PREFIX mo:  <http://purl.org/ontology/mo/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?artistUrl ?date ?cc ?tc  WHERE {
+    ?song a mo:Track .
+    ?song rdfs:label  "Heart".
+    ?song time:inXSDDate ?date.
+    ?song :ChordChange ?cc .
+    ?song :TimbreChange ?tc .
+    ?song foaf:maker ?artistUrl .
+    ?artist a mo:MusicArtist .
+}
+```
+
+Recuperar las canciones asociadas a un artista:
+```
+PREFIX mo:  <http://purl.org/ontology/mo/>
+  PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+  PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+
+  SELECT ?name WHERE {
+      ?song a mo:Track .
+      ?song rdfs:label ?name.
+      ?song foaf:maker ?artistUrl .
+
+      FILTER (str(?artistUrl)="%s"^^xsd:string)
+  }
+```
+
+
+Entre las dificultades que se encontraron en este desarrollo, se debe mencionar una en concreto, que ha obligado a postprocesar los datos, ya generados en rdf. Las fechas estaban en formato `yyyy-mm-dd` pero deberían haber estado en el formato `yyyy-mm-ddThh:mm:ss` para que fuesen interpretados como fechas correctamente. La solución adoptada ha sido aplicar el siguiente comando:
+
+```bash
+sed -i 's/[0-9][0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]/&T00:00:00/' data.rdf
+```
+
+En esencia, busca las fechas en formato `yyyy-mm-dd` y le añade `T00:00:00`. Esta modificación no perjudica la información aportada por los datos.
+
+Otro problema realcionado con el desarrollo de esta aplicación ha sido la compatibilidad d los juegos de caracteres. En principio, la aplicación estaba desarrollada para Python 2.7, pero había algún error de codificación de los datos proporcionados por `rdflib` al ser incorporados a la interfaz. La forma de mitigarlo fue el cambio a Python 3.
+
+Para ejecutar la aplicación basta con instalar las librerías de Python 3 definidas en las primeras líneas del script `app.py` y lanzarlo desde un terminal de la forma: `python3 app.py`.
 
 ------------------
 # Conclusiones
 
+Esta práctica ha servido como primer acercamiento al mundo de los datos enlazados. Nunca había profundizado en el tema  por tanto no sabía nada acerca de RDF, SPARQL o cualquiera de las tecnologías que se haya utilizado en este curso, exceptuando XML.
+
+En mi opinión, el concepto que se persigue con las iniciativas de proyectos de linked data es muy buena, ya que de conseguirse los objetivos, la información sería menos redundante y dispar. Además, en un mundo donde el concepto de datos enlacados funcionase al 100%, tendríamos información mucho más precisa a nuestra disposición, uniendo información de difernetes sitios como Wikipedia, Geocities, etc.
+
+Un ejemplo de ello podría ser que se estableciese una ontología de biografías de personajes famosos. Si todo el mundo utilizase el modelo de datos enlazados,todas las referencias a un actor, científico, escritor, etc. se harían contra el mismo "objecto", por tanto todo el mundo estaría viendo la misma descripción de él. Siendo más sencillo tener descripciones completas y precisas.
+
+La parte negativa de esta idea reside en su complejidad y es que poner a todo el mundo de acuerdo es difícil. Aunque organizaciones como la W3C luchan por la creación de un estándar es complicado que todo el mundo llegue a adoptarlo por diferentes motivos.
+
+Pese a esto ya se han hecho numerosos avances en lo que se refiere a la adopción de un modelo de datos enlazados, y en mi opinión, tanto los desarrolladores, como investigadores, organizaciones, etc. deben de seguir poniéndo énfasis en su adopción, ya que sería un gran avance.
+
 ------------------
 # Bibliografía
+
+Como material bibliográfico se ha utilizado:
+- Transparencias y vídeos del curso
+- Libro: "*Practical resource description framework (rdf)*" de Shelley Powers.
+- Recurso web: https://www.w3.org/2004/Talks/17Dec-sparql/intro/all.html
+- Recurso web: https://www.w3.org/TR/rdf-sparql-query/
 
 ------------------
