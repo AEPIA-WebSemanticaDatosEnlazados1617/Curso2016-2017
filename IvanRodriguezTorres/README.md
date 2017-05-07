@@ -5,7 +5,7 @@ En esta memoria se recogen los pasos seguidos para transformar un conjunto de da
 
 Concretamente, se utilizará un conjunto de datos que contiene las canciones del top 100 de la lista Billboard desde el año 1960 hasta el año 2010. Una vez procesados los datos y transformados a datos enlazados, se expondrán en forma de servicio web y se creará un cliente que los explote.
 
-Como guía, se utilizará el material proporcionado en el curso, así como el libro **Practical RDF**. Para estructurar esta memoria se usará el índice propuesto en el enunciado de la práctica. Para la creación del interfaz web se usarán los frameworks **materializeCSS** y **JQuery**, mientras que para la creación de los servicios web, **CherryPy**.
+Como guía, se utilizará el material proporcionado en el curso, así como el libro **Practical RDF**. Para estructurar esta memoria se usará el índice propuesto en el enunciado de la práctica. Para crar la aplicación se utilizará Python. En concreto, la biblioteca `rdflib` para explotar los datos, y la biblioteca `easygui` para crear una interfaz amigable al usuario.
 
 ------------------
 
@@ -208,6 +208,8 @@ En este caso no se ha llevado a cabo la publicación de los datos, pero podemos 
 
 
 # Aplicación y explotación
+Como se
+
 
 ------------------
 # Conclusiones
