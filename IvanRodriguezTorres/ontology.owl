@@ -1,0 +1,136 @@
+@prefix : <http://webprotege.stanford.edu/project/7ROd5ZQUJ6S8RRYesnVETk#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/7ROd5ZQUJ6S8RRYesnVETk> .
+
+<http://webprotege.stanford.edu/project/7ROd5ZQUJ6S8RRYesnVETk> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R8BfUeUmWoMm1Mdl9x8VA3g
+<http://webprotege.stanford.edu/R8BfUeUmWoMm1Mdl9x8VA3g> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty owl:topDataProperty ;
+                                                                       owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                     ] ;
+                                                         rdfs:range [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty owl:topDataProperty ;
+                                                                      owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                    ] ;
+                                                         rdfs:label "hasTimbreChange" .
+
+
+###  http://webprotege.stanford.edu/R93G1fU7apc6EAsGjGEDwBH
+<http://webprotege.stanford.edu/R93G1fU7apc6EAsGjGEDwBH> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty owl:topObjectProperty ;
+                                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                       owl:onClass <http://webprotege.stanford.edu/RCeq8gIVcCvBEEbZ2WApP4D>
+                                                                     ] ;
+                                                         rdfs:range [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty <http://webprotege.stanford.edu/R93G1fU7apc6EAsGjGEDwBH> ;
+                                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                      owl:onClass <http://webprotege.stanford.edu/RCeq8gIVcCvBEEbZ2WApP4D>
+                                                                    ] ;
+                                                         rdfs:label "hasSong" .
+
+
+###  http://webprotege.stanford.edu/R9F0RKqqGpJWGqa8YFkH2pi
+<http://webprotege.stanford.edu/R9F0RKqqGpJWGqa8YFkH2pi> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty owl:topDataProperty ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                       owl:onDataRange xsd:dateTime
+                                                                     ] ;
+                                                         rdfs:range [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty owl:topDataProperty ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                      owl:onDataRange xsd:dateTime
+                                                                    ] ;
+                                                         rdfs:label "hasEntryDate" .
+
+
+###  http://webprotege.stanford.edu/RByp3gLoNzd5T9cpwcneXBt
+<http://webprotege.stanford.edu/RByp3gLoNzd5T9cpwcneXBt> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty owl:topDataProperty ;
+                                                                       owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                     ] ;
+                                                         rdfs:range [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty owl:topDataProperty ;
+                                                                      owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                    ] ;
+                                                         rdfs:label "hasChordChange" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R8OQ7LyPaXvmISjMJmfsqtf
+<http://webprotege.stanford.edu/R8OQ7LyPaXvmISjMJmfsqtf> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R93G1fU7apc6EAsGjGEDwBH> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCeq8gIVcCvBEEbZ2WApP4D>
+                                                                         ] ;
+                                                         rdfs:label "mo:MusicArtist" .
+
+
+###  http://webprotege.stanford.edu/RBEIK02dAgkYHfexQEddRA9
+<http://webprotege.stanford.edu/RBEIK02dAgkYHfexQEddRA9> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "top100:ChordChange" .
+
+
+###  http://webprotege.stanford.edu/RCeq8gIVcCvBEEbZ2WApP4D
+<http://webprotege.stanford.edu/RCeq8gIVcCvBEEbZ2WApP4D> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8OQ7LyPaXvmISjMJmfsqtf> ,
+                                                                         owl:Thing ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8BfUeUmWoMm1Mdl9x8VA3g> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RDOjMBEdVhQuNM2oXUShfj0>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9F0RKqqGpJWGqa8YFkH2pi> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RFzxloHJANHPyaY4E3tdd3>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/RByp3gLoNzd5T9cpwcneXBt> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBEIK02dAgkYHfexQEddRA9>
+                                                                         ] ;
+                                                         rdfs:label "mo:Track" .
+
+
+###  http://webprotege.stanford.edu/RDOjMBEdVhQuNM2oXUShfj0
+<http://webprotege.stanford.edu/RDOjMBEdVhQuNM2oXUShfj0> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "top100:TimbreChange" .
+
+
+###  http://webprotege.stanford.edu/RFzxloHJANHPyaY4E3tdd3
+<http://webprotege.stanford.edu/RFzxloHJANHPyaY4E3tdd3> rdf:type owl:Class ;
+                                                        rdfs:subClassOf owl:Thing ;
+                                                        rdfs:label "time:Instant" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://webprotege.stanford.edu/R8OQ7LyPaXvmISjMJmfsqtf>
+                <http://webprotege.stanford.edu/RBEIK02dAgkYHfexQEddRA9>
+                <http://webprotege.stanford.edu/RCeq8gIVcCvBEEbZ2WApP4D>
+                <http://webprotege.stanford.edu/RDOjMBEdVhQuNM2oXUShfj0>
+                <http://webprotege.stanford.edu/RFzxloHJANHPyaY4E3tdd3>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
