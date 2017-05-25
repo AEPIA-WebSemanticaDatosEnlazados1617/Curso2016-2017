@@ -31,10 +31,16 @@ Realizando una búsqueda, se encuentran dos conjuntos de datos que satisfacen es
     El análisis de datos, a su vez, está compuesto por diferentes tareas que se describen a continuación.
     - Analizar la licencia de la fuente de datos.
     Las licencias especifican las condiciones legales bajo las que los datos se pueden utilizar.
-En este caso, en la página especificada anteriormente, se ofrece información sobre este conjunto de datos; en particular, se determina la licencia que se les aplica. La licencia que se aplica define que la copia, publicación y distribución de los datos textuales es libre, así como su modificación. Además también se define que su explotación es libre para fines tanto comerciales como no comerciales.
-Para contenido gráfico la licencia especifica otros términos, pero en este caso no aplican ya que no se va a utilizar información de este tipo.
+En este caso, en la página especificada anteriormente, se ofrece información sobre este conjunto de datos; en particular, se determina la licencia que se les aplica. En *http://datos.madrid.es/egob/catalogo/aviso-legal* se muestra información sobre las condiciones de reutilización de los datos. La licencia que se aplica presenta las siguientes condiciones:
+        - Se permite la reutilización de estos datos tanto para fines comerciales como no comerciales siempre que su uso no constituya una actividad administrativa pública. La reutilización incluye actividades como copia, modificación, adaptación, difusión, extracción, reordenación y combinación de la información. También se autorizan actividades de reproducción, distribución, comunicación pública o transformación necesarias para la actividad.
+        - Está prohibido desnaturalizar el sentido de la información.
+        - Debe citarse la fuente de los documentos y la fecha de última actualización de los mismos.
+        - No se puede indicar o sugerir que el Ayuntamiento de Madrid participa en la actividad en la que se reutilicen los datos.
+        - No se deben eliminar los metadatos de los documentos
+        - En caso de información anonimizada, está prohibido intentar identificar personas a partir de esos datos.
+
 La licencia que se va a aplicar sobre los datos enlazados es la misma que sobre el conjunto de datos obtenido, ya que son datos públicos y, por lo tanto, publicarlos bajo una licencia que permita su uso favorece la reutilización de los mismos.
-    - Analizar la fuente de datos.
+- Analizar la fuente de datos.
     El siguiente paso es analizar la fuente de datos. 
 La página web informa de que este conjunto de datos contiene información sobre los museos de la ciudad de Madrid. Además se puede encontrar otra información como quién es el autor de los datos, cuándo el dataset fue creado, la última vez que este conjunto fue modificado, la licencia bajo la que se publican los datos y el idioma en el que está disponible. Sin embargo, estos datos no ofrecen información útil sobre los campos que forman este dataset. Por lo tanto, para obtener información los mismos, se realiza un análisis manual, observando las columnas que forman el dataset y sus valores.
 
@@ -75,14 +81,14 @@ La página web informa de que este conjunto de datos contiene información sobre
 Los pasos a seguir para realizar esta tarea se describen a continuación.
     - Elegir la forma de las URIs.
     En este primer paso se debe elegir si se utilizan almohadillas (#) en las URIs o barras inclinadas (/). 
-En este caso, contamos con un conjunto de datos pequeño que no van a sufrir modificaciones frecuentemente. Por lo tanto, atendiendo a estas características, se utilizará la barra inclinada para los elementos. Para los términos ontológicos se utilizará almohadilla.
+En este caso, contamos con un conjunto de datos pequeño que no van a sufrir modificaciones frecuentemente. Por lo tanto, atendiendo a estas características, se utilizará la barra inclinada tanto para los elementos. Para los términos ontológicos se utilizará la almohadilla.
     - Elegir el dominio de las URIs.
 El dominio es http://museosmadrud.com. 
     - Elegir la ruta de las URIs.
 Para términos ontológicos la ruta es http://museosmadrid.com/ontologia/.
 Para los elementos, la ruta es http://museosmadrid.com/museo/.
     - Elegir patrones para clases, propiedades e individuos.
-El patrón para los términos ontológicos es http://museosmadrid.com/ontologia/<nombre_elemento>. 
+El patrón para los términos ontológicos es http://museosmadrid.com/ontologia#Termino>. 
 El patrón para los elementos es http://museosmadrid.com/museo/<id_item>/.
 
 - Desarrollo del vocabulario, indicando el proceso de implementación del vocabulario y como este soporta los datos de origen. No se exige una ontología compleja, sino un vocabulario suficiente para describir los conceptos y propiedades de los datos a transformar.
@@ -128,8 +134,22 @@ A continuación se describen los pasos llevados a cabo para la realización de e
     Un establecimiento puede tener fax.
     Un establecimiento puede tener página web.
     
-    La ontología es desarrollada utilizando la herramiento WebProtégé de la Universidad de Stanford (https://webprotege.stanford.edu).
-
+    Para el desarrollo de esta ontología se utilizan las ontologías *vcard*, *owl* y *rdfs* ya que se utilizan algunas de sus clases y propiedades.
+    Para conceptualizar la información que se tiene sobre los museos se ha creado una clase museo con las siguientes propiedades:
+    - <http://www.w3.org/2006/vcard/ns#hasAddress> que se relaciona con <http://www.w3.org/2006/vcard/ns#Address>.
+    - <http://www.w3.org/2006/vcard/ns#hasCategory> que relaciona con <http://www.w3.org/2006/vcard/ns#Type>.
+    - <http://www.w3.org/2006/vcard/ns#hasEmail> relacionado con <http://www.w3.org/2006/vcard/ns#Email>.
+    - <http://www.w3.org/2006/vcard/ns#hasNote> que se relaciona con la clase *Horario* creada.
+    - <http://www.w3.org/2006/vcard/ns#hasTelephone> que relaciona la clase *Museo* con <http://www.w3.org/2006/vcard/ns#Tel>.
+    - <http://www.w3.org/2006/vcard/ns#hasUID> que se relaciona con la clase *Id* creada manualmente.
+    - <http://www.w3.org/2006/vcard/ns#hasURL> que se relaciona con la clase *URL*.
+    - <http://www.w3.org/2006/vcard/ns#label> que se relaciona con <http://www.w3.org/2006/vcard/ns#Name>.
+    - <owl:sameAs> que se relaciona con la clase DbNames, creada manualmente.
+    
+    Para conceptualizar la información sobre la localidad, se crea una clase *Localidad* con las siguientes propiedades:
+        - <http://www.w3.org/2006/vcard/ns#label> que expresa que la etiqueta es un string.
+        - <owl:sameAs> que se relaciona con la clase *PopulatedPlace* creada manualmente.
+        
 - Proceso de transformación, justificando qué herramientas se han usado para la transformación de los datos y qué pasos se han seguido para su limpieza y adecuación al resultado esperado.
 Los datos que tenemos están en un fichero .CSV, por lo tanto, es posible acceder a ellos utilizando hojas de cálculo. Al abrir este fichero, se puede ver que hay filas al comienzo del mismo vacías que se van a eliminar ya que no aportan información.
 Teniendo en cuenta esta característica, para transformar los datos a RDF utilizaremos la herramienta OpenRefine. Por lo tanto, después de instalar esta herramienta, lo primero que se hace es crear un proyecto con nuestros datos. Para ello, lo primero es seleccionar elarchivo que se encuentra en el equipo, se selecciona y se crea el proyecto. En las opciones de parseo se selecciona como símbolo de separación de columnas la opción *custom* y se introduce un punto y coma, *;*, ya que es el símbolo que se utiliza en este caso. Los demás valores de parseo se dejan por defecto ya que son adecuados. Después de esto, se le asigna un nombre a este proyecto y se crea. A continuación se muestra una vista con las columnas que forman el dataset.
@@ -157,9 +177,20 @@ El primero es DBpedia en español, *http://es.dbpedia.org/sparql*.
     En este punto, lo primero que hay que hacer es observar qué columnas pueden ser útiles para realizar el enlazado. 
 La primera columna que se utiliza es *LOCALIDAD*, cuyo valor es *Madrid*. Utilizando la opción *Start reconciling*, se selecciona el servicio añadido anteriormente. Se elige *http://dbpedia.org/ontology/PopulatedPlace* como la entidad con la que se va a realizar. Las demás opciones se dejan por defecto. A continuación, se crea una nueva columna, *populatedPlace*, a partir de ésta que contiene los enlaces obtenidos al realizar el enlazado. Lo último es realizar el enlazado propiamente dicho editando el esqueleto de RDF:
     - Se añade un nuevo nodo raíz que contiene la URI de la columna *LOCALIDAD* del tipo *http://dbpedia.org/ontology/PopulatedPlace*.
+    - Se añade la propiedad *rdfs:label* que apunta a la columna *LOCALIDAD*.
     - Se añade la propiedad *owl:sameAs* a este nodo que apunta a la columna creada anteriormente.
 
     La siguiente columna que se va a enlazar es *NOMBRE*, ya que nos interesa obtener información de los museos. Para esto, se va a realizar la reconciliación con la DBpedia sin elegir ningún tipo de entidad, ya que diferentes edificios son categorizados de distinta manera.
+A continuación, se analizan los resultados. En algunos casos, existen varias opciones para enlazar por lo que se enlaza con el más adecuado en cada caso.
+Se crea una nueva columna, *dbNames*, que contiene los enlaces obtenidos en el proceso anterior. Como para la columna *LOCALIDAD*, se modifica el esqueleto de RDF añadiendo un nuevo nodo al que se le añaden las siguientes propiedades:
+     - *rdfs:label* que apunta a la columna *NOMBRE*.
+     - *vcard:hasTelephone* que apunta a la columa *TELEFONO*.
+     - *vcard:hasURL* que apunta a la columna *CONTENT-URL*.
+     - *vcard:category* que apunta a la columna *TIPO*.
+     - *vcard:hasAddress* que apunta a la columna *DIRECCION*.
+     - *vcard:hasEmail* que apunta a la columna *EMAIL*.
+     - *vcard:hasNote* que apunta a la columna *HORARIO*.
+     - *owl:sameAs* a este nodo que apunta a la columna creada *dbNames*.
 
 # 3. Aplicación y explotación, explicando qué funcionalidades aporta la solución desarrollada y cómo ésta hace uso de los datos y enlaces generados para aportar valor al usuario final. En este punto de deben explicar las queries SPARQL o el código en Jena usado para su implementación.
 Para explotar el enlazado de datos realizado previamente, se ha creado una aplicación, utilizando tecnologías Java, para obtener información de los museos de la ciudad de Madrid.

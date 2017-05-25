@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl3 "owl:" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY ns "http://www.w3.org/2006/vcard/ns#" >
+    <!ENTITY swrlx "http://www.w3.org/2003/11/swrlx#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://museosmadrid.com/ontologia#"
+     xml:base="http://museosmadrid.com/ontologia"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:swrlx="http://www.w3.org/2003/11/swrlx#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#"
+     xmlns:owl3="owl:">
+    <owl:Ontology rdf:about="http://museosmadrid.com/ontologia/">
+        <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+        <owl:imports rdf:resource="http://www.w3.org/2006/vcard/ns"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#DbNames -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#DbNames">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#Horario -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#Horario">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#Id -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#Id">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#Localidad -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#Localidad">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="owl:sameAs"/>
+                <owl:onClass rdf:resource="http://museosmadrid.com/ontologia#PopulatedPlace"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;label"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#Museo -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#Museo">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="owl:sameAs"/>
+                <owl:onClass rdf:resource="http://museosmadrid.com/ontologia#DbNames"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;label"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&ns;Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasEmail"/>
+                <owl:onClass rdf:resource="&ns;Email"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasCategory"/>
+                <owl:onClass rdf:resource="&ns;Type"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasURL"/>
+                <owl:onClass rdf:resource="http://museosmadrid.com/ontologia#URL"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasNote"/>
+                <owl:onClass rdf:resource="http://museosmadrid.com/ontologia#Horario"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasTelephone"/>
+                <owl:onClass rdf:resource="&ns;Tel"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasUID"/>
+                <owl:onClass rdf:resource="http://museosmadrid.com/ontologia#Id"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ns;hasAddress"/>
+                <owl:onClass rdf:resource="&ns;Address"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#PopulatedPlace -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#PopulatedPlace">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://museosmadrid.com/ontologia#URL -->
+
+    <owl:Class rdf:about="http://museosmadrid.com/ontologia#URL">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.0.1502) http://owlapi.sourceforge.net -->
+
