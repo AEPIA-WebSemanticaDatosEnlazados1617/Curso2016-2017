@@ -1,28 +1,17 @@
 @prefix schema: <http://schema.org/> .
-@prefix ontologia: <http://museosmadrid.com/ontologia/Establecimiento#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
-<http://museosmadrid.com/museo/2058> a schema:CivicStructure ;
-	rdfs:label "Museo del Prado" ;
-	vcard:hasTelephone "913 302 800" ;
-	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=060079262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	vcard:category "/contenido/entidadesYorganismos/Museos" ;
-	vcard:hasAddress "CALLE RUIZ DE ALARCON 23" ;
-	owl:sameAs <http://dbpedia.org/resource/Museo_del_Prado> ;
-	vcard:hasNote "De lunes a sábado de 10 a 20 horas  Domingos y festivos de 10 a 19 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre  Horario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembre  Acceso al museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre)  Horario gratuito, de lunes a sábado de 18 a 20 horas y domingos y festivos de 17 a 19 horas" ;
-	vcard:hasUID "2058" .
-	
+
 <http://museosmadrid.com/museo/2071> a schema:CivicStructure ;
 	rdfs:label "Arte Público (Museo al Aire Libre de la Castellana)" ;
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eca9ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	vcard:hasAddress "PASEO CASTELLANA 40" ;
 	vcard:hasEmail "paisajeypatrimonio@madrid.es" ;
-	owl:sameAs <http://es.dbpedia.org/resource/Museo_Arte_Publico_de_Madrid> ;
-	vcard:hasUID "2071" .
+	owl:sameAs <http://es.dbpedia.org/resource/Museo_Arte_Publico_de_Madrid> .
 
 <http://museosmadrid.com/museo/MADRID> a <http://dbpedia.org/ontology/PopulatedPlace> ;
 	rdfs:label "MADRID" ;
@@ -36,8 +25,7 @@
 	vcard:hasAddress "CALLE ARENAL 8" ;
 	vcard:hasEmail "info@casamuseoratonperez.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Ratoncito_Perez> ;
-	vcard:hasNote "Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas.  Enero y Febrero: domingos y festivos de 12 a 15 horas y de 16 a 18 horas.  Horario orientativo, consultad disponibilidad en la web del Museo." ;
-	vcard:hasUID "4949641" .
+	vcard:hasNote "Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas.  Enero y Febrero: domingos y festivos de 12 a 15 horas y de 16 a 18 horas.  Horario orientativo, consultad disponibilidad en la web del Museo." .
 
 <http://museosmadrid.com/museo/4847190> a schema:CivicStructure ;
 	rdfs:label "Casa Museo Lope de Vega" ;
@@ -47,8 +35,7 @@
 	vcard:hasAddress "CALLE CERVANTES 11" ;
 	vcard:hasEmail "casamuseolopedevega@madrid.org" ;
 	owl:sameAs <http://dbpedia.org/resource/House-Museum_of_Lope_de_Vega> ;
-	vcard:hasNote "Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo.  De martes a domingo de 10 a 18 horas.  Cerrado los lunes, días 1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre.  Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio." ;
-	vcard:hasUID "4847190" .
+	vcard:hasNote "Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo.  De martes a domingo de 10 a 18 horas.  Cerrado los lunes, días 1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre.  Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio." .
 
 <http://museosmadrid.com/museo/5682031> a schema:CivicStructure ;
 	rdfs:label "Castillo de la Alameda" ;
@@ -59,8 +46,7 @@
 	vcard:hasAddress "CALLE ANTONIO SANCHA 1" ;
 	vcard:hasEmail "castilloalameda@madrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Castillo_de_la_Alameda> ;
-	vcard:hasNote "Abierto fines de semana y festivos (incluso los lunes festivos)  De 1 de abril a 30 de junio y de 15 de septiembre a 30 de septiembre: sábados, domingos y festivos de 10 a 21 horas.  De 1 de julio a 15 de septiembre: sábados, domingos y festivos de 10 a 20 horas.  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas.  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo." ;
-	vcard:hasUID "5682031" .
+	vcard:hasNote "Abierto fines de semana y festivos (incluso los lunes festivos)  De 1 de abril a 30 de junio y de 15 de septiembre a 30 de septiembre: sábados, domingos y festivos de 10 a 21 horas.  De 1 de julio a 15 de septiembre: sábados, domingos y festivos de 10 a 20 horas.  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas.  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo." .
 
 <http://museosmadrid.com/museo/2064> a schema:CivicStructure ;
 	rdfs:label "Casón del Buen Retiro" ;
@@ -70,8 +56,7 @@
 	vcard:hasAddress "CALLE ALFONSO XII 28" ;
 	vcard:hasEmail "biblioteca@museodelprado.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Casón_del_Buen_Retiro> ;
-	vcard:hasNote "Mañanas     De lunes a jueves, de 9 a 15 h (Servicio de libros y otros materiales hasta las 14:30 horas)    Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h)     Tardes   Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas" ;
-	vcard:hasUID "2064" .
+	vcard:hasNote "Mañanas     De lunes a jueves, de 9 a 15 h (Servicio de libros y otros materiales hasta las 14:30 horas)    Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h)     Tardes   Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas" .
 
 <http://museosmadrid.com/museo/103331> a schema:CivicStructure ;
 	rdfs:label "Centro Social y Cultural La Casa Encendida" ;
@@ -82,8 +67,7 @@
 	vcard:hasAddress "RONDA VALENCIA 2" ;
 	vcard:hasEmail "lacasaencendida@montemadrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/La_Casa_Encendida> ;
-	vcard:hasNote "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
-	vcard:hasUID "103331" .
+	vcard:hasNote "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" .
 
 <http://museosmadrid.com/museo/6469186> a schema:CivicStructure ;
 	rdfs:label "Ermita de San Antonio de la Florida (Museo)" ;
@@ -93,8 +77,7 @@
 	vcard:hasAddress "GLORIETA SAN ANTONIO DE LA FLORIDA 5" ;
 	vcard:hasEmail "sanantonio@madrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Ermita_de_San_Antonio_de_la_Florida> ;
-	vcard:hasNote "De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Los sábados que se celebren Visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del." ;
-	vcard:hasUID "6469186" .
+	vcard:hasNote "De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Los sábados que se celebren Visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del." .
 
 <http://museosmadrid.com/museo/58353> a schema:CivicStructure ;
 	rdfs:label "Espacio Fundación Telefónica" ;
@@ -102,8 +85,7 @@
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87748ed67151c010VgnVCM2000000c205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE FUENCARRAL 3" ;
-	vcard:hasNote "De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y días 25 de diciembre, 1 y 6 de enero." ;
-	vcard:hasUID "58353" .
+	vcard:hasNote "De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y días 25 de diciembre, 1 y 6 de enero." .
 
 <http://museosmadrid.com/museo/6017808> a schema:CivicStructure ;
 	rdfs:label "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey" ;
@@ -112,8 +94,7 @@
 	vcard:category "/contenido/entidadesYorganismos/FundacionesCulturales" ;
 	vcard:hasAddress "CALLE FUENTE DEL REY 11" ;
 	vcard:hasEmail "info@fundacionamyc.org" ;
-	vcard:hasNote "De martes a sábados de 10 a 19 horas. Lunes, domingos y festivos cerrado.  Visitas para grupos de hasta 25 personas dentro de los horarios de apertura. Pueden ser con guía propio o con guía de la Fundación, y la duración de la misma es de una hora. Previa reserva telefónica o vía correo electrónico." ;
-	vcard:hasUID "6017808" .
+	vcard:hasNote "De martes a sábados de 10 a 19 horas. Lunes, domingos y festivos cerrado.  Visitas para grupos de hasta 25 personas dentro de los horarios de apertura. Pueden ser con guía propio o con guía de la Fundación, y la duración de la misma es de una hora. Previa reserva telefónica o vía correo electrónico." .
 
 <http://museosmadrid.com/museo/3348> a schema:CivicStructure ;
 	rdfs:label "Monasterio de las Descalzas Reales" ;
@@ -123,8 +104,7 @@
 	vcard:category "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	vcard:hasAddress "PLAZA DESCALZAS 3" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Monasterio_de_las_Descalzas_Reales> ;
-	vcard:hasNote "Sólo con visita guiada  .     De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes" ;
-	vcard:hasUID "3348" .
+	vcard:hasNote "Sólo con visita guiada  .     De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes" .
 
 <http://museosmadrid.com/museo/5873478> a schema:CivicStructure ;
 	rdfs:label "Museo ABC" ;
@@ -133,8 +113,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE AMANIEL 29" ;
 	vcard:hasEmail "info_museo@abc.es" ;
-	vcard:hasNote "De martes a sábado de 11 a 20 horas  Domingos de 10 a 14 horas   Lunes cerrado    Durante 2017 el Museo ABC permanecerá cerrado los días:   1 y 6 de enero  24 y 31 de diciembre." ;
-	vcard:hasUID "5873478" .
+	vcard:hasNote "De martes a sábado de 11 a 20 horas  Domingos de 10 a 14 horas   Lunes cerrado    Durante 2017 el Museo ABC permanecerá cerrado los días:   1 y 6 de enero  24 y 31 de diciembre." .
 
 <http://museosmadrid.com/museo/2067> a schema:CivicStructure ;
 	rdfs:label "Museo Africano Mundo Negro" ;
@@ -142,8 +121,7 @@
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ab8ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE ARTURO SORIA 101" ;
-	vcard:hasNote "Grupos con cita previa : de lunes a viernes de 9,30 a 13,30 horas.   Particulares  (visitas guiadas): domingos a las 11,30 horas.   Cerrado : julio, agosto y septiembre." ;
-	vcard:hasUID "2067" .
+	vcard:hasNote "Grupos con cita previa : de lunes a viernes de 9,30 a 13,30 horas.   Particulares  (visitas guiadas): domingos a las 11,30 horas.   Cerrado : julio, agosto y septiembre." .
 
 <http://museosmadrid.com/museo/2050> a schema:CivicStructure ;
 	rdfs:label "Museo Arqueológico Nacional" ;
@@ -155,8 +133,7 @@
 	vcard:hasAddress "CALLE SERRANO 13" ;
 	vcard:hasEmail "sugerencias.man@mecd.es" ;
 	owl:sameAs <http://dbpedia.org/resource/National_Archaeological_Museum> ;
-	vcard:hasNote "De martes a sábados de 9:30 a 20 horas  Domingos y festivos de 9:30 a 15 horas    Cerrado    Todos los lunes del año.  1 y 6 de enero, 1de mayo y 24, 25 y 31 de diciembre.    Horario de cierre de las taquillas:  15 minutos antes del cierre del Museo.   Días festivos 2017. Horario 9.30 a 15 horas:   13 y 14 de abril; 2 de mayo;15 de agosto; 12 de octubre; 1 de noviembre; 9 de noviembre; 6 de diciembre; 8 de diciembre." ;
-	vcard:hasUID "2050" .
+	vcard:hasNote "De martes a sábados de 9:30 a 20 horas  Domingos y festivos de 9:30 a 15 horas    Cerrado    Todos los lunes del año.  1 y 6 de enero, 1de mayo y 24, 25 y 31 de diciembre.    Horario de cierre de las taquillas:  15 minutos antes del cierre del Museo.   Días festivos 2017. Horario 9.30 a 15 horas:   13 y 14 de abril; 2 de mayo;15 de agosto; 12 de octubre; 1 de noviembre; 9 de noviembre; 6 de diciembre; 8 de diciembre." .
 
 <http://museosmadrid.com/museo/2072> a schema:CivicStructure ;
 	rdfs:label "Museo Casa de la Moneda" ;
@@ -166,8 +143,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE DOCTOR ESQUERDO 36" ;
 	vcard:hasEmail "museo@fnmt.es" ;
-	vcard:hasNote "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas  Cerrado los lunes, y los días 1 y 6 de enero; 19 de marzo; 1 de mayo; 24, 25 y 31 de diciembre" ;
-	vcard:hasUID "2072" .
+	vcard:hasNote "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas  Cerrado los lunes, y los días 1 y 6 de enero; 19 de marzo; 1 de mayo; 24, 25 y 31 de diciembre" .
 
 <http://museosmadrid.com/museo/4112> a schema:CivicStructure ;
 	rdfs:label "Museo Cerralbo" ;
@@ -177,8 +153,7 @@
 	vcard:hasAddress "CALLE VENTURA RODRIGUEZ 17" ;
 	vcard:hasEmail "museo.cerralbo@mecd.es" ;
 	owl:sameAs <http://dbpedia.org/resource/Museum_Cerralbo> ;
-	vcard:hasNote "De martes a sábado de 9:30 a 15 horas.  Jueves de 17 a 20 horas, excepto festivos.  Domingos y festivos de 10 a 15 horas.  Cerrado:  Todos los lunes.  1 y 6 de enero.  1 de mayo.  24, 25 y 31 de diciembre.  Por fiesta local." ;
-	vcard:hasUID "4112" .
+	vcard:hasNote "De martes a sábado de 9:30 a 15 horas.  Jueves de 17 a 20 horas, excepto festivos.  Domingos y festivos de 10 a 15 horas.  Cerrado:  Todos los lunes.  1 y 6 de enero.  1 de mayo.  24, 25 y 31 de diciembre.  Por fiesta local." .
 
 <http://museosmadrid.com/museo/10091450> a schema:CivicStructure ;
 	rdfs:label "Museo EMT" ;
@@ -186,8 +161,7 @@
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d56ad05b2a255510VgnVCM2000001f4a900aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/AyuntamientoMadrid/OrganismosEmpresasMunicipales" ;
 	vcard:hasAddress "CALLE MAURICIO LEGENDRE 40" ;
-	vcard:hasNote "Visitas (con cita previa)   Apertura estacional durante seis meses al año: todos los sábados de abril, mayo, junio, julio, septiembre y octubre), a las 10, a las 11:30 y a las 13 horas.  Por ser un centro de trabajo únicamente pueden realizarse de forma organizada, previamente concertadas y limitadas a un máximo de 40 personas por turno.  Duración: 60 minutos aproximadamente.  Compra de entradas y reserva de horarios a través de la web:  http://tienda.emtmadrid.es  (a partir del 1 de marzo de 2017)" ;
-	vcard:hasUID "10091450" .
+	vcard:hasNote "Visitas (con cita previa)   Apertura estacional durante seis meses al año: todos los sábados de abril, mayo, junio, julio, septiembre y octubre), a las 10, a las 11:30 y a las 13 horas.  Por ser un centro de trabajo únicamente pueden realizarse de forma organizada, previamente concertadas y limitadas a un máximo de 40 personas por turno.  Duración: 60 minutos aproximadamente.  Compra de entradas y reserva de horarios a través de la web:  http://tienda.emtmadrid.es  (a partir del 1 de marzo de 2017)" .
 
 <http://museosmadrid.com/museo/10237457> a schema:CivicStructure ;
 	rdfs:label "Museo Félix Cañada" ;
@@ -196,8 +170,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE ALENZA 1" ;
 	vcard:hasEmail "museo@fgomezpardo.es" ;
-	vcard:hasNote "Visitas: lunes, miércoles y viernes de 10 a 13 horas." ;
-	vcard:hasUID "10237457" .
+	vcard:hasNote "Visitas: lunes, miércoles y viernes de 10 a 13 horas." .
 
 <http://museosmadrid.com/museo/2074> a schema:CivicStructure ;
 	rdfs:label "Museo Geominero" ;
@@ -207,8 +180,7 @@
 	vcard:hasAddress "CALLE RIOS ROSAS 23" ;
 	vcard:hasEmail "m.geominero@igme.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_Geominero> ;
-	vcard:hasNote "De lunes a domingo y festivos de 9 a 14 horas  Cerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre  Visitas guiadas para grupos de lunes a viernes, previa petición cita" ;
-	vcard:hasUID "2074" .
+	vcard:hasNote "De lunes a domingo y festivos de 9 a 14 horas  Cerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre  Visitas guiadas para grupos de lunes a viernes, previa petición cita" .
 
 <http://museosmadrid.com/museo/2075> a schema:CivicStructure ;
 	rdfs:label "Museo Histórico Minero Don Felipe de Borbón y Grecia" ;
@@ -216,8 +188,7 @@
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=822bef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE RIOS ROSAS 21" ;
-	vcard:hasNote "Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual:  el segundo fin de semana (viernes, sábado y domingo) de marzo (el museo permanecerá abierto todo el día)" ;
-	vcard:hasUID "2075" .
+	vcard:hasNote "Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual:  el segundo fin de semana (viernes, sábado y domingo) de marzo (el museo permanecerá abierto todo el día)" .
 
 <http://museosmadrid.com/museo/18176> a schema:CivicStructure ;
 	rdfs:label "Museo ICO" ;
@@ -226,8 +197,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE ZORRILLA 3" ;
 	vcard:hasEmail "museoico@ico.es" ;
-	vcard:hasNote "De martes a sábados: de 11 a 20 horas    Domingos y festivos: de 10 a 14 horas    Cerrado:  Todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre.    Horario especial de Navidad: el 24 y el 31 de diciembre, de 10 a 14 horas" ;
-	vcard:hasUID "18176" .
+	vcard:hasNote "De martes a sábados: de 11 a 20 horas    Domingos y festivos: de 10 a 14 horas    Cerrado:  Todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre.    Horario especial de Navidad: el 24 y el 31 de diciembre, de 10 a 14 horas" .
 
 <http://museosmadrid.com/museo/6019032> a schema:CivicStructure ;
 	rdfs:label "Museo Los Caños del Peral. Estación de Metro Ópera" ;
@@ -235,8 +205,7 @@
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=435950262d50f210VgnVCM2000000c205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "PLAZA ISABEL II 1" ;
-	vcard:hasNote "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas  Los días de Navidad y Año Nuevo cerrado al público" ;
-	vcard:hasUID "6019032" .
+	vcard:hasNote "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas  Los días de Navidad y Año Nuevo cerrado al público" .
 
 <http://museosmadrid.com/museo/2053> a schema:CivicStructure ;
 	rdfs:label "Museo Lázaro Galdiano" ;
@@ -245,8 +214,7 @@
 	vcard:category "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	vcard:hasAddress "CALLE SERRANO 122" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Categoría:Museo_Lázaro_Galdiano> ;
-	vcard:hasNote "Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes.  Grupos y visitas guiadas consultar." ;
-	vcard:hasUID "2053" .
+	vcard:hasNote "Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes.  Grupos y visitas guiadas consultar." .
 
 <http://museosmadrid.com/museo/5349304> a schema:CivicStructure ;
 	rdfs:label "Museo Nacional Centro de Arte Reina Sofía (MNCARS)" ;
@@ -256,8 +224,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE SANTA ISABEL 52" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_Centro_de_Arte_Reina_Sofia> ;
-	vcard:hasNote "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas.  Martes cerrado (incluso festivos).  Cerrado 1 y 6 enero, 1 de mayo y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre" ;
-	vcard:hasUID "5349304" .
+	vcard:hasNote "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas.  Martes cerrado (incluso festivos).  Cerrado 1 y 6 enero, 1 de mayo y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre" .
 
 <http://museosmadrid.com/museo/2057> a schema:CivicStructure ;
 	rdfs:label "Museo Nacional de Antropología" ;
@@ -267,8 +234,7 @@
 	vcard:hasAddress "CALLE ALFONSO XII 68" ;
 	vcard:hasEmail "antropologico@mecd.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_de_Antropología> ;
-	vcard:hasNote "De martes a sábado de 9:30 a 20 horas.  Domingos y festivos: de 10 a 15 horas.  Cerrado todos los lunes del año y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
-	vcard:hasUID "2057" .
+	vcard:hasNote "De martes a sábado de 9:30 a 20 horas.  Domingos y festivos: de 10 a 15 horas.  Cerrado todos los lunes del año y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." .
 
 <http://museosmadrid.com/museo/2055> a schema:CivicStructure ;
 	rdfs:label "Museo Nacional de Artes Decorativas" ;
@@ -278,8 +244,7 @@
 	vcard:hasAddress "CALLE MONTALBAN 12" ;
 	vcard:hasEmail "mnad@mecd.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_de_Artes_Decorativas> ;
-	vcard:hasNote "Del 8 de septiembre al 30 de junio:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.  Jueves tarde de 17 a 20 horas.    Del 5 de julio al 4 de septiembre:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.    Cerrado:  todos los lunes del año, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
-	vcard:hasUID "2055" .
+	vcard:hasNote "Del 8 de septiembre al 30 de junio:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.  Jueves tarde de 17 a 20 horas.    Del 5 de julio al 4 de septiembre:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.    Cerrado:  todos los lunes del año, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." .
 
 <http://museosmadrid.com/museo/2056> a schema:CivicStructure ;
 	rdfs:label "Museo Nacional de Ciencias Naturales" ;
@@ -289,8 +254,7 @@
 	vcard:hasAddress "CALLE JOSE GUTIERREZ ABASCAL 2" ;
 	vcard:hasEmail "info.edu@mncn.csic.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_Nacional_de_Ciencias_Naturales> ;
-	vcard:hasNote "De martes a viernes de 10 a 17 horas.  Sábados, domingos y festivos de 10 a 20 horas.  Sábados y domingos de agosto de 10 a 15 horas.        Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
-	vcard:hasUID "2056" .
+	vcard:hasNote "De martes a viernes de 10 a 17 horas.  Sábados, domingos y festivos de 10 a 20 horas.  Sábados y domingos de agosto de 10 a 15 horas.        Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre." .
 
 <http://museosmadrid.com/museo/2076> a schema:CivicStructure ;
 	rdfs:label "Museo Naval" ;
@@ -300,8 +264,7 @@
 	vcard:hasAddress "PASEO PRADO 5" ;
 	vcard:hasEmail "ohculturanaval@fn.mde.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_Naval> ;
-	vcard:hasNote "De martes a domingo de 10 a 19 horas  Cerrado los lunes y los festivos 1 y 6 de enero y 24, 25 y 31 de diciembre  Agosto, martes a domingo de 10 a 15 horas" ;
-	vcard:hasUID "2076" .
+	vcard:hasNote "De martes a domingo de 10 a 19 horas  Cerrado los lunes y los festivos 1 y 6 de enero y 24, 25 y 31 de diciembre  Agosto, martes a domingo de 10 a 15 horas" .
 
 <http://museosmadrid.com/museo/2085> a schema:CivicStructure ;
 	rdfs:label "Museo Postal y Telegráfico" ;
@@ -310,8 +273,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE TAPIA DE CASARIEGO 6" ;
 	vcard:hasEmail "museopostaltelegrafico@correos.com" ;
-	vcard:hasNote "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas  Biblioteca: de lunes a viernes de 9 a 14 y de 16 a 18 horas" ;
-	vcard:hasUID "2085" .
+	vcard:hasNote "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas  Biblioteca: de lunes a viernes de 9 a 14 y de 16 a 18 horas" .
 
 <http://museosmadrid.com/museo/4997114> a schema:CivicStructure ;
 	rdfs:label "Museo Sorolla" ;
@@ -321,8 +283,7 @@
 	vcard:hasAddress "PASEO GENERAL MARTINEZ CAMPOS 37" ;
 	vcard:hasEmail "museo.sorolla@mecd.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Categoría:Museo_Sorolla> ;
-	vcard:hasNote "De martes a sábado: de 9:30 a 20 horas   Domingos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y dos festivos locales." ;
-	vcard:hasUID "4997114" .
+	vcard:hasNote "De martes a sábado: de 9:30 a 20 horas   Domingos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y dos festivos locales." .
 
 <http://museosmadrid.com/museo/2077> a schema:CivicStructure ;
 	rdfs:label "Museo Taurino de la Plaza de las Ventas" ;
@@ -332,8 +293,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE ALCALA 237" ;
 	vcard:hasEmail "museotaurinolasventas@madrid.org" ;
-	vcard:hasNote "Todos los días del año incluidos sábados, domingos y festivos de 10 a 18 horas, ininterrumpidamente, salvo los días de Festejo y en Feria de San Isidro y Otoño de 10 a 16 horas, ininterrumpidamente." ;
-	vcard:hasUID "2077" .
+	vcard:hasNote "Todos los días del año incluidos sábados, domingos y festivos de 10 a 18 horas, ininterrumpidamente, salvo los días de Festejo y en Feria de San Isidro y Otoño de 10 a 16 horas, ininterrumpidamente." .
 
 <http://museosmadrid.com/museo/2099> a schema:CivicStructure ;
 	rdfs:label "Museo Thyssen-Bornemisza" ;
@@ -344,8 +304,7 @@
 	vcard:hasAddress "PASEO PRADO 8" ;
 	vcard:hasEmail "mtb@museothyssen.org" ;
 	owl:sameAs <http://dbpedia.org/resource/Category:Collections_of_the_Thyssen-Bornemisza_Museum> ;
-	vcard:hasNote "Colecciones permanentes:   lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.    Exposiciones temporales : consultar horario específico en Museo.  Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre.   Avisos y aperturas extraordinarias:  los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas" ;
-	vcard:hasUID "2099" .
+	vcard:hasNote "Colecciones permanentes:   lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.    Exposiciones temporales : consultar horario específico en Museo.  Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre.   Avisos y aperturas extraordinarias:  los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas" .
 
 <http://museosmadrid.com/museo/2101> a schema:CivicStructure ;
 	rdfs:label "Museo Tiflológico" ;
@@ -354,8 +313,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE LA CORUÑA 18" ;
 	vcard:hasEmail "museo@once.es" ;
-	vcard:hasNote "Martes a viernes de 10 a 14 horas y de 17 a 20 horas.  Sábados de 10 a 14 horas.  Lunes, domingos y festivos cerrado.   Las visitas de grupos se realizan previa reserva, de 8 a 14:00 horas, en el teléfono de información: 915 894 219" ;
-	vcard:hasUID "2101" .
+	vcard:hasNote "Martes a viernes de 10 a 14 horas y de 17 a 20 horas.  Sábados de 10 a 14 horas.  Lunes, domingos y festivos cerrado.   Las visitas de grupos se realizan previa reserva, de 8 a 14:00 horas, en el teléfono de información: 915 894 219" .
 
 <http://museosmadrid.com/museo/2068> a schema:CivicStructure ;
 	rdfs:label "Museo de Aeronáutica y Astronáutica" ;
@@ -365,8 +323,7 @@
 	vcard:hasAddress "AUTOVIA A-5 10.7" ;
 	vcard:hasEmail "museodelaire@ea.mde.es " ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_Aeronáutica_y_Astronáutica> ;
-	vcard:hasNote "De martes a domingo de 10 a 14 horas.  Cerrado los días 1 y 6 de enero, el mes de agosto, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24, 25 y 31 de diciembre." ;
-	vcard:hasUID "2068" .
+	vcard:hasNote "De martes a domingo de 10 a 14 horas.  Cerrado los días 1 y 6 de enero, el mes de agosto, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24, 25 y 31 de diciembre." .
 
 <http://museosmadrid.com/museo/2091> a schema:CivicStructure ;
 	rdfs:label "Museo de América" ;
@@ -376,8 +333,7 @@
 	vcard:hasAddress "AVENIDA REYES CATOLICOS 6" ;
 	vcard:hasEmail "museo.america@mecd.es" ;
 	owl:sameAs <http://dbpedia.org/resource/Museum_of_the_Americas_(Madrid)> ;
-	vcard:hasNote "Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas    Cerrado:  todos los lunes del año, días 1 y 6 de enero, 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local." ;
-	vcard:hasUID "2091" .
+	vcard:hasNote "Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas    Cerrado:  todos los lunes del año, días 1 y 6 de enero, 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local." .
 
 <http://museosmadrid.com/museo/83922> a schema:CivicStructure ;
 	rdfs:label "Museo de Arte Contemporáneo de Madrid" ;
@@ -387,8 +343,7 @@
 	vcard:hasAddress "CALLE CONDE DUQUE 9" ;
 	vcard:hasEmail "mmacmdifusion@madrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_Arte_Contemporáneo_de_Madrid> ;
-	vcard:hasNote "Martes a Sábado: de 10 a 14 y de 17:30 a 21 horas  Domingos y festivos: de 10.30 a 14 horas   Cerrado :  Lunes (incluso festivos)  1 y 6 de enero, 1 de mayo y 25 de diciembre.     Las salas se desalojan 15 minutos antes del cierre." ;
-	vcard:hasUID "83922" .
+	vcard:hasNote "Martes a Sábado: de 10 a 14 y de 17:30 a 21 horas  Domingos y festivos: de 10.30 a 14 horas   Cerrado :  Lunes (incluso festivos)  1 y 6 de enero, 1 de mayo y 25 de diciembre.     Las salas se desalojan 15 minutos antes del cierre." .
 
 <http://museosmadrid.com/museo/2069> a schema:CivicStructure ;
 	rdfs:label "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala" ;
@@ -397,8 +352,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE CARLOS ARNICHES 3" ;
 	vcard:hasEmail "museoatp@uam.es" ;
-	vcard:hasNote "Permanece abierto al público de lunes a viernes con horario de 10 a 20 horas. Sábados de 10 a 14 horas.  Cerrado domingos, festivos y mes de agosto" ;
-	vcard:hasUID "2069" .
+	vcard:hasNote "Permanece abierto al público de lunes a viernes con horario de 10 a 20 horas. Sábados de 10 a 14 horas.  Cerrado domingos, festivos y mes de agosto" .
 
 <http://museosmadrid.com/museo/2092> a schema:CivicStructure ;
 	rdfs:label "Museo de Astronomía y Geodesia" ;
@@ -407,8 +361,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "PLAZA CIENCIAS 3" ;
 	vcard:hasEmail "astronomia_geodesia@mat.ucm.es" ;
-	vcard:hasNote "Visita con cita previa" ;
-	vcard:hasUID "2092" .
+	vcard:hasNote "Visita con cita previa" .
 
 <http://museosmadrid.com/museo/5727435> a schema:CivicStructure ;
 	rdfs:label "Museo de Bomberos" ;
@@ -419,8 +372,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE BOADA 4" ;
 	vcard:hasEmail "jcbomberos@madrid.es" ;
-	vcard:hasNote "Abierto todos los días de 09'30 a 14 horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.   Visitas Guiadas   Se pueden concertar en el teléfono: 914 786 572 (Museo)  Más información: 915 889 907 - 915 888 240" ;
-	vcard:hasUID "5727435" .
+	vcard:hasNote "Abierto todos los días de 09'30 a 14 horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.   Visitas Guiadas   Se pueden concertar en el teléfono: 914 786 572 (Museo)  Más información: 915 889 907 - 915 888 240" .
 
 <http://museosmadrid.com/museo/2090> a schema:CivicStructure ;
 	rdfs:label "Museo de Calcografía Nacional" ;
@@ -429,8 +381,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE ALCALA 13" ;
 	vcard:hasEmail "calcografianacional.archivo@rabasf.org" ;
-	vcard:hasNote "Abierto con el mismo horario que la exposición temporal. En ausencia de exposiciones temporales, consultar en la taquilla del museo, telefónicamente o en la web." ;
-	vcard:hasUID "2090" .
+	vcard:hasNote "Abierto con el mismo horario que la exposición temporal. En ausencia de exposiciones temporales, consultar en la taquilla del museo, telefónicamente o en la web." .
 
 <http://museosmadrid.com/museo/2084> a schema:CivicStructure ;
 	rdfs:label "Museo de Cera" ;
@@ -440,8 +391,7 @@
 	vcard:hasAddress "PASEO RECOLETOS 41" ;
 	vcard:hasEmail "info@museoceramadrid.com" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_cera> ;
-	vcard:hasNote "De lunes a viernes de 10 a 14:30 y de 16:30 a 20:30 horas.  Sábados, domingos y festivos de 10 a 20:30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes." ;
-	vcard:hasUID "2084" .
+	vcard:hasNote "De lunes a viernes de 10 a 14:30 y de 16:30 a 20:30 horas.  Sábados, domingos y festivos de 10 a 20:30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes." .
 
 <http://museosmadrid.com/museo/2054> a schema:CivicStructure ;
 	rdfs:label "Museo de Historia de Madrid" ;
@@ -451,8 +401,7 @@
 	vcard:hasAddress "CALLE FUENCARRAL 78" ;
 	vcard:hasEmail "smuseosm@madrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_Historia_de_Madrid> ;
-	vcard:hasNote "Salas de exposición permanente y de Cartografía y maquetas : de martes a domingo de 10:00 a 20 horas.  Cerrado : todos los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
-	vcard:hasUID "2054" .
+	vcard:hasNote "Salas de exposición permanente y de Cartografía y maquetas : de martes a domingo de 10:00 a 20 horas.  Cerrado : todos los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." .
 
 <http://museosmadrid.com/museo/2095> a schema:CivicStructure ;
 	rdfs:label "Museo de Mineralogía" ;
@@ -461,8 +410,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CARRETERA COLMENAR VIEJO 19000" ;
 	vcard:hasEmail "museo.mineralogia@uam.es" ;
-	vcard:hasNote "Jueves de 10:30 a 14:30 horas, (conviene concertar previamente la visita).  Visitas guiadas por el personal del museo para grupos." ;
-	vcard:hasUID "2095" .
+	vcard:hasNote "Jueves de 10:30 a 14:30 horas, (conviene concertar previamente la visita).  Visitas guiadas por el personal del museo para grupos." .
 
 <http://museosmadrid.com/museo/2112> a schema:CivicStructure ;
 	rdfs:label "Museo de San Isidro. Los orígenes de Madrid" ;
@@ -472,8 +420,7 @@
 	vcard:hasAddress "PLAZA SAN ANDRES 1" ;
 	vcard:hasEmail "museosanisidro@madrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_de_San_Isidro> ;
-	vcard:hasNote "General:  de martes a domingo y festivos de 9:30 a 20 horas   1 de julio a 15 de septiembre:  martes a viernes de 10 a 14 horas y de 15 a 19 horas; sábados, domingos y festivos de 10 a 19 horas.   Cerrado:  todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre" ;
-	vcard:hasUID "2112" .
+	vcard:hasNote "General:  de martes a domingo y festivos de 9:30 a 20 horas   1 de julio a 15 de septiembre:  martes a viernes de 10 a 14 horas y de 15 a 19 horas; sábados, domingos y festivos de 10 a 19 horas.   Cerrado:  todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre" .
 
 <http://museosmadrid.com/museo/85301> a schema:CivicStructure ;
 	rdfs:label "Museo de Sanidad e Higiene Pública" ;
@@ -482,8 +429,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "AVENIDA MONFORTE DE LEMOS 5" ;
 	vcard:hasEmail "museodesanidad@iscii.es" ;
-	vcard:hasNote "Sólo visitas de grupo con cita previa: de lunes a viernes, de 10 a 14 horas.  Cita previa por teléfono: 918 222 414  o a través del correo electrónico:  museodesanidad@isciii.es" ;
-	vcard:hasUID "85301" .
+	vcard:hasNote "Sólo visitas de grupo con cita previa: de lunes a viernes, de 10 a 14 horas.  Cita previa por teléfono: 918 222 414  o a través del correo electrónico:  museodesanidad@isciii.es" .
 
 <http://museosmadrid.com/museo/4591873> a schema:CivicStructure ;
 	rdfs:label "Museo de la Biblioteca Nacional de España" ;
@@ -492,8 +438,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "PASEO RECOLETOS 20" ;
 	vcard:hasEmail "museo@bne.es" ;
-	vcard:hasNote "De martes a sábados: de 10 a 20 horas.   Domingos: de 10 a 14 horas.  Últimos pases 30 minutos antes del cierre  Día 5 de enero abierto de 10 a 18 horas.  Días 2 y 7 de enero; 20 de marzo; 13 y 14 de abril; 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 8, 24 y 31 de diciembre: de 10 a 14 horas.  Días 1 y 6 de enero; 1 de mayo y 25 de diciembre: cerrado." ;
-	vcard:hasUID "4591873" .
+	vcard:hasNote "De martes a sábados: de 10 a 20 horas.   Domingos: de 10 a 14 horas.  Últimos pases 30 minutos antes del cierre  Día 5 de enero abierto de 10 a 18 horas.  Días 2 y 7 de enero; 20 de marzo; 13 y 14 de abril; 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 8, 24 y 31 de diciembre: de 10 a 14 horas.  Días 1 y 6 de enero; 1 de mayo y 25 de diciembre: cerrado." .
 
 <http://museosmadrid.com/museo/4566286> a schema:CivicStructure ;
 	rdfs:label "Museo de la Catedral de la Almudena" ;
@@ -503,8 +448,7 @@
 	vcard:hasAddress "CALLE BAILEN 10" ;
 	vcard:hasEmail "museo@catedraldelaalmudena.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Catedral_de_la_Almudena_(Madrid)> ;
-	vcard:hasNote "De lunes a sábado de 10 a 14:30 horas  Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" ;
-	vcard:hasUID "4566286" .
+	vcard:hasNote "De lunes a sábado de 10 a 14:30 horas  Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" .
 
 <http://museosmadrid.com/museo/2073> a schema:CivicStructure ;
 	rdfs:label "Museo de la Farmacia Hispana" ;
@@ -513,8 +457,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "PLAZA RAMON Y CAJAL 0" ;
 	vcard:hasEmail "museofar@farm.ucm.es" ;
-	vcard:hasNote "De lunes a viernes de 9 a 14 horas (periodo lectivo)." ;
-	vcard:hasUID "2073" .
+	vcard:hasNote "De lunes a viernes de 9 a 14 horas (periodo lectivo)." .
 
 <http://museosmadrid.com/museo/2107> a schema:CivicStructure ;
 	rdfs:label "Museo de la Guardia Civil" ;
@@ -523,8 +466,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE GUZMAN EL BUENO 110" ;
 	vcard:hasEmail "dg-estuhistoricos-registro@guardiacivil.org" ;
-	vcard:hasNote "Horario:  de lunes a viernes de 9 a 14 horas.    Individuales y grupos reducidos (cinco personas o menos):  sin previa petición de reserva - no guiadas.   Grupos grandes (más de cinco personas):  previa petición de reserva - guiadas." ;
-	vcard:hasUID "2107" .
+	vcard:hasNote "Horario:  de lunes a viernes de 9 a 14 horas.    Individuales y grupos reducidos (cinco personas o menos):  sin previa petición de reserva - no guiadas.   Grupos grandes (más de cinco personas):  previa petición de reserva - guiadas." .
 
 <http://museosmadrid.com/museo/2114> a schema:CivicStructure ;
 	rdfs:label "Museo de la Real Academia de Bellas Artes de San Fernando" ;
@@ -535,8 +477,7 @@
 	vcard:hasAddress "CALLE ALCALA 13" ;
 	vcard:hasEmail "museo@rabasf.org" ;
 	owl:sameAs <http://dbpedia.org/resource/Real_Academia_de_Bellas_Artes_de_San_Fernando> ;
-	vcard:hasNote "De martes a domingos y festivos de 10 a 15 horas  Lunes cerrado   En periodos vacacionales puede sufrir cambios: llamar al 915 240 864   Cerrado:    1 y 6 de enero  1 y 30 de mayo  9 de noviembre  24, 25 y 31 de diciembre.    Exposiciones temporales : consultar telefónicamente" ;
-	vcard:hasUID "2114" .
+	vcard:hasNote "De martes a domingos y festivos de 10 a 15 horas  Lunes cerrado   En periodos vacacionales puede sufrir cambios: llamar al 915 240 864   Cerrado:    1 y 6 de enero  1 y 30 de mayo  9 de noviembre  24, 25 y 31 de diciembre.    Exposiciones temporales : consultar telefónicamente" .
 
 <http://museosmadrid.com/museo/187029> a schema:CivicStructure ;
 	rdfs:label "Museo del Atlético de Madrid" ;
@@ -545,8 +486,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "PASEO VIRGEN DEL PUERTO 67" ;
 	vcard:hasEmail "museo@atleticodemadrid.com" ;
-	vcard:hasNote "Horarios del Museo   De lunes a domingo, de 11 a 19 horas (incluido fetivos).  Cerrado los días 24 y 31 de diciembre a partir de las 14 horas y todo el día del 25 de diciembre y el 1 y 6 de enero.     Horarios de las visitas guiadas   De lunes a domingo a las 12, 13, 16:30 y 17:30 horas  No se celebran los días 24, 25 y 31 de diciembre 1 y 6 de enero." ;
-	vcard:hasUID "187029" .
+	vcard:hasNote "Horarios del Museo   De lunes a domingo, de 11 a 19 horas (incluido fetivos).  Cerrado los días 24 y 31 de diciembre a partir de las 14 horas y todo el día del 25 de diciembre y el 1 y 6 de enero.     Horarios de las visitas guiadas   De lunes a domingo a las 12, 13, 16:30 y 17:30 horas  No se celebran los días 24, 25 y 31 de diciembre 1 y 6 de enero." .
 
 <http://museosmadrid.com/museo/2066> a schema:CivicStructure ;
 	rdfs:label "Museo del Ferrocarril de Madrid" ;
@@ -556,8 +496,16 @@
 	vcard:category "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	vcard:hasAddress "PASEO DELICIAS 61" ;
 	owl:sameAs <http://dbpedia.org/resource/Railway_Museum_(Madrid)> ;
-	vcard:hasNote "Del 1 de enero al 31 de mayo y del 1 de octubre al 31 de diciembre:    Lunes a jueves, de 9.30 a 15 horas.  Viernes, sábado, domingo y festivos de 10 a 20 h (el segundo viernes de mes permanecerá abierto hasta las 18 horas)    Del 1 de junio al 30 de septiembre   Lunes a domingo, de 10.00 a 15 horas.   Cerrado: 25 de diciembre, 1 y 6 de enero." ;
-	vcard:hasUID "2066" .
+	vcard:hasNote "Del 1 de enero al 31 de mayo y del 1 de octubre al 31 de diciembre:    Lunes a jueves, de 9.30 a 15 horas.  Viernes, sábado, domingo y festivos de 10 a 20 h (el segundo viernes de mes permanecerá abierto hasta las 18 horas)    Del 1 de junio al 30 de septiembre   Lunes a domingo, de 10.00 a 15 horas.   Cerrado: 25 de diciembre, 1 y 6 de enero." .
+
+<http://museosmadrid.com/museo/2058> a schema:CivicStructure ;
+	rdfs:label "Museo del Prado" ;
+	vcard:hasTelephone "913 302 800" ;
+	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=060079262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	vcard:category "/contenido/entidadesYorganismos/Museos" ;
+	vcard:hasAddress "CALLE RUIZ DE ALARCON 23" ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_del_Prado> ;
+	vcard:hasNote "De lunes a sábado de 10 a 20 horas  Domingos y festivos de 10 a 19 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre  Horario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembre  Acceso al museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre)  Horario gratuito, de lunes a sábado de 18 a 20 horas y domingos y festivos de 17 a 19 horas" .
 
 <http://museosmadrid.com/museo/2086> a schema:CivicStructure ;
 	rdfs:label "Museo del Reloj Grassy" ;
@@ -567,8 +515,7 @@
 	vcard:hasAddress "CALLE GRAN VIA 1" ;
 	vcard:hasEmail "marta@grassy.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Edificio_Grassy> ;
-	vcard:hasNote "Jueves a las 17:30 y viernes a las 11:45 horas (excepto festivos).  Las visitas se efectúan con cita previa   Inscripción telefónica: 915 321 007  Inscripción por correo electrónico:  marta@grassy.es    La visita puede ser individual o en grupos de máximo 10 personas." ;
-	vcard:hasUID "2086" .
+	vcard:hasNote "Jueves a las 17:30 y viernes a las 11:45 horas (excepto festivos).  Las visitas se efectúan con cita previa   Inscripción telefónica: 915 321 007  Inscripción por correo electrónico:  marta@grassy.es    La visita puede ser individual o en grupos de máximo 10 personas." .
 
 <http://museosmadrid.com/museo/7685664> a schema:CivicStructure ;
 	rdfs:label "Museo del Robot" ;
@@ -577,8 +524,7 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE ALBERTO AGUILERA 1" ;
 	vcard:hasEmail "antencionalcliente@therobotmuseum.eu" ;
-	vcard:hasNote "Martes a viernes: 13, 17 y 20 horas  Sábados: 16:30, 17:30, 18:45, 20 horas  Lunes y domingos cerrado   Reservas online:  http://www.therobotmuseum.eu/reservar-online/   Reserva Presencial: The Robot Museum tiene  disponibles el 50% de las entradas  para adquirirlas de forma presencial" ;
-	vcard:hasUID "7685664" .
+	vcard:hasNote "Martes a viernes: 13, 17 y 20 horas  Sábados: 16:30, 17:30, 18:45, 20 horas  Lunes y domingos cerrado   Reservas online:  http://www.therobotmuseum.eu/reservar-online/   Reserva Presencial: The Robot Museum tiene  disponibles el 50% de las entradas  para adquirirlas de forma presencial" .
 
 <http://museosmadrid.com/museo/2059> a schema:CivicStructure ;
 	rdfs:label "Museo del Romanticismo" ;
@@ -588,8 +534,7 @@
 	vcard:hasAddress "CALLE SAN MATEO 13" ;
 	vcard:hasEmail "informacion.romanticismo@mecd.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_del_Romanticismo> ;
-	vcard:hasNote "Horario de invierno  (de noviembre a abril)  De martes a sábado: de 9:30 a 18:30. Domingos y festivos: de 10 a 15 horas   Horario de verano  (de mayo a octubre)  De martes a sábado: de 9:30 a 20:30. Domingos y festivos: de 10 a 15 horas   Cerrado:  Todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
-	vcard:hasUID "2059" .
+	vcard:hasNote "Horario de invierno  (de noviembre a abril)  De martes a sábado: de 9:30 a 18:30. Domingos y festivos: de 10 a 15 horas   Horario de verano  (de mayo a octubre)  De martes a sábado: de 9:30 a 20:30. Domingos y festivos: de 10 a 15 horas   Cerrado:  Todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." .
 
 <http://museosmadrid.com/museo/6337393> a schema:CivicStructure ;
 	rdfs:label "Museo del Seguro. Fundación Mapfre" ;
@@ -598,8 +543,7 @@
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=479b95f8c72d5310VgnVCM2000000c205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE BARBARA DE BRAGANZA 14" ;
-	vcard:hasNote "De lunes a Viernes previa petición de hora." ;
-	vcard:hasUID "6337393" .
+	vcard:hasNote "De lunes a Viernes previa petición de hora." .
 
 <http://museosmadrid.com/museo/2115> a schema:CivicStructure ;
 	rdfs:label "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)" ;
@@ -609,8 +553,7 @@
 	vcard:hasAddress "AVENIDA JUAN DE HERRERA 2" ;
 	vcard:hasEmail "museodeltraje@mecd.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Museo_del_Traje> ;
-	vcard:hasNote "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario de 9: 30 a 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." ;
-	vcard:hasUID "2115" .
+	vcard:hasNote "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario de 9: 30 a 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." .
 
 <http://museosmadrid.com/museo/2062> a schema:CivicStructure ;
 	rdfs:label "Palacio Real" ;
@@ -620,8 +563,7 @@
 	vcard:hasAddress "CALLE BAILEN 0" ;
 	vcard:hasEmail "info@patrimonionacional.es" ;
 	owl:sameAs <http://www.wikidata.org/entity/Q171517> ;
-	vcard:hasNote "Horario    De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.   Día 29 de marzo de 2017 cerrado a las 15 horas; Centro visitantes: abierto horario habitual     Día 30 de marzo de 2017 cerrado a las 15 horas;  Centro visitantes: abierto horario habitual" ;
-	vcard:hasUID "2062" .
+	vcard:hasNote "Horario    De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.   Día 29 de marzo de 2017 cerrado a las 15 horas; Centro visitantes: abierto horario habitual     Día 30 de marzo de 2017 cerrado a las 15 horas;  Centro visitantes: abierto horario habitual" .
 
 <http://museosmadrid.com/museo/2063> a schema:CivicStructure ;
 	rdfs:label "Palacio de Liria" ;
@@ -631,8 +573,7 @@
 	vcard:hasAddress "CALLE PRINCESA 20" ;
 	vcard:hasEmail "info@fundacioncasadealba.com" ;
 	owl:sameAs <http://dbpedia.org/resource/Liria_Palace> ;
-	vcard:hasNote "Las visitas:  viernes a las 10, 11 y 12 horas . Cada turno estará formado por un máximo de 15 personas." ;
-	vcard:hasUID "2063" .
+	vcard:hasNote "Las visitas:  viernes a las 10, 11 y 12 horas . Cada turno estará formado por un máximo de 15 personas." .
 
 <http://museosmadrid.com/museo/2079> a schema:CivicStructure ;
 	rdfs:label "Panteón de Hombres Ilustres" ;
@@ -642,16 +583,14 @@
 	vcard:hasAddress "CALLE JULIAN GAYARRE 3" ;
 	vcard:hasEmail "info@patrimonionacional.es" ;
 	owl:sameAs <http://dbpedia.org/resource/Pantheon_of_Illustrious_Men> ;
-	vcard:hasNote "De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado  Cerrado todos los lunes del año" ;
-	vcard:hasUID "2079" .
+	vcard:hasNote "De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado  Cerrado todos los lunes del año" .
 
 <http://museosmadrid.com/museo/3362> a schema:CivicStructure ;
 	rdfs:label "Parroquia Santa Cruz" ;
 	vcard:hasTelephone "913 691 239" ;
 	vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40e0b069a541f010VgnVCM1000000b205a0aRCRD" ;
 	vcard:category "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
-	vcard:hasAddress "CALLE ATOCHA 6" ;
-	vcard:hasUID "3362" .
+	vcard:hasAddress "CALLE ATOCHA 6" .
 
 <http://museosmadrid.com/museo/2213> a schema:CivicStructure ;
 	rdfs:label "Planetario de Madrid" ;
@@ -662,8 +601,7 @@
 	vcard:hasAddress "AVENIDA PLANETARIO 16" ;
 	vcard:hasEmail "buzon@planetmad.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Planetario_de_Madrid> ;
-	vcard:hasNote "EN LA ACTUALIDAD, CERRADO PARA PROCEDER A SU RENOVACIÓN TECNOLÓGICA." ;
-	vcard:hasUID "2213" .
+	vcard:hasNote "EN LA ACTUALIDAD, CERRADO PARA PROCEDER A SU RENOVACIÓN TECNOLÓGICA." .
 
 <http://museosmadrid.com/museo/3359> a schema:CivicStructure ;
 	rdfs:label "Real Basílica San Francisco el Grande" ;
@@ -672,8 +610,7 @@
 	vcard:category "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
 	vcard:hasAddress "CALLE SAN BUENAVENTURA 1" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Real_Basílica_de_San_Francisco_el_Grande_(Madrid)> ;
-	vcard:hasNote "Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).  Julio, agosto y septiembre: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
-	vcard:hasUID "3359" .
+	vcard:hasNote "Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).  Julio, agosto y septiembre: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." .
 
 <http://museosmadrid.com/museo/2087> a schema:CivicStructure ;
 	rdfs:label "Real Fábrica de Tapices" ;
@@ -683,8 +620,7 @@
 	vcard:hasAddress "CALLE FUENTERRABIA 2" ;
 	vcard:hasEmail "informacion@realfabricadetapices.com" ;
 	owl:sameAs <http://dbpedia.org/resource/Royal_Tapestry_Factory> ;
-	vcard:hasNote "De lunes a viernes de 10 a 14 horas.  Cerrado: sábados, domingos, festivos, Semana Santa y agosto." ;
-	vcard:hasUID "2087" .
+	vcard:hasNote "De lunes a viernes de 10 a 14 horas.  Cerrado: sábados, domingos, festivos, Semana Santa y agosto." .
 
 <http://museosmadrid.com/museo/4707297> a schema:CivicStructure ;
 	rdfs:label "Real Monasterio de Santa Isabel" ;
@@ -694,8 +630,7 @@
 	vcard:hasAddress "CALLE SANTA ISABEL 48" ;
 	vcard:hasEmail "info@patrimonionacional.es" ;
 	owl:sameAs <http://dbpedia.org/resource/Royal_Monastery_of_Santa_Isabel> ;
-	vcard:hasNote "El acceso al templo sólo es posible en horario de culto y por la fachada principal." ;
-	vcard:hasUID "4707297" .
+	vcard:hasNote "El acceso al templo sólo es posible en horario de culto y por la fachada principal." .
 
 <http://museosmadrid.com/museo/3349> a schema:CivicStructure ;
 	rdfs:label "Real Monasterio de la Encarnación" ;
@@ -705,8 +640,7 @@
 	vcard:hasAddress "PLAZA ENCARNACION 1" ;
 	vcard:hasEmail "info@patrimonionacional.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Real_Monasterio_de_la_Encarnación> ;
-	vcard:hasNote "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado todos los lunes del año" ;
-	vcard:hasUID "3349" .
+	vcard:hasNote "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado todos los lunes del año" .
 
 <http://museosmadrid.com/museo/2061> a schema:CivicStructure ;
 	rdfs:label "Real Sitio de El Pardo" ;
@@ -716,8 +650,7 @@
 	vcard:hasAddress "CALLE MANUEL ALONSO 8" ;
 	vcard:hasEmail "info@patrimonionacional.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Real_Sitio_de_El_Pardo> ;
-	vcard:hasNote "Horario    De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas   Día 21 de marzo de 2017 cerrado a las 15 horas;  Día 22 de marzo de 2017 cerrado en jornada completa" ;
-	vcard:hasUID "2061" .
+	vcard:hasNote "Horario    De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas   Día 21 de marzo de 2017 cerrado a las 15 horas;  Día 22 de marzo de 2017 cerrado en jornada completa" .
 
 <http://museosmadrid.com/museo/20605> a schema:CivicStructure ;
 	rdfs:label "Templo de Debod" ;
@@ -727,8 +660,7 @@
 	vcard:hasAddress "CALLE FERRAZ 1" ;
 	vcard:hasEmail "templodebod@madrid.es" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Templo_de_Debod> ;
-	vcard:hasNote "De martes a domingos y festivos: de 10:00 a 20:00 horas   El templo permanece cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.   Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
-	vcard:hasUID "20605" .
+	vcard:hasNote "De martes a domingos y festivos: de 10:00 a 20:00 horas   El templo permanece cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.   Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." .
 
 <http://museosmadrid.com/museo/7071384> a schema:CivicStructure ;
 	rdfs:label "Yacimiento paleontológico. Estación de Metro Carpetana" ;
@@ -737,5 +669,4 @@
 	vcard:category "/contenido/entidadesYorganismos/Museos" ;
 	vcard:hasAddress "CALLE VIA CARPETANA 328" ;
 	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Carpetana> ;
-	vcard:hasNote "Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas" ;
-	vcard:hasUID "7071384" .
+	vcard:hasNote "Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas" .
