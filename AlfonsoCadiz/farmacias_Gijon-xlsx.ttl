@@ -1,0 +1,980 @@
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ic: <http://ontology.eil.utoronto.ca/icontact.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cal: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix vcal: <http://www.w3.org/2006/vcard/ns#> .
+
+
+<http://farmaGijon.com/farma/farmacia/1753> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. Antonio Álvarez Abad" ;
+	dc:relation "http://www.gijon.es/data/images/f7/7298/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Espacio de salud orientado a mejorar la calidad de vida de sus clientes, a través de la provisión de productos y servicios, en compromiso constante con la calidad y la innovación. Servicios: ortopedia, dietética, medicina natural, deportista, parafarmacia, veterinaria y óptica ." ;
+	vcal:street-address "C/Magnus Blikstad, 19" ;
+	geo:locationMap "43.537661 -5.66765" ;
+	ic:phone "985 348 262" ;
+	vcal:note "Lunes a Viernes: 9:00-23:00 h. Sábados: 9:00-14:00 h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/Gijón> a <http://farmaGijon.com/farma/PopulatedPlace> ;
+	dbpedia-owl:city "Gijón" ;
+	owl:sameAs <http://dbpedia.org/resource/Gij%C3%B3n> .
+
+<http://farmaGijon.com/farma/farmacia/710> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Vegas Fernández" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6631/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Schultz, 42" ;
+	geo:locationMap "43.535492 -5.664115" ;
+	ic:phone "985 386 425" ;
+	vcal:note "Lunes a Viernes: 9:00-21:00h. Sábados:9:45-13:45h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/709> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Torre" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6630/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Corrida, 31" ;
+	geo:locationMap "43.541685 -5.663927" ;
+	ic:phone "985 340 004" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/708> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Toraño" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6629/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Plantas medicinales, Fórmulas magistrales, Anáslisis clinicos, Alimentación Infantil." ;
+	vcal:street-address "C/Covadonga, 16" ;
+	geo:locationMap "43.53948 -5.659464" ;
+	ic:phone "985 341 733" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/707> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Somió" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6628/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Dionisio Cifuentes, 58" ;
+	geo:locationMap "43.536706 -5.622479" ;
+	ic:phone "985 362 148" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/706> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Soledad" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6627/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Fórmulas magistrales, Anáslisis clinicos, Medicina Homeopática." ;
+	vcal:street-address "C/San Agustín, 1" ;
+	geo:locationMap "43.541335 -5.65982" ;
+	ic:phone "985 352 653" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/705> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Silvia González Fernández" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6626/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Manuel R. Álvarez, 3 (La Calzada)" ;
+	geo:locationMap "43.539154 -5.700848" ;
+	ic:phone "985 320 019" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/704> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Rosa María Touris Romero" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6625/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Gaspar García Laviana, 67" ;
+	geo:locationMap "43.525911 -5.666075" ;
+	ic:phone "985 382 673" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/703> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Pinzales" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6624/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Casares" ;
+	geo:locationMap "43.491818 -5.719736" ;
+	ic:phone "985 167 544" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/702> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Palacio C.B. - Ldo. Daniela Palacio Fernádez, Eduardo Palacio Fernández" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6623/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farmacia Palacio C.B. - Ldo. Daniela Palacio Fernández, Eduado Palacio Fernández - Avda. Manuel Llaneza, 19 -21" ;
+	geo:locationMap "43.535841 -5.6618" ;
+	ic:phone "985 386 525" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/701> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Pagin C.B." ;
+	dc:relation "http://www.gijon.es/data/images/f6/6622/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Avelino Gonzalez Mallada, 44" ;
+	geo:locationMap "43.532453 -5.648713" ;
+	ic:phone "985 366 926" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/700> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Molinón - Lda. Araceli García de La Fuente" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6621/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Gregorio Marañón, 3" ;
+	geo:locationMap "43.534717 -5.642681" ;
+	ic:phone "985 195 451" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/699> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Miguel Rubio López" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6620/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Ezcurdia, 55" ;
+	geo:locationMap "43.538236 -5.649832" ;
+	ic:phone "985 370 739" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/698> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Mercedes Cepeda Saez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6619/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "C/Andes, 40" ;
+	geo:locationMap "43.537664 -5.697076" ;
+	ic:phone "985 309 347" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/697> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Menéndez Antolín C.B." ;
+	dc:relation "http://www.gijon.es/data/images/f6/6618/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "C/Moros, 2" ;
+	geo:locationMap "43.542002 -5.663506" ;
+	ic:phone "985 341 954" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/696> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Mazoy" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6617/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "Ctra. Obispo, 59" ;
+	geo:locationMap "43.521893 -5.665399" ;
+	ic:phone "985 152 191" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/695> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Matilda Bermajo Mújica" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6616/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "C/Corrida, 39" ;
+	geo:locationMap "43.541184 -5.663742" ;
+	ic:phone "985 341 115" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/694> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Marina Alejandra Diaz Rodríguez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6615/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farmacia  Marina Alejandra Díaz Rodríguez - C/Velázquez,7" ;
+	geo:locationMap "43.522761 -5.678161" ;
+	ic:phone "985 140 891" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/693> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María Dolores Bueno Boxo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6614/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "C/Orán, 23" ;
+	geo:locationMap "43.528826 -5.678596" ;
+	ic:phone "985 381 477" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/692> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María Silvia Álvarez Sala - De Faes" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6613/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Schultz, 79" ;
+	geo:locationMap "43.531666 -5.665987" ;
+	ic:phone "985 386 431" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/691> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María Pilar Menéndez Alonso" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6612/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "Farmacia María Piular Menéndez Alonso - C/Dos de Mayo, 26" ;
+	geo:locationMap "43.538664 -5.68565" ;
+	ic:phone "985 310 961" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/690> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María Nieves Rio Cifuentes" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6611/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "C/Carmen, 4" ;
+	geo:locationMap "43.54173 -5.666094" ;
+	ic:phone "985 344 607" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/689> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María Luisa Blanco Suárez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6610/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description " " ;
+	vcal:street-address "C/Quevedo, 28" ;
+	geo:locationMap "43.531411 -5.652788" ;
+	ic:phone "985 374 513" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/688> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María del Carmen Represa Suárez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6609/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Famacia María del Carmen Represa Suárez - C/Manso, 3" ;
+	geo:locationMap "43.539846 -5.649376" ;
+	ic:phone "985 368 325" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/687> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia María del Carmen Eijo Riego" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6608/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Mon, 28" ;
+	geo:locationMap "43.521959 -5.669535" ;
+	ic:phone "985 383 784" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/686> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Margarita y Raquel Rodríguez C.B." ;
+	dc:relation "http://www.gijon.es/data/images/f6/6607/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Roncal, 19" ;
+	geo:locationMap "43.527214 -5.66872" ;
+	ic:phone "985 389 553" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/685> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Margarita Orviz" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6606/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de Pablo Iglesias, 29" ;
+	geo:locationMap "43.535981 -5.65624" ;
+	ic:phone "985 371 750" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/684> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Mª Milagros Fernández" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6605/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Rosalía de Castro, 7" ;
+	geo:locationMap "43.538191 -5.690245" ;
+	ic:phone "985 326 287" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/683> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Mª Luisa Braga Blanco" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6604/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Fórmulas magistrales, Anáslisis clinicos, zapatos, medias." ;
+	vcal:street-address "C/Alonso de Ojeda, 16" ;
+	geo:locationMap "43.530993 -5.668446" ;
+	ic:phone "985 384 412" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/682> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Mª Inés Álvarez Álvarez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6603/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Fórmulas magistrales, Plantas medicinales, cósmeticos." ;
+	vcal:street-address "Ctra. Obispo, 21" ;
+	geo:locationMap "43.523628 -5.667143" ;
+	ic:phone "985 311 481" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/681> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Luisa María Diez Sánchez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6602/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farmacia  Luisa María Díez Sánchez - C/Puerto Ventana, 14" ;
+	geo:locationMap "43.531852 -5.674181" ;
+	ic:phone "985 398 130" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/680> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Los Campos" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6601/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de La Costa, 95" ;
+	geo:locationMap "43.537486 -5.651945" ;
+	ic:phone "985 367 336" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/679> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. de Viana - Cárdenas García - Berna" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6600/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Camino Rubín (Urb. El Lauredal-Jove), 1" ;
+	geo:locationMap "43.538563 -5.706507" ;
+	ic:phone "985 326 309" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/678> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. Pedro Luances" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6599/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/José las Clotas, 3" ;
+	geo:locationMap "43.538973 -5.66339" ;
+	ic:phone "985 342 861" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/677> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. Miguel Manuel Martínez Blanco" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6598/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Famacia Ldo. Miguel Manuel Martínez Blanco - C/Corrida, 24" ;
+	geo:locationMap "43.541557 -5.664018" ;
+	ic:phone "985 345 526" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/676> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. Germán López" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6597/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Plantas medicinales, Fórmulas magistrales, cósmeticos." ;
+	vcal:street-address "C/Monsacro, 26" ;
+	geo:locationMap "43.526421 -5.683606" ;
+	ic:phone "985 384 498" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/675> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. Fernando Verges" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6596/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Plaza Instituto, 1" ;
+	geo:locationMap "43.541648 -5.661352" ;
+	ic:phone "985 342 147" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/674> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ldo. Ángel Alemany García" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6595/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farmacia Ld. Ángel Alemany García - Avda. de la Costa, 74" ;
+	geo:locationMap "43.537505 -5.658233" ;
+	ic:phone "985 363 514" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/673> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Tomasa García" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6594/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Gaspar García Laviana, 1" ;
+	geo:locationMap "43.526011 -5.670187" ;
+	ic:phone "985 387 252" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/672> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Miriam Guais" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6593/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Carlos Marx, 8" ;
+	geo:locationMap "43.534376 -5.670817" ;
+	ic:phone "985 359 652" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/671> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Matilde Nuñez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6592/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Laviana, 9" ;
+	geo:locationMap "43.532354 -5.659539" ;
+	ic:phone "985 393 229" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/670> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. María Victoria Menéndez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6591/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de la  Costa, 6" ;
+	geo:locationMap "43.537948 -5.66508" ;
+	ic:phone "985 345 218" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/669> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. María Teresa Canal González" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6590/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Marcas: Bayer, Puleva, Indax, DurexProductos: analgésicos,Alcohol,Tiritas,Aspirinas." ;
+	vcal:street-address "Farmaica Lda. Maria Teresa Canal González - C/Sierra del Sueve, 13" ;
+	geo:locationMap "43.529311 -5.681643" ;
+	ic:phone "985 395 735" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/668> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Marí Pilar Ramallal" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6589/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Farmacia,ortopedia,veterinaria,Productos: Anáslisis clinicos, Fórmulas magistrales, zapatos ortopédicos." ;
+	vcal:street-address "La Camocha, s/n." ;
+	geo:locationMap "43.487739 -5.651597" ;
+	ic:phone "985 136 006" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/667> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. María del Pilar Fernández" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6588/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de Portugal, 15" ;
+	geo:locationMap "43.534985 -5.67762" ;
+	ic:phone "985 175 143" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/666> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. María del Carmen Suárez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6587/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: cósmeticos, Plantas medicinales, Fórmulas magistrales, Anáslisis clinicos." ;
+	vcal:street-address "C/Eleuterio Quintanilla, 63" ;
+	geo:locationMap "43.530717 -5.663063" ;
+	ic:phone "985 384 370" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/665> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Magdalena Bascones Martínez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6586/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Domingo Juliana, 14" ;
+	geo:locationMap "43.540491 -5.695773" ;
+	ic:phone "985 321 923" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/664> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Engracia Blanco" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6585/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Uruguay, 2" ;
+	geo:locationMap "43.539251 -5.697586" ;
+	ic:phone "985 321 474" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/663> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Daniel Romero" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6584/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de El Llano, 21" ;
+	geo:locationMap "43.533993 -5.660335" ;
+	ic:phone "985 384 348" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/662> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Carolina Isabel Álvarez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6583/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Farmacia y OrtopediaProductos: zapatos ortopédicos." ;
+	vcal:street-address "C/Adaro, 1" ;
+	geo:locationMap "43.535922 -5.668862" ;
+	ic:phone "985 350 761" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/661> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Carmen Peña" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6582/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Constitución, 20" ;
+	geo:locationMap "43.536401 -5.666757" ;
+	ic:phone "985 345 992" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/660> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Beatriz Moraña" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6581/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Playa, 18" ;
+	geo:locationMap "43.540021 -5.653831" ;
+	ic:phone "985 363 169" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/659> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Lda. Beatriz Gómez Menéndez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6580/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farmacia Ld. Beatriz Gómez Menéndez - Avda. Schultz, 7" ;
+	geo:locationMap "43.537085 -5.664766" ;
+	ic:phone "985 391 274" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/658> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Laso Ubeda" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6579/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farnacia Laso Ubeda - C/Naranjo de Bulnes, 10" ;
+	geo:locationMap "43.526199 -5.680404" ;
+	ic:phone "985 388 109" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/657> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Julia García y Olvido Martínez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6578/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Plantas medicinales, Fórmulas magistrales, cósmeticos, vitaminas." ;
+	vcal:street-address "C/Brasil, 12" ;
+	geo:locationMap "43.540577 -5.699437" ;
+	ic:phone "985 320 407" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/656> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Josefa Emilia Álvarez Fernández" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6577/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de Portugal, 39" ;
+	geo:locationMap "43.537136 -5.672875" ;
+	ic:phone "985 346 139" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/655> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia José Manuel Reboreda Somoza" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6576/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Medicamentos." ;
+	vcal:street-address "Avda. de Galicia, 4" ;
+	geo:locationMap "43.540577 -5.68285" ;
+	ic:phone "985 321 265" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/654> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia José Luis Sánchez Suárez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6575/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de H. Felgueroso, 23" ;
+	geo:locationMap "43.535366 -5.658538" ;
+	ic:phone "985 334 188" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/653> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia José Luis Criado Álvarez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6574/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Juan Alvargonzález, 10" ;
+	geo:locationMap "43.530442 -5.670544" ;
+	ic:phone "985 384 825" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/652> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Isabel Figaredo Arce" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6573/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Ezcurdia, 194" ;
+	geo:locationMap "43.53432 -5.639288" ;
+	ic:phone "985 134 952" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/651> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Imperio Souto García" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6572/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Menéndez Valdés, 29" ;
+	geo:locationMap "43.539998 -5.658788" ;
+	ic:phone "985 341 213" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/650> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Humberto Migoya Guijarro" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6571/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Ramiro I, 20" ;
+	geo:locationMap "43.531162 -5.658812" ;
+	ic:phone "985 384 503" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/649> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Gonzalo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6570/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/San José, 54" ;
+	geo:locationMap "43.534218 -5.662949" ;
+	ic:phone "985 387 104" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/648> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia González y Mazoy C.B." ;
+	dc:relation "http://www.gijon.es/data/images/f6/6569/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Río Narcea, 19" ;
+	geo:locationMap "43.519855 -5.665287" ;
+	ic:phone "985 160 505" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/647> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia González Bures" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6568/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Vicente Innerarity, 7" ;
+	geo:locationMap "43.536257 -5.650315" ;
+	ic:phone "985 365 269" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/646> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Garzo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6567/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de H. Felgueroso, 71" ;
+	geo:locationMap "43.530876 -5.654963" ;
+	ic:phone "985 399 607" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/645> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Garitano" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6566/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Fórmulas magistrales, antigripales, balsamos, analgésicos." ;
+	vcal:street-address "C/Moros, 22" ;
+	geo:locationMap "43.541224 -5.663326" ;
+	ic:phone "985 350 462" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/644> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia García Moreno" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6565/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Hoemopatía - Fórmulas magistrales.Fitoterapia." ;
+	vcal:street-address "C/Asturias, 13" ;
+	geo:locationMap "43.539895 -5.665346" ;
+	ic:phone "985 344 624" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/643> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Fueyo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6564/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Anáslisis clinicos, Plantas medicinales, Fórmulas magistrales, cósmeticos." ;
+	vcal:street-address "C/Marqués de Urquijo, 23" ;
+	geo:locationMap "43.539055 -5.646619" ;
+	ic:phone "985 363 769" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/642> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Fernández Macias" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6563/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Río de Oro, 48" ;
+	geo:locationMap "43.528873 -5.663541" ;
+	ic:phone "985 164 571" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/641> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Escalera" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6562/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/San Bernardo, 25" ;
+	geo:locationMap "43.542935 -5.661848" ;
+	ic:phone "985 341 320" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/640> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Eguiguren" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6561/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Hernán Cortés, 22" ;
+	geo:locationMap "43.54011 -5.70449" ;
+	ic:phone "985 323 475" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/639> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia del Muelle - Lda Rosa M. Suárez Pellico y Magaly Fernández Riesgo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6560/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Farmacia del Muelle-Lda Rosa M. Suarez Pellico y Magal y Fernández Riesgo - C/Corrida, 1" ;
+	geo:locationMap "43.543233 -5.66426" ;
+	ic:phone "985 343 259" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/638> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia del Coz" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6559/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Parafarmacia." ;
+	vcal:street-address "Avda. Campones (Tremañes), 88" ;
+	geo:locationMap "43.531273 -5.696948" ;
+	ic:phone "985 327 499" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/637> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia de Roces - Rafael Jesús Goyanes Riesgo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6558/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "La Farmacia ubicada en Gijón es una farmacia de referencia a nivel local y nacional como Espacio de Salud\" y servicios de \"Atención Farmacéutica\" y \"Formulación Magistral\" a través de la innovación  de la formación contínua y de las nuevas tecnologías para ampliar la difusión de nuestros servicios.Servicios: análisis  controles atención farmaceútica  nutrición estética - podología-ortopedia -perforación de orejas y reciclaje de medicamentos.\"" ;
+	vcal:street-address "C/Salvador Allende, 69" ;
+	geo:locationMap "43.516848 -5.677308" ;
+	ic:phone "985 386 367" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/636> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia de Jove" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6557/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Eduardo Castro, 135" ;
+	geo:locationMap "43.545224 -5.697688" ;
+	ic:phone "985 300 804" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/635> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Cuadrado" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6556/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de H. Felgueroso, 56" ;
+	geo:locationMap "43.533554 -5.657449" ;
+	ic:phone "985 149 289" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/634> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Corona" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6555/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Baleares, 23" ;
+	geo:locationMap "43.529007 -5.670675" ;
+	ic:phone "985 397 729" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/633> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Pumarín - Ldo. José Antonio Viñuela Collado" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6554/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Mancha, 29" ;
+	geo:locationMap "43.523877 -5.669948" ;
+	ic:phone "985 389 149" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/632> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Consuelo Magdaleno González" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6553/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Marqués de San Esteban, 33" ;
+	geo:locationMap "43.541876 -5.667897" ;
+	ic:phone "985 342 423" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/631> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Cimadevilla" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6552/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Escultor Sebastián Miranda, 6" ;
+	geo:locationMap "43.546351 -5.661998" ;
+	ic:phone "985 348 577" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/630> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia César Amez Puerta" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6551/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de Galicia, 51" ;
+	geo:locationMap "43.540215 -5.687603" ;
+	ic:phone "985 320 098" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/629> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Carmen Vinuela" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6550/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Donato Argüelles, 15" ;
+	geo:locationMap "43.539823 -5.664581" ;
+	ic:phone "985 344 624" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/628> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Carmen Sánchez Moreno" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6549/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Gaspar García Laviana, s/n." ;
+	geo:locationMap "43.527382 -5.675316" ;
+	ic:phone "985 161 525" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/627> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Carmen María Montes Álvarez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6548/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Alfredo Truán, 6" ;
+	geo:locationMap "43.53824 -5.662049" ;
+	ic:phone "985 351 637" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/626> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Carmen Llano" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6547/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Anáslisis clinicos, Fórmulas magistrales, Plantas medicinales." ;
+	vcal:street-address "C/Torcuato Fernández Miranda, 6" ;
+	geo:locationMap "43.537416 -5.646088" ;
+	ic:phone "985 363 512" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/625> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Carlos Checa" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6546/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Schultz, 142" ;
+	geo:locationMap "43.528877 -5.666867" ;
+	ic:phone "985 387 813" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/624> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Capellín Rodríguez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6545/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Plantas medicinales, cósmeticos, zapatos ortopédicos, plantillas." ;
+	vcal:street-address "C/Ramón y Cajal, 21" ;
+	geo:locationMap "43.534802 -5.653238" ;
+	ic:phone "985 368 758" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/623> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Cabrales" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6544/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Cabrales, 78" ;
+	geo:locationMap "43.53999 -5.660115" ;
+	ic:phone "985 342 926" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/622> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Blasco" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6543/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Menéndez y Pelayo, 14" ;
+	geo:locationMap "43.538724 -5.652066" ;
+	ic:phone "985 360 312" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/621> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Begoña" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6542/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Paseo de Begoña, 7" ;
+	geo:locationMap "43.539554 -5.661368" ;
+	ic:phone "985 342 518" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/620> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Bada" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6541/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. de El Llano, 57" ;
+	geo:locationMap "43.529562 -5.661671" ;
+	ic:phone "985 399 411" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/619> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Azcona" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6540/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Productos: Anáslisis clinicos, Plantas medicinales, cósmeticos, Fórmulas magistrales, analgésicos, antigripales." ;
+	vcal:street-address "C/Ramón y Cajal, 48" ;
+	geo:locationMap "43.532708 -5.654199" ;
+	ic:phone "985 195 839" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/618> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ateneo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6539/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Licenciadas Parga y Lago.Homeopatía." ;
+	vcal:street-address "C/Ateneo Obrero de Calzada, 2" ;
+	geo:locationMap "43.539325 -5.694823" ;
+	ic:phone "985 321 865" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/617> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Aranzazuz Fernández - Nespral" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6538/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	dc:description "Farmacia y OrtopediaProductos: Plantas medicinales, Fórmulas magistrales, cósmeticos." ;
+	vcal:street-address "C/Marqués de San Esteban, 62" ;
+	geo:locationMap "43.541427 -5.670718" ;
+	ic:phone "985 344 131" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/616> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ángeles Fernández Macias" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6537/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Pablo Iglesias, 90" ;
+	geo:locationMap "43.535177 -5.648147" ;
+	ic:phone "985 132 190" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/615> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ana María Carrocera Villa" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6536/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/San Bernardo, 36" ;
+	geo:locationMap "43.54222 -5.661768" ;
+	ic:phone "985 347 016" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/614> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Ana Alemany Sirgo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6535/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Framacia Ana Alemany Sirgo - Avda. de la Costa, 137" ;
+	geo:locationMap "43.536284 -5.648121" ;
+	ic:phone "985 365 879" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/613> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Amparo Torrero de Villa" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6534/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Castro Romano, 1" ;
+	geo:locationMap "43.547477 -5.665861" ;
+	ic:phone "985 344 375" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/612> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Alonso Luengo" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6533/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Uría, 39" ;
+	geo:locationMap "43.538267 -5.654531" ;
+	ic:phone "985 370 150" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/611> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Alonso Barrena" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6532/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Ezcurdia, 101" ;
+	geo:locationMap "43.536054 -5.644736" ;
+	ic:phone "985 360 345" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/610> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Farmacia Alejandro Rodríguez" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6531/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Avda. Constitución, 56" ;
+	geo:locationMap "43.53404 -5.669423" ;
+	ic:phone "985 346 948" ;
+	vcal:note "Lunes a Viernes:9:30-13:30h. y 16:15-19:30h.(Veranos 16:45-20:00h.) Sábados:9:45-13:30h." ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/510> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Coordinación.Farmacéuticos.Salud Pública.S.P." ;
+	dc:relation "http://www.gijon.es/data/images/f6/6465/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "C/Trinidad, 6" ;
+	geo:locationMap "43.544483 -5.663739" ;
+	ic:phone "985 176 980" ;
+	dbpedia-owl:city "Gijón" .
+
+<http://farmaGijon.com/farma/farmacia/489> a <http://farmaGijon.com/farma/schema+farmacia> ;
+	geo:name "Colegio Oficial de Farmaceúticos de Asturias" ;
+	dc:relation "http://www.gijon.es/data/images/f6/6452/150x178_v1_DirectorioFarmacias_ParafarmaciasFarmacia1.jpg" ;
+	vcal:street-address "Campomanes, 24-1º 33008 Oviedo" ;
+	geo:locationMap "43.358035 -5.846947" ;
+	ic:phone "985 219 901" ;
+	dbpedia-owl:city "Gijón" .
